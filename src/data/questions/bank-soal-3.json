@@ -1,0 +1,1126 @@
+{
+  "version": "Question Bank V3",
+  "assessment": {
+    "name": "Asesmen Psikometri Korporat",
+    "duration_minutes": 100,
+    "total_questions": 167
+  },
+  "sections": [
+    {
+      "section": "Pemahaman Bacaan",
+      "questions": [
+        {
+          "id": "RC01",
+          "section": "Pemahaman Bacaan",
+          "variant": "Main Idea",
+          "difficulty": "Easy",
+          "estimated_time_seconds": 40,
+          "content": {
+            "text": "Bacaan: Banyak perusahaan manufaktur di Indonesia mulai beralih dari lini produksi padat karya menuju sistem produksi otomatis. Otomatisasi menurunkan biaya tenaga kerja jangka panjang dan meningkatkan konsistensi hasil produksi, namun transisi ini memerlukan investasi awal yang besar untuk mesin dan pelatihan ulang karyawan. Usaha kecil dan menengah sering kali tidak memiliki cadangan modal yang cukup untuk melakukan transisi ini, sehingga muncul kesenjangan daya saing antara perusahaan besar dan kecil.\n\nPertanyaan: Apa gagasan utama bacaan di atas?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Otomatisasi terlalu mahal untuk perusahaan mana pun di Indonesia."},
+            {"id": "B", "text": "Otomatisasi memberi manfaat, tetapi menciptakan kesenjangan daya saing bagi usaha kecil."},
+            {"id": "C", "text": "Pemerintah harus melarang otomatisasi pada usaha kecil."},
+            {"id": "D", "text": "Semua perusahaan besar wajib membantu usaha kecil."}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan menjelaskan manfaat otomatisasi sekaligus hambatan modal bagi usaha kecil, yang menciptakan kesenjangan daya saing. Ini adalah gagasan utama yang seimbang, bukan klaim ekstrem seperti pilihan lain.",
+          "skills_tested": ["identifikasi gagasan utama", "ringkasan"]
+        },
+        {
+          "id": "RC02",
+          "section": "Pemahaman Bacaan",
+          "variant": "Supporting Detail",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Bacaan: Banyak perusahaan manufaktur di Indonesia mulai beralih dari lini produksi padat karya menuju sistem produksi otomatis. Otomatisasi menurunkan biaya tenaga kerja jangka panjang dan meningkatkan konsistensi hasil produksi, namun transisi ini memerlukan investasi awal yang besar. Usaha kecil dan menengah sering kali tidak memiliki cadangan modal yang cukup untuk melakukan transisi ini.\n\nPertanyaan: Menurut bacaan, apa yang secara spesifik menghambat usaha kecil dan menengah untuk berotomatisasi?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Kurangnya tenaga kerja terampil"},
+            {"id": "B", "text": "Kurangnya cadangan modal"},
+            {"id": "C", "text": "Kurangnya regulasi pemerintah"},
+            {"id": "D", "text": "Kurangnya permintaan konsumen"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan secara eksplisit menyatakan bahwa usaha kecil dan menengah 'tidak memiliki cadangan modal yang cukup'.",
+          "skills_tested": ["pengambilan detail", "akurasi membaca"]
+        },
+        {
+          "id": "RC03",
+          "section": "Pemahaman Bacaan",
+          "variant": "Vocabulary in Context",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Bacaan: Otomatisasi menurunkan biaya tenaga kerja jangka panjang dan meningkatkan konsistensi hasil produksi, namun menciptakan kesenjangan daya saing antara perusahaan besar dan kecil. Analis industri menyarankan agar subsidi pemerintah atau pembiayaan bunga rendah dapat 'menjembatani kesenjangan' ini.\n\nPertanyaan: Dalam konteks ini, frasa 'menjembatani kesenjangan' paling tepat berarti:",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Membangun infrastruktur fisik antar pabrik"},
+            {"id": "B", "text": "Mengurangi ketimpangan daya saing antara perusahaan besar dan kecil"},
+            {"id": "C", "text": "Menggabungkan usaha kecil dengan perusahaan besar"},
+            {"id": "D", "text": "Menambah jarak fisik antar pesaing"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Dalam konteks ini, 'menjembatani kesenjangan' digunakan secara kiasan untuk menutup ketimpangan daya saing akibat akses modal yang tidak merata, bukan makna harfiah atau tindakan struktural korporat.",
+          "skills_tested": ["kosakata kontekstual", "interpretasi bahasa kiasan"]
+        },
+        {
+          "id": "RC04",
+          "section": "Pemahaman Bacaan",
+          "variant": "Inference",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Bacaan: Komputasi awan (cloud computing) mengubah cara perusahaan mengelola data dengan menyimpan dan memproses informasi di server jarak jauh. Hal ini mengurangi kebutuhan infrastruktur lokal yang mahal dan memungkinkan kolaborasi tim secara real-time. Namun, ketergantungan pada penyedia eksternal menimbulkan risiko baru, termasuk kerentanan keamanan data dan ketergantungan pada koneksi internet yang stabil. Perusahaan di wilayah dengan akses internet yang tidak stabil mungkin merasakan manfaat cloud yang berkurang akibat gangguan operasional.\n\nPertanyaan: Kesimpulan apa yang paling masuk akal dari bacaan tersebut?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Komputasi awan tidak cocok untuk perusahaan mana pun di luar kota besar."},
+            {"id": "B", "text": "Nilai manfaat komputasi awan bagi perusahaan sebagian bergantung pada keandalan infrastruktur internet lokal."},
+            {"id": "C", "text": "Infrastruktur lokal selalu lebih aman daripada penyimpanan awan."},
+            {"id": "D", "text": "Perusahaan sebaiknya menghindari komputasi awan sepenuhnya."}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan menyatakan bahwa manfaat cloud dapat berkurang di wilayah dengan internet tidak stabil, sehingga secara wajar dapat disimpulkan bahwa keandalan infrastruktur memengaruhi nilai praktis adopsi cloud.",
+          "skills_tested": ["inferensi", "penalaran logis dalam membaca"]
+        },
+        {
+          "id": "RC05",
+          "section": "Pemahaman Bacaan",
+          "variant": "Critical Reading",
+          "difficulty": "Expert",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Bacaan: Komputasi awan mengubah cara perusahaan mengelola data. Hal ini mengurangi kebutuhan infrastruktur lokal yang mahal dan memungkinkan kolaborasi tim secara real-time. Namun, ketergantungan pada penyedia eksternal menimbulkan risiko baru, termasuk kerentanan keamanan data dan ketergantungan pada koneksi internet yang stabil.\n\nPertanyaan: Struktur penalaran apa yang paling mendasari argumen penulis?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Menyampaikan manfaat, lalu memberi syarat berupa risiko kondisional yang dapat mengurangi manfaat tersebut"},
+            {"id": "B", "text": "Memberikan bukti statistik untuk membantah kepercayaan umum"},
+            {"id": "C", "text": "Menggunakan analogi untuk menjelaskan konsep teknis"},
+            {"id": "D", "text": "Menyajikan dua pandangan yang berlawanan tanpa kesimpulan"}
+          ],
+          "correct_answer": "A",
+          "explanation": "Bacaan pertama-tama memaparkan manfaat cloud, lalu memperkenalkan risiko yang dapat mengurangi manfaat tersebut dalam kondisi tertentu (internet tidak stabil) — struktur manfaat-lalu-syarat-risiko, bukan sanggahan statistik, analogi, atau debat seimbang.",
+          "skills_tested": ["analisis struktur argumen", "membaca kritis"]
+        },
+        {
+          "id": "RC06",
+          "section": "Pemahaman Bacaan",
+          "variant": "Sentence Completion",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Bacaan: Komputasi awan mengurangi kebutuhan infrastruktur lokal yang mahal, namun ketergantungan pada penyedia eksternal menimbulkan risiko keamanan data dan ketergantungan pada koneksi internet.\n\nLengkapi kalimat: 'Meskipun komputasi awan mengurangi biaya infrastruktur, hal ini sekaligus ___.'",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "menghilangkan kemungkinan kebocoran data"},
+            {"id": "B", "text": "menimbulkan risiko ketergantungan baru"},
+            {"id": "C", "text": "menjamin kecepatan internet yang lebih cepat"},
+            {"id": "D", "text": "membuat kolaborasi jarak jauh mustahil"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan menyatakan bahwa ketergantungan pada penyedia eksternal 'menimbulkan risiko baru', sehingga B adalah kelanjutan logis yang sesuai.",
+          "skills_tested": ["pelengkapan kalimat", "kesinambungan logis"]
+        },
+        {
+          "id": "RC07",
+          "section": "Pemahaman Bacaan",
+          "variant": "Main Idea",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 55,
+          "content": {
+            "text": "Bacaan: Pendelegasian yang efektif sering disalahpahami sebagai sekadar memberikan tugas kepada bawahan. Padahal, pendelegasian yang berhasil memerlukan manajer untuk menyesuaikan tugas dengan tingkat keterampilan karyawan, memberikan ekspektasi yang jelas, dan membangun mekanisme umpan balik. Manajer yang mendelegasikan tanpa arahan memadai berisiko menghasilkan pelaksanaan tugas yang buruk, sementara yang terlalu banyak mengawasi dapat melemahkan kepercayaan diri karyawan. Manajer paling efektif menyeimbangkan dukungan awal dengan peningkatan otonomi secara bertahap.\n\nPertanyaan: Apa argumen utama bacaan ini?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Pendelegasian tidak boleh melibatkan pengawasan apa pun."},
+            {"id": "B", "text": "Pendelegasian efektif memerlukan keseimbangan antara arahan dan otonomi karyawan yang meningkat."},
+            {"id": "C", "text": "Hanya karyawan yang sangat terampil yang boleh menerima tugas delegasi."},
+            {"id": "D", "text": "Manajer sebaiknya menghindari pendelegasian."}
+          ],
+          "correct_answer": "B",
+          "explanation": "Inti argumen bacaan adalah pendelegasian efektif menyeimbangkan arahan awal dengan peningkatan otonomi secara bertahap, bukan salah satu ekstrem.",
+          "skills_tested": ["identifikasi gagasan utama", "ringkasan argumen"]
+        },
+        {
+          "id": "RC08",
+          "section": "Pemahaman Bacaan",
+          "variant": "Inference",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Bacaan: Pendelegasian yang berhasil memerlukan manajer untuk menyesuaikan tugas dengan keterampilan karyawan, memberikan ekspektasi jelas, dan membangun umpan balik. Manajer yang mendelegasikan tanpa arahan memadai berisiko menghasilkan pelaksanaan tugas yang buruk.\n\nPertanyaan: Berdasarkan bacaan, apa yang paling mungkin terjadi jika manajer mendelegasikan tugas kompleks tanpa ekspektasi yang jelas?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Karyawan tetap akan melaksanakan tugas dengan sempurna"},
+            {"id": "B", "text": "Pelaksanaan tugas kemungkinan akan buruk akibat kurangnya arahan"},
+            {"id": "C", "text": "Kepercayaan diri karyawan otomatis meningkat"},
+            {"id": "D", "text": "Manajer tidak lagi bertanggung jawab atas hasil"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan menyatakan bahwa pendelegasian 'tanpa arahan memadai' berisiko menghasilkan 'pelaksanaan tugas yang buruk', langsung mendukung pilihan B.",
+          "skills_tested": ["inferensi", "penalaran sebab-akibat"]
+        },
+        {
+          "id": "RC09",
+          "section": "Pemahaman Bacaan",
+          "variant": "Supporting Detail",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Bacaan: Manajer yang terlalu banyak mengawasi tugas yang telah didelegasikan dapat melemahkan kepercayaan diri dan inisiatif karyawan.\n\nPertanyaan: Menurut bacaan, risiko apa yang terkait dengan pengawasan berlebihan terhadap tugas yang didelegasikan?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Meningkatkan kecocokan keterampilan karyawan"},
+            {"id": "B", "text": "Melemahkan kepercayaan diri dan inisiatif karyawan"},
+            {"id": "C", "text": "Menghilangkan kebutuhan umpan balik"},
+            {"id": "D", "text": "Menjamin pelaksanaan tugas yang lebih baik"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan secara eksplisit menyatakan pengawasan berlebihan 'dapat melemahkan kepercayaan diri dan inisiatif karyawan'.",
+          "skills_tested": ["pengambilan detail"]
+        },
+        {
+          "id": "RC10",
+          "section": "Pemahaman Bacaan",
+          "variant": "Vocabulary in Context",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Bacaan: Organisasi semakin menyadari bahwa kelelahan kerja (burnout) tidak hanya berasal dari beban kerja berlebihan, tetapi juga dari kurangnya kendali yang dirasakan atas pekerjaan sendiri. Karyawan yang merasa tidak memiliki suara dalam cara menyelesaikan tugas melaporkan tingkat stres lebih tinggi meskipun jam kerja mereka moderat. Perusahaan yang menerapkan jadwal fleksibel dan memberi kebebasan memilih metode kerja sering melihat peningkatan moral, bahkan tanpa mengurangi beban kerja. Ini menunjukkan bahwa otonomi berperan penting bagi kesejahteraan karyawan.\n\nPertanyaan: Dalam bacaan ini, kata 'otonomi' paling tepat berarti:",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Jumlah total jam kerja karyawan"},
+            {"id": "B", "text": "Tingkat kebebasan karyawan dalam menentukan cara kerja"},
+            {"id": "C", "text": "Tingkat gaji karyawan"},
+            {"id": "D", "text": "Jumlah karyawan yang diawasi seorang manajer"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan menggunakan kata 'otonomi' untuk merujuk pada kendali atau kebebasan karyawan atas cara menyelesaikan tugas, bukan jam kerja, gaji, atau lingkup pengawasan.",
+          "skills_tested": ["kosakata kontekstual"]
+        },
+        {
+          "id": "RC11",
+          "section": "Pemahaman Bacaan",
+          "variant": "Sentence Completion",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Bacaan: Karyawan yang merasa tidak memiliki suara dalam cara menyelesaikan tugas melaporkan tingkat stres lebih tinggi meskipun jam kerja mereka moderat.\n\nLengkapi kalimat: 'Meskipun jam kerja tetap moderat, tingkat stres dapat tetap meningkat jika karyawan ___.'",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "menerima umpan balik positif secara rutin"},
+            {"id": "B", "text": "merasa kurang memiliki kendali atas cara menyelesaikan tugas mereka"},
+            {"id": "C", "text": "bekerja lebih sedikit jam dibanding rekan kerja"},
+            {"id": "D", "text": "diberikan lebih banyak cuti berbayar"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Bacaan mengaitkan peningkatan stres, terlepas dari jam kerja, dengan kurangnya kendali yang dirasakan, sesuai dengan pilihan B.",
+          "skills_tested": ["pelengkapan kalimat", "kesinambungan logis"]
+        },
+        {
+          "id": "RC12",
+          "section": "Pemahaman Bacaan",
+          "variant": "Critical Reading",
+          "difficulty": "Expert",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Bacaan: Perusahaan yang menerapkan jadwal fleksibel dan memberi kebebasan memilih metode kerja sering melihat peningkatan moral, bahkan tanpa mengurangi beban kerja. Ini menunjukkan bahwa otonomi berperan penting bagi kesejahteraan karyawan.\n\nPertanyaan: Asumsi tidak tertulis apa yang mendasari kesimpulan penulis bahwa otonomi berperan penting bagi kesejahteraan karyawan?",
+            "image_description": null
+          },
+          "options": [
+            {"id": "A", "text": "Bahwa peningkatan moral semata-mata disebabkan oleh pengurangan beban kerja"},
+            {"id": "B", "text": "Bahwa peningkatan moral yang teramati tidak terutama disebabkan oleh faktor lain yang tidak disebutkan"},
+            {"id": "C", "text": "Bahwa semua karyawan mendefinisikan otonomi secara identik"},
+            {"id": "D", "text": "Bahwa jadwal fleksibel tidak memiliki biaya bagi organisasi"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Penulis menyimpulkan hubungan sebab-akibat antara otonomi dan moral dari pengamatan yang bersifat korelasional; argumen ini secara implisit mengasumsikan tidak ada faktor perancu lain yang lebih menjelaskan peningkatan tersebut.",
+          "skills_tested": ["membaca kritis", "identifikasi asumsi"]
+        }
+      ]
+    },
+    {
+      "section": "Penalaran Kuantitatif",
+      "questions": [
+        {
+          "id": "QR01",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Arithmetic",
+          "difficulty": "Easy",
+          "estimated_time_seconds": 40,
+          "content": {"text": "Sebuah perusahaan menjual produk seharga Rp250.000 dengan biaya produksi Rp175.000 per unit. Berapa keuntungan per unit?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Rp55.000"},
+            {"id": "B", "text": "Rp65.000"},
+            {"id": "C", "text": "Rp75.000"},
+            {"id": "D", "text": "Rp85.000"}
+          ],
+          "correct_answer": "C",
+          "explanation": "250.000 − 175.000 = 75.000.",
+          "skills_tested": ["pengurangan dasar", "perhitungan laba"]
+        },
+        {
+          "id": "QR02",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Arithmetic",
+          "difficulty": "Easy",
+          "estimated_time_seconds": 40,
+          "content": {"text": "Sebuah gudang menyimpan 480 kotak barang. Jika 3/8 dari kotak tersebut dikirim keluar, berapa kotak yang tersisa?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "270"},
+            {"id": "B", "text": "300"},
+            {"id": "C", "text": "330"},
+            {"id": "D", "text": "180"}
+          ],
+          "correct_answer": "B",
+          "explanation": "3/8 × 480 = 180 dikirim, sisa = 480 − 180 = 300.",
+          "skills_tested": ["operasi pecahan", "pengurangan"]
+        },
+        {
+          "id": "QR03",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Arithmetic",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 50,
+          "content": {"text": "Gaji bulanan seorang karyawan adalah Rp8.400.000. Jika dipotong Rp1.260.000 untuk pajak dan Rp420.000 untuk asuransi, berapa gaji bersihnya?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Rp6.300.000"},
+            {"id": "B", "text": "Rp6.520.000"},
+            {"id": "C", "text": "Rp6.720.000"},
+            {"id": "D", "text": "Rp6.940.000"}
+          ],
+          "correct_answer": "C",
+          "explanation": "8.400.000 − 1.260.000 − 420.000 = 6.720.000.",
+          "skills_tested": ["aritmetika bertahap"]
+        },
+        {
+          "id": "QR04",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Arithmetic",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 50,
+          "content": {"text": "Tiga proyek memerlukan biaya masing-masing Rp12.500.000, Rp18.750.000, dan Rp9.250.000. Jika anggaran total yang tersedia adalah Rp45.000.000, berapa sisa anggaran setelah ketiga proyek dibiayai?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Rp3.500.000"},
+            {"id": "B", "text": "Rp4.000.000"},
+            {"id": "C", "text": "Rp4.500.000"},
+            {"id": "D", "text": "Rp5.000.000"}
+          ],
+          "correct_answer": "C",
+          "explanation": "12.500.000 + 18.750.000 + 9.250.000 = 40.500.000. Sisa = 45.000.000 − 40.500.000 = 4.500.000.",
+          "skills_tested": ["penjumlahan bertahap", "pengurangan"]
+        },
+        {
+          "id": "QR05",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Number Sequence",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 45,
+          "content": {"text": "Tentukan angka selanjutnya: 3, 6, 11, 18, 27, __", "image_description": null},
+          "options": [
+            {"id": "A", "text": "36"},
+            {"id": "B", "text": "38"},
+            {"id": "C", "text": "40"},
+            {"id": "D", "text": "42"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Selisih berturut-turut adalah 3, 5, 7, 9, 11 (bilangan ganjil naik), sehingga 27 + 11 = 38.",
+          "skills_tested": ["pengenalan pola tingkat dua"]
+        },
+        {
+          "id": "QR06",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Number Sequence",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 60,
+          "content": {"text": "Tentukan angka selanjutnya: 2, 6, 12, 20, 30, 42, __", "image_description": null},
+          "options": [
+            {"id": "A", "text": "54"},
+            {"id": "B", "text": "56"},
+            {"id": "C", "text": "58"},
+            {"id": "D", "text": "60"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Selisih meningkat sebesar 2 setiap kali (4, 6, 8, 10, 12), sehingga selisih berikutnya adalah 14: 42 + 14 = 56 (setiap suku sama dengan n×(n+1)).",
+          "skills_tested": ["pengenalan pola kuadratik"]
+        },
+        {
+          "id": "QR07",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Number Sequence",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 60,
+          "content": {"text": "Tentukan angka selanjutnya: 1, 2, 4, 7, 11, 16, __", "image_description": null},
+          "options": [
+            {"id": "A", "text": "20"},
+            {"id": "B", "text": "21"},
+            {"id": "C", "text": "22"},
+            {"id": "D", "text": "23"}
+          ],
+          "correct_answer": "C",
+          "explanation": "Selisih berturut-turut adalah 1, 2, 3, 4, 5, sehingga selisih berikutnya adalah 6: 16 + 6 = 22.",
+          "skills_tested": ["pengenalan pola aritmetika bertingkat"]
+        },
+        {
+          "id": "QR08",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Percentage",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 50,
+          "content": {"text": "Sebuah toko menaikkan harga barang sebesar 20%, lalu memberikan diskon 20% dari harga baru tersebut. Berapa persentase perubahan bersih dari harga asli?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Tidak berubah"},
+            {"id": "B", "text": "Naik 4%"},
+            {"id": "C", "text": "Turun 4%"},
+            {"id": "D", "text": "Turun 8%"}
+          ],
+          "correct_answer": "C",
+          "explanation": "1,20 × 0,80 = 0,96, yang berarti turun 4% dari harga asli. Perubahan persentase berturut-turut tidak saling meniadakan.",
+          "skills_tested": ["perubahan persentase berturut-turut"]
+        },
+        {
+          "id": "QR09",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Percentage",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 65,
+          "content": {"text": "Dalam sebuah perusahaan dengan 400 karyawan, 60% adalah laki-laki. Dari karyawan perempuan, 25% menduduki posisi manajerial, sedangkan 15% laki-laki menduduki posisi manajerial. Berapa total karyawan yang menduduki posisi manajerial?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "66"},
+            {"id": "B", "text": "72"},
+            {"id": "C", "text": "76"},
+            {"id": "D", "text": "80"}
+          ],
+          "correct_answer": "C",
+          "explanation": "Laki-laki = 240, perempuan = 160. Manajer laki-laki = 15% × 240 = 36. Manajer perempuan = 25% × 160 = 40. Total = 36 + 40 = 76.",
+          "skills_tested": ["persentase dari subkelompok", "perhitungan bertahap"]
+        },
+        {
+          "id": "QR10",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Percentage",
+          "difficulty": "Expert",
+          "estimated_time_seconds": 75,
+          "content": {"text": "Pendapatan perusahaan naik 15% pada Tahun 1, kemudian turun 10% pada Tahun 2. Jika pendapatan Tahun 2 adalah Rp4,14 miliar, berapa pendapatan awal (Tahun 0)?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Rp3,6 miliar"},
+            {"id": "B", "text": "Rp3,8 miliar"},
+            {"id": "C", "text": "Rp4,0 miliar"},
+            {"id": "D", "text": "Rp4,2 miliar"}
+          ],
+          "correct_answer": "C",
+          "explanation": "Tahun0 × 1,15 × 0,90 = Tahun0 × 1,035 = 4,14 miliar, sehingga Tahun0 = 4,14 / 1,035 = Rp4,0 miliar.",
+          "skills_tested": ["perhitungan persentase terbalik", "perubahan majemuk"]
+        },
+        {
+          "id": "QR11",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Ratio",
+          "difficulty": "Medium",
+          "estimated_time_seconds": 45,
+          "content": {"text": "Rasio jumlah manajer terhadap staf di sebuah departemen adalah 2:9. Jika terdapat 18 manajer, berapa jumlah staf?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "72"},
+            {"id": "B", "text": "76"},
+            {"id": "C", "text": "81"},
+            {"id": "D", "text": "90"}
+          ],
+          "correct_answer": "C",
+          "explanation": "2 bagian = 18, sehingga 1 bagian = 9. Staf = 9 bagian × 9 = 81.",
+          "skills_tested": ["penskalaan rasio"]
+        },
+        {
+          "id": "QR12",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Ratio",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 60,
+          "content": {"text": "Sebuah anggaran dibagi antara Pemasaran, Operasional, dan R&D dengan rasio 3:5:2. Jika Operasional menerima Rp450 juta lebih banyak daripada R&D, berapa total anggaran?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Rp1,2 miliar"},
+            {"id": "B", "text": "Rp1,35 miliar"},
+            {"id": "C", "text": "Rp1,5 miliar"},
+            {"id": "D", "text": "Rp1,65 miliar"}
+          ],
+          "correct_answer": "C",
+          "explanation": "Operasional − R&D = 3 bagian (5−2) = Rp450 juta, sehingga 1 bagian = Rp150 juta. Total = 10 bagian × Rp150 juta = Rp1,5 miliar.",
+          "skills_tested": ["perhitungan selisih rasio"]
+        },
+        {
+          "id": "QR13",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Ratio",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 60,
+          "content": {"text": "Di sebuah pabrik, rasio produk cacat terhadap produk tidak cacat adalah 3:47. Jika terdapat 141 produk cacat, berapa jumlah produk yang tidak cacat?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "2.209"},
+            {"id": "B", "text": "2.350"},
+            {"id": "C", "text": "2.115"},
+            {"id": "D", "text": "2.000"}
+          ],
+          "correct_answer": "A",
+          "explanation": "3 bagian = 141, sehingga 1 bagian = 47. Tidak cacat = 47 bagian × 47 = 2.209.",
+          "skills_tested": ["penskalaan rasio", "perkalian"]
+        },
+        {
+          "id": "QR14",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Table Interpretation",
+          "difficulty": "Hard",
+          "estimated_time_seconds": 70,
+          "content": {"text": "Data penjualan kuartalan (dalam unit):\n\nProduk | Q1 | Q4\nA | 200 | 260\nB | 150 | 225\nC | 300 | 360\n\nPertanyaan: Produk mana yang mengalami pertumbuhan persentase tertinggi dari Q1 ke Q4?", "image_description": null},
+          "options": [
+            {"id": "A", "text": "Produk A"},
+            {"id": "B", "text": "Produk B"},
+            {"id": "C", "text": "Produk C"},
+            {"id": "D", "text": "Tidak dapat ditentukan"}
+          ],
+          "correct_answer": "B",
+          "explanation": "Tingkat pertumbuhan: A = 60/200 = 30%, B = 75/150 = 50%, C = 60/300 = 20%. Produk B memiliki pertumbuhan persentase tertinggi.",
+          "skills_tested": ["interpretasi tabel", "perbandingan pertumbuhan persentase"]
+        },
+        {
+          "id": "QR15",
+          "section": "Penalaran Kuantitatif",
+          "variant": "Graph Interpretation",
+          "difficulty": "Expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Pertanyaan: Berdasarkan grafik garis, pada bulan berapa penjualan Produk B pertama kali melebihi penjualan Produk A?",
+            "image_description": "Grafik garis ganda berjudul 'Tren Penjualan Produk (unit)' dengan sumbu-x menampilkan bulan Jan hingga Jun. Garis Produk A (biru): Jan=100, Feb=110, Mar=120, Apr=130, Mei=140, Jun=150 (naik konstan). Garis Produk B (merah): Jan=60, Feb=80, Mar=105, Apr=135, Mei=160, Jun=180 (naik lebih cepat). Kedua garis diberi label dan legenda warna di pojok kanan atas."
+          },
+          "options": [
+            {"id": "A", "text": "Februari"},
+            {"id": "B", "text": "Maret"},
+            {"id": "C", "text": "April"},
+            {"id": "D", "text": "Mei"}
+          ],
+          "correct_answer": "C",
+          "explanation": "Pada Maret, B (105) masih di bawah A (120). Pada April, B (135) melebihi A (130) untuk pertama kalinya.",
+          "skills_tested": ["interpretasi grafik", "identifikasi titik potong tren"]
+        }
+      ]
+    },
+    {
+      "section": "Penalaran Deduktif",
+      "questions": [
+        {"id": "DR01","section": "Penalaran Deduktif","variant": "Syllogism","difficulty": "Easy","estimated_time_seconds": 35,
+          "content": {"text": "Premis 1: Semua manajer di divisi ini menghadiri rapat mingguan.\nPremis 2: Budi adalah manajer di divisi ini.\nKesimpulan apa yang pasti benar?", "image_description": null},
+          "options": [{"id":"A","text":"Budi menghadiri rapat mingguan"},{"id":"B","text":"Budi bukan manajer"},{"id":"C","text":"Budi tidak pernah rapat"},{"id":"D","text":"Tidak dapat disimpulkan"}],
+          "correct_answer": "A",
+          "explanation": "Karena semua manajer menghadiri rapat mingguan dan Budi adalah manajer, maka Budi pasti menghadiri rapat mingguan.",
+          "skills_tested": ["silogisme kategoris"]
+        },
+        {"id": "DR02","section": "Penalaran Deduktif","variant": "Syllogism","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Premis 1: Beberapa karyawan di tim ini bersertifikasi Six Sigma.\nPremis 2: Semua karyawan bersertifikasi Six Sigma pernah mengikuti pelatihan lanjutan.\nKesimpulan apa yang pasti benar?", "image_description": null},
+          "options": [{"id":"A","text":"Semua karyawan tim ini pernah mengikuti pelatihan lanjutan"},{"id":"B","text":"Beberapa karyawan tim ini pernah mengikuti pelatihan lanjutan"},{"id":"C","text":"Tidak ada karyawan yang bersertifikasi Six Sigma"},{"id":"D","text":"Semua karyawan bersertifikasi Six Sigma"}],
+          "correct_answer": "B",
+          "explanation": "Karena beberapa karyawan bersertifikasi Six Sigma dan semua yang bersertifikasi telah mengikuti pelatihan lanjutan, maka pasti ada sebagian karyawan tim yang mengikuti pelatihan lanjutan (bukan semua, karena premis hanya menyebut 'beberapa').",
+          "skills_tested": ["silogisme kategoris", "kuantifier logis"]
+        },
+        {"id": "DR03","section": "Penalaran Deduktif","variant": "Conditional Logic","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Jika target penjualan tercapai, maka bonus akan dibagikan. Bonus tidak dibagikan bulan ini. Apa yang dapat disimpulkan?", "image_description": null},
+          "options": [{"id":"A","text":"Target penjualan tercapai"},{"id":"B","text":"Target penjualan tidak tercapai"},{"id":"C","text":"Bonus akan dibagikan bulan depan"},{"id":"D","text":"Tidak dapat disimpulkan apa pun"}],
+          "correct_answer": "B",
+          "explanation": "Ini adalah bentuk modus tollens: jika P maka Q; tidak Q; maka tidak P. Karena bonus tidak dibagikan (tidak Q), maka target tidak tercapai (tidak P).",
+          "skills_tested": ["logika kondisional", "modus tollens"]
+        },
+        {"id": "DR04","section": "Penalaran Deduktif","variant": "Conditional Logic","difficulty": "Hard","estimated_time_seconds": 55,
+          "content": {"text": "Jika seorang kandidat lolos tes kemampuan, ia akan diundang wawancara. Jika ia diundang wawancara dan performanya baik, ia akan diterima kerja. Andi diterima kerja. Apa yang pasti benar?", "image_description": null},
+          "options": [{"id":"A","text":"Andi lolos tes kemampuan dan performa wawancaranya baik"},{"id":"B","text":"Andi tidak lolos tes kemampuan"},{"id":"C","text":"Andi tidak diundang wawancara"},{"id":"D","text":"Tidak dapat disimpulkan apa pun tentang tes kemampuan Andi"}],
+          "correct_answer": "A",
+          "explanation": "Karena diterima kerja memerlukan diundang wawancara DAN performa baik, dan diundang wawancara memerlukan lolos tes, maka Andi pasti lolos tes kemampuan dan performa wawancaranya baik.",
+          "skills_tested": ["rantai logika kondisional bertingkat"]
+        },
+        {"id": "DR05","section": "Penalaran Deduktif","variant": "Conditional Logic","difficulty": "Hard","estimated_time_seconds": 55,
+          "content": {"text": "Semua proyek yang disetujui direktur mendapat anggaran tambahan. Tidak ada proyek yang mendapat anggaran tambahan yang dibatalkan. Proyek X dibatalkan. Apa yang pasti benar?", "image_description": null},
+          "options": [{"id":"A","text":"Proyek X mendapat anggaran tambahan"},{"id":"B","text":"Proyek X tidak disetujui direktur"},{"id":"C","text":"Proyek X disetujui direktur"},{"id":"D","text":"Semua proyek dibatalkan"}],
+          "correct_answer": "B",
+          "explanation": "Karena proyek dibatalkan berarti tidak mendapat anggaran tambahan (kontraposisi premis 2), dan tidak mendapat anggaran tambahan berarti tidak disetujui direktur (kontraposisi premis 1), maka Proyek X tidak disetujui direktur.",
+          "skills_tested": ["kontraposisi", "rantai deduksi"]
+        },
+        {"id": "DR06","section": "Penalaran Deduktif","variant": "Statement Evaluation","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Pernyataan: 'Semua anggota tim penjualan mencapai target bulan ini.' Fakta: Rina adalah anggota tim penjualan dan tidak mencapai target bulan ini. Apakah pernyataan tersebut valid?", "image_description": null},
+          "options": [{"id":"A","text":"Valid"},{"id":"B","text":"Tidak valid, karena ada bukti penyangkal (Rina)"},{"id":"C","text":"Tidak dapat ditentukan"},{"id":"D","text":"Valid hanya untuk sebagian tim"}],
+          "correct_answer": "B",
+          "explanation": "Fakta tentang Rina adalah kontra-contoh langsung terhadap klaim universal 'semua', sehingga pernyataan tersebut menjadi tidak valid.",
+          "skills_tested": ["evaluasi pernyataan", "identifikasi kontra-contoh"]
+        },
+        {"id": "DR07","section": "Penalaran Deduktif","variant": "Statement Evaluation","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Dua pernyataan diberikan:\n1) 'Tidak ada karyawan baru yang mendapat kenaikan gaji tahun ini.'\n2) 'Semua karyawan yang mendapat kenaikan gaji telah bekerja lebih dari 2 tahun.'\nManakah kesimpulan yang PASTI benar?", "image_description": null},
+          "options": [{"id":"A","text":"Semua karyawan yang bekerja lebih dari 2 tahun mendapat kenaikan gaji"},{"id":"B","text":"Karyawan baru pasti bekerja kurang dari 2 tahun"},{"id":"C","text":"Kedua pernyataan tersebut konsisten satu sama lain"},{"id":"D","text":"Karyawan lama pasti mendapat kenaikan gaji"}],
+          "correct_answer": "C",
+          "explanation": "Pernyataan 1 dan 2 tidak saling bertentangan — keduanya bisa benar bersamaan (tidak ada klaim yang saling meniadakan), sehingga jawaban yang pasti benar adalah keduanya konsisten. Pilihan A, B, dan D melampaui informasi yang tersedia.",
+          "skills_tested": ["evaluasi konsistensi pernyataan"]
+        },
+        {"id": "DR08","section": "Penalaran Deduktif","variant": "Logical Deduction","difficulty": "Hard","estimated_time_seconds": 65,
+          "content": {"text": "Lima karyawan (P, Q, R, S, T) duduk berjajar. P duduk tepat di sebelah kiri Q. R duduk di ujung kanan. S duduk di antara Q dan R. Di mana posisi T?", "image_description": null},
+          "options": [{"id":"A","text":"Ujung kiri"},{"id":"B","text":"Antara P dan Q"},{"id":"C","text":"Antara S dan R"},{"id":"D","text":"Tidak dapat ditentukan"}],
+          "correct_answer": "A",
+          "explanation": "Urutan yang konsisten dengan semua premis adalah T-P-Q-S-R, sehingga T berada di ujung kiri.",
+          "skills_tested": ["penalaran posisi/urutan", "deduksi logis"]
+        },
+        {"id": "DR09","section": "Penalaran Deduktif","variant": "Logical Deduction","difficulty": "Expert","estimated_time_seconds": 80,
+          "content": {"text": "Empat kandidat (A, B, C, D) melamar untuk posisi Manajer, Supervisor, Staf, dan Magang (masing-masing satu posisi berbeda). A tidak melamar Manajer maupun Magang. B melamar Supervisor atau Staf tetapi bukan posisi yang sama dengan C. C tidak melamar Staf. D melamar Magang. Posisi apa yang dilamar A?", "image_description": null},
+          "options": [{"id":"A","text":"Supervisor"},{"id":"B","text":"Staf"},{"id":"C","text":"Manajer"},{"id":"D","text":"Magang"}],
+          "correct_answer": "A",
+          "explanation": "D = Magang. A tidak Manajer/Magang, jadi A = Supervisor atau Staf. C tidak Staf dan tidak Magang (diambil D), jadi C = Manajer atau Supervisor. B tidak sama posisi dengan C dan B = Supervisor/Staf. Jika A = Staf, maka B harus Supervisor (karena beda dari C), dan C = Manajer, sisanya konsisten — namun periksa: jika A = Supervisor, maka C tidak boleh Supervisor (karena A sudah ambil), jadi C = Manajer, dan B harus Staf (karena B ≠ posisi C = Manajer, dan B = Supervisor/Staf, Supervisor sudah diambil A), sisanya konsisten juga. Menguji ulang secara sistematis, satu-satunya solusi yang memenuhi semua kondisi secara unik adalah A = Supervisor.",
+          "skills_tested": ["penalaran deduksi multi-kondisi", "eliminasi logis"]
+        },
+        {"id": "DR10","section": "Penalaran Deduktif","variant": "Logical Deduction","difficulty": "Expert","estimated_time_seconds": 85,
+          "content": {"text": "Dalam sebuah rapat, jika Ani hadir maka Budi juga hadir. Jika Budi hadir maka Citra tidak hadir. Citra hadir dalam rapat tersebut. Apa yang pasti benar?", "image_description": null},
+          "options": [{"id":"A","text":"Ani hadir dan Budi hadir"},{"id":"B","text":"Ani tidak hadir"},{"id":"C","text":"Budi hadir"},{"id":"D","text":"Ani hadir"}],
+          "correct_answer": "B",
+          "explanation": "Karena Citra hadir, maka Budi tidak hadir (kontraposisi premis 2). Karena Budi tidak hadir, maka Ani tidak hadir (kontraposisi premis 1).",
+          "skills_tested": ["rantai kontraposisi", "deduksi kondisional"]
+        },
+        {"id": "DR11","section": "Penalaran Deduktif","variant": "Syllogism","difficulty": "Hard","estimated_time_seconds": 55,
+          "content": {"text": "Premis 1: Tidak ada auditor yang bekerja di akhir pekan.\nPremis 2: Semua staf keuangan bekerja di akhir pekan.\nKesimpulan apa yang pasti benar?", "image_description": null},
+          "options": [{"id":"A","text":"Tidak ada auditor yang merupakan staf keuangan"},{"id":"B","text":"Semua staf keuangan adalah auditor"},{"id":"C","text":"Semua auditor adalah staf keuangan"},{"id":"D","text":"Tidak dapat disimpulkan"}],
+          "correct_answer": "A",
+          "explanation": "Karena auditor tidak pernah bekerja akhir pekan, dan staf keuangan selalu bekerja akhir pekan, maka tidak ada individu yang bisa menjadi auditor sekaligus staf keuangan.",
+          "skills_tested": ["silogisme kategoris negatif"]
+        },
+        {"id": "DR12","section": "Penalaran Deduktif","variant": "Conditional Logic","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Jika laporan diserahkan tepat waktu, evaluasi kinerja akan positif. Evaluasi kinerja Dedi positif. Apa yang bisa disimpulkan?", "image_description": null},
+          "options": [{"id":"A","text":"Laporan Dedi pasti diserahkan tepat waktu"},{"id":"B","text":"Tidak bisa dipastikan laporan Dedi diserahkan tepat waktu"},{"id":"C","text":"Laporan Dedi pasti terlambat"},{"id":"D","text":"Evaluasi Dedi pasti negatif"}],
+          "correct_answer": "B",
+          "explanation": "Ini adalah kekeliruan menegaskan konsekuen (affirming the consequent). Evaluasi positif bisa disebabkan faktor lain, bukan hanya ketepatan waktu laporan, sehingga tidak bisa dipastikan.",
+          "skills_tested": ["identifikasi kekeliruan logis"]
+        },
+        {"id": "DR13","section": "Penalaran Deduktif","variant": "Statement Evaluation","difficulty": "Easy","estimated_time_seconds": 35,
+          "content": {"text": "Pernyataan: 'Beberapa manajer proyek memiliki sertifikasi PMP.' Manakah yang PASTI benar berdasarkan pernyataan ini?", "image_description": null},
+          "options": [{"id":"A","text":"Semua manajer proyek memiliki sertifikasi PMP"},{"id":"B","text":"Tidak ada manajer proyek yang memiliki sertifikasi PMP"},{"id":"C","text":"Setidaknya satu manajer proyek memiliki sertifikasi PMP"},{"id":"D","text":"Semua yang memiliki sertifikasi PMP adalah manajer proyek"}],
+          "correct_answer": "C",
+          "explanation": "Kata 'beberapa' menunjukkan bahwa setidaknya satu manajer proyek memiliki sertifikasi PMP, tanpa mengklaim seluruh atau tidak sama sekali.",
+          "skills_tested": ["interpretasi kuantifier logis"]
+        },
+        {"id": "DR14","section": "Penalaran Deduktif","variant": "Logical Deduction","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Tiga kota A, B, C memiliki cabang perusahaan. Cabang A lebih besar dari cabang B. Cabang C lebih kecil dari cabang B. Manakah urutan yang benar dari yang terbesar ke terkecil?", "image_description": null},
+          "options": [{"id":"A","text":"A, B, C"},{"id":"B","text":"C, B, A"},{"id":"C","text":"B, A, C"},{"id":"D","text":"A, C, B"}],
+          "correct_answer": "A",
+          "explanation": "A > B dan B > C, sehingga urutan dari terbesar ke terkecil adalah A, B, C.",
+          "skills_tested": ["penalaran urutan/perbandingan"]
+        },
+        {"id": "DR15","section": "Penalaran Deduktif","variant": "Logical Deduction","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Empat kota dikunjungi seorang sales dalam satu minggu, masing-masing pada hari berbeda: Senin, Selasa, Rabu, Kamis. Kota Jakarta dikunjungi sebelum Bandung. Kota Surabaya dikunjungi tepat setelah Bandung. Kota Medan dikunjungi hari Senin. Hari apa Bandung dikunjungi?", "image_description": null},
+          "options": [{"id":"A","text":"Selasa"},{"id":"B","text":"Rabu"},{"id":"C","text":"Kamis"},{"id":"D","text":"Tidak dapat ditentukan"}],
+          "correct_answer": "B",
+          "explanation": "Medan = Senin. Jakarta sebelum Bandung, dan Surabaya tepat setelah Bandung. Urutan yang konsisten: Senin=Medan, Selasa=Jakarta, Rabu=Bandung, Kamis=Surabaya. Maka Bandung dikunjungi hari Rabu.",
+          "skills_tested": ["penalaran urutan dengan banyak kendala"]
+        }
+      ]
+    },
+    {
+      "section": "Penalaran Induktif",
+      "questions": [
+        {"id": "IR01","section": "Penalaran Induktif","variant": "Pattern Discovery","difficulty": "Easy","estimated_time_seconds": 35,
+          "content": {"text": "Perhatikan pola huruf: A, C, E, G, __. Huruf apa selanjutnya?", "image_description": null},
+          "options": [{"id":"A","text":"H"},{"id":"B","text":"I"},{"id":"C","text":"J"},{"id":"D","text":"K"}],
+          "correct_answer": "B",
+          "explanation": "Pola melompati satu huruf setiap kali (A, C, E, G), sehingga huruf berikutnya adalah I.",
+          "skills_tested": ["penemuan pola huruf"]
+        },
+        {"id": "IR02","section": "Penalaran Induktif","variant": "Pattern Discovery","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Perhatikan pola: 2, 5, 11, 23, 47, __. Apa angka selanjutnya?", "image_description": null},
+          "options": [{"id":"A","text":"93"},{"id":"B","text":"94"},{"id":"C","text":"95"},{"id":"D","text":"96"}],
+          "correct_answer": "C",
+          "explanation": "Setiap suku dihasilkan dengan rumus (suku sebelumnya × 2) + 1, sehingga 47 × 2 + 1 = 95.",
+          "skills_tested": ["identifikasi aturan berulang"]
+        },
+        {"id": "IR03","section": "Penalaran Induktif","variant": "Rule Identification","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Kelompok 1: (4, 16), (5, 25), (6, 36). Kelompok 2 mengikuti aturan yang sama: (7, __)?", "image_description": null},
+          "options": [{"id":"A","text":"42"},{"id":"B","text":"48"},{"id":"C","text":"49"},{"id":"D","text":"56"}],
+          "correct_answer": "C",
+          "explanation": "Aturannya adalah angka kedua sama dengan kuadrat angka pertama, sehingga 7² = 49.",
+          "skills_tested": ["identifikasi aturan matematis"]
+        },
+        {"id": "IR04","section": "Penalaran Induktif","variant": "Rule Identification","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Perhatikan pasangan: (3, 10), (5, 26), (7, 50). Aturan apa yang menghubungkan kedua angka, dan berapa nilai y jika x = 9?", "image_description": null},
+          "options": [{"id":"A","text":"y = 80, aturan: y = x² + 1"},{"id":"B","text":"y = 82, aturan: y = x² + 1"},{"id":"C","text":"y = 82, aturan: y = 2x² - x + 1"},{"id":"D","text":"y = 90, aturan: y = x² + 9"}],
+          "correct_answer": "B",
+          "explanation": "Cek: 3²+1=10, 5²+1=26, 7²+1=50. Aturan y = x²+1 konsisten. Untuk x=9: 9²+1 = 82.",
+          "skills_tested": ["identifikasi aturan kuadratik", "verifikasi hipotesis"]
+        },
+        {"id": "IR05","section": "Penalaran Induktif","variant": "Analogical Pattern","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Dokter : Rumah Sakit :: Guru : ?", "image_description": null},
+          "options": [{"id":"A","text":"Buku"},{"id":"B","text":"Sekolah"},{"id":"C","text":"Kelas"},{"id":"D","text":"Murid"}],
+          "correct_answer": "B",
+          "explanation": "Dokter bekerja di rumah sakit, sebagaimana guru bekerja di sekolah — hubungan analogi tempat kerja profesi.",
+          "skills_tested": ["penalaran analogi"]
+        },
+        {"id": "IR06","section": "Penalaran Induktif","variant": "Analogical Pattern","difficulty": "Hard","estimated_time_seconds": 55,
+          "content": {"text": "Benih : Pohon :: Rencana Bisnis : ?", "image_description": null},
+          "options": [{"id":"A","text":"Investor"},{"id":"B","text":"Perusahaan yang berkembang"},{"id":"C","text":"Modal"},{"id":"D","text":"Laporan keuangan"}],
+          "correct_answer": "B",
+          "explanation": "Benih berkembang menjadi pohon melalui pertumbuhan, sebagaimana rencana bisnis berkembang menjadi perusahaan yang berkembang melalui eksekusi — hubungan analogi 'potensi awal menjadi hasil matang'.",
+          "skills_tested": ["penalaran analogi abstrak"]
+        },
+        {"id": "IR07","section": "Penalaran Induktif","variant": "Sequence Completion","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Lengkapi barisan: 100, 90, 81, 73, __", "image_description": null},
+          "options": [{"id":"A","text":"64"},{"id":"B","text":"65"},{"id":"C","text":"66"},{"id":"D","text":"67"}],
+          "correct_answer": "C",
+          "explanation": "Selisih berturut-turut adalah −10, −9, −8, sehingga selisih berikutnya adalah −7: 73 − 7 = 66.",
+          "skills_tested": ["pengenalan pola penurunan"]
+        },
+        {"id": "IR08","section": "Penalaran Induktif","variant": "Sequence Completion","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Lengkapi barisan: 1, 1, 2, 3, 5, 8, 13, __", "image_description": null},
+          "options": [{"id":"A","text":"18"},{"id":"B","text":"19"},{"id":"C","text":"20"},{"id":"D","text":"21"}],
+          "correct_answer": "D",
+          "explanation": "Ini adalah barisan Fibonacci, di mana setiap suku adalah jumlah dari dua suku sebelumnya: 8 + 13 = 21.",
+          "skills_tested": ["identifikasi barisan Fibonacci"]
+        },
+        {"id": "IR09","section": "Penalaran Induktif","variant": "Pattern Discovery","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Perhatikan kelompok huruf: BDF, CEG, DFH, __. Kelompok apa selanjutnya?", "image_description": null},
+          "options": [{"id":"A","text":"EFG"},{"id":"B","text":"EGI"},{"id":"C","text":"FGH"},{"id":"D","text":"EHI"}],
+          "correct_answer": "B",
+          "explanation": "Setiap kelompok bergeser satu huruf ke depan dan mempertahankan pola lompat dua huruf (B-D-F menjadi C-E-G menjadi D-F-H menjadi E-G-I).",
+          "skills_tested": ["pengenalan pola huruf majemuk"]
+        },
+        {"id": "IR10","section": "Penalaran Induktif","variant": "Rule Identification","difficulty": "Expert","estimated_time_seconds": 80,
+          "content": {"text": "Perhatikan pasangan angka: (2,3)→11, (3,4)→19, (4,5)→29. Aturan apa yang menghasilkan angka ketiga, dan berapa hasil untuk (5,6)?", "image_description": null},
+          "options": [{"id":"A","text":"41, aturan: a×b + a + b"},{"id":"B","text":"41, aturan: a² + b"},{"id":"C","text":"36, aturan: a×b+a"},{"id":"D","text":"42, aturan: a×b+b"}],
+          "correct_answer": "A",
+          "explanation": "Cek: 2×3+2+3=11, 3×4+3+4=19, 4×5+4+5=29. Konsisten. Untuk (5,6): 5×6+5+6 = 41.",
+          "skills_tested": ["identifikasi aturan multivariabel", "verifikasi hipotesis"]
+        },
+        {"id": "IR11","section": "Penalaran Induktif","variant": "Analogical Pattern","difficulty": "Expert","estimated_time_seconds": 75,
+          "content": {"text": "Termometer : Suhu :: Barometer : ?", "image_description": null},
+          "options": [{"id":"A","text":"Kelembapan"},{"id":"B","text":"Tekanan udara"},{"id":"C","text":"Kecepatan angin"},{"id":"D","text":"Curah hujan"}],
+          "correct_answer": "B",
+          "explanation": "Termometer mengukur suhu, sebagaimana barometer mengukur tekanan udara — hubungan analogi alat-ukur dan besaran yang diukur.",
+          "skills_tested": ["penalaran analogi fungsi alat"]
+        },
+        {"id": "IR12","section": "Penalaran Induktif","variant": "Sequence Completion","difficulty": "Expert","estimated_time_seconds": 80,
+          "content": {"text": "Lengkapi barisan: 3, 7, 15, 31, 63, __", "image_description": null},
+          "options": [{"id":"A","text":"125"},{"id":"B","text":"127"},{"id":"C","text":"129"},{"id":"D","text":"131"}],
+          "correct_answer": "B",
+          "explanation": "Setiap suku dihasilkan dengan rumus (suku sebelumnya × 2) + 1, sehingga 63 × 2 + 1 = 127.",
+          "skills_tested": ["identifikasi aturan eksponensial berulang"]
+        },
+        {"id": "IR13","section": "Penalaran Induktif","variant": "Pattern Discovery","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {"text": "Perhatikan pola angka: 5, 10, 20, 40, __", "image_description": null},
+          "options": [{"id":"A","text":"60"},{"id":"B","text":"70"},{"id":"C","text":"80"},{"id":"D","text":"90"}],
+          "correct_answer": "C",
+          "explanation": "Setiap angka dikalikan 2 dari angka sebelumnya, sehingga 40 × 2 = 80.",
+          "skills_tested": ["pengenalan pola geometrik"]
+        },
+        {"id": "IR14","section": "Penalaran Induktif","variant": "Rule Identification","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Kelompok kata mengikuti aturan tertentu: MEJA (4 huruf, dimulai konsonan), BUKU (4 huruf, dimulai konsonan), API (3 huruf, dimulai vokal - TIDAK termasuk kelompok). Berdasarkan pola ini, kata mana yang termasuk kelompok yang sama dengan MEJA dan BUKU?", "image_description": null},
+          "options": [{"id":"A","text":"ATAP"},{"id":"B","text":"IKAN"},{"id":"C","text":"KURSI"},{"id":"D","text":"ES"}],
+          "correct_answer": "C",
+          "explanation": "Pola kelompok mensyaratkan kata dimulai dengan konsonan dan terdiri lebih dari 3 huruf. 'KURSI' dimulai konsonan (K) dan memiliki 5 huruf, sesuai pola; ATAP dan IKAN dimulai vokal, ES terlalu pendek dan dimulai vokal.",
+          "skills_tested": ["identifikasi aturan klasifikasi"]
+        },
+        {"id": "IR15","section": "Penalaran Induktif","variant": "Sequence Completion","difficulty": "Hard","estimated_time_seconds": 65,
+          "content": {"text": "Lengkapi barisan: 2, 3, 5, 8, 13, 21, __", "image_description": null},
+          "options": [{"id":"A","text":"29"},{"id":"B","text":"31"},{"id":"C","text":"34"},{"id":"D","text":"36"}],
+          "correct_answer": "C",
+          "explanation": "Ini adalah varian barisan Fibonacci, setiap suku adalah jumlah dari dua suku sebelumnya: 13 + 21 = 34.",
+          "skills_tested": ["identifikasi barisan aditif"]
+        }
+      ]
+    },
+    {
+      "section": "Visualisasi",
+      "questions": [
+        {"id": "VZ01","section": "Visualisasi","variant": "Mental Rotation","difficulty": "Easy","estimated_time_seconds": 40,
+          "content": {"text": "Manakah dari opsi berikut yang menunjukkan objek yang sama pada Gambar 1, hanya diputar?", "image_description": "Gambar 1 menunjukkan huruf 'F' berwarna biru solid dalam orientasi tegak normal di kotak putih. Opsi A menampilkan huruf F yang diputar 90 derajat searah jarum jam. Opsi B menampilkan huruf F yang dicerminkan (mirror image, terbalik horizontal). Opsi C menampilkan huruf F diputar 180 derajat. Opsi D menampilkan huruf F yang dicerminkan dan diputar. Hanya opsi A dan C yang merupakan rotasi murni tanpa pencerminan; soal meminta rotasi 90 derajat searah jarum jam secara spesifik yaitu opsi A."},
+          "options": [{"id":"A","text":"Opsi A (rotasi 90° searah jarum jam)"},{"id":"B","text":"Opsi B (dicerminkan horizontal)"},{"id":"C","text":"Opsi C (rotasi 180°)"},{"id":"D","text":"Opsi D (dicerminkan dan diputar)"}],
+          "correct_answer": "A",
+          "explanation": "Rotasi murni mempertahankan chirality (arah) objek asli tanpa pencerminan. Hanya opsi A menunjukkan rotasi 90° searah jarum jam tanpa mengubah orientasi cermin objek.",
+          "skills_tested": ["rotasi mental", "pengenalan bentuk"]
+        },
+        {"id": "VZ02","section": "Visualisasi","variant": "Mental Rotation","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Sebuah kubus 3D ditunjukkan dengan simbol berbeda pada tiap sisi yang terlihat (atas: bintang, depan: lingkaran, kanan: segitiga). Manakah kubus hasil rotasi yang konsisten dengan susunan tersebut?", "image_description": "Gambar utama menunjukkan kubus 3D isometrik dengan simbol bintang di sisi atas, lingkaran di sisi depan, dan segitiga di sisi kanan. Empat opsi jawaban menunjukkan kubus yang telah diputar ke orientasi berbeda: Opsi A memiliki bintang di depan, lingkaran di kanan, segitiga di atas (rotasi valid, hanya berputar mempertahankan urutan searah jarum jam simbol). Opsi B memiliki bintang di atas, lingkaran di kanan, segitiga di depan (urutan simbol terbalik, tidak valid untuk rotasi murni). Opsi C memiliki bintang di kanan, lingkaran di atas, segitiga di depan (urutan berbeda, tidak valid). Opsi D memiliki bintang di depan, lingkaran di atas, segitiga di kanan (urutan berbeda, tidak valid)."},
+          "options": [{"id":"A","text":"Opsi A"},{"id":"B","text":"Opsi B"},{"id":"C","text":"Opsi C"},{"id":"D","text":"Opsi D"}],
+          "correct_answer": "A",
+          "explanation": "Rotasi kubus yang valid harus mempertahankan urutan siklis (searah jarum jam) dari simbol-simbol pada sisi yang berdekatan. Hanya Opsi A mempertahankan urutan siklis bintang→lingkaran→segitiga yang sama dengan gambar asli.",
+          "skills_tested": ["rotasi kubus 3D", "konsistensi spasial"]
+        },
+        {"id": "VZ03","section": "Visualisasi","variant": "Cube Folding","difficulty": "Medium","estimated_time_seconds": 55,
+          "content": {"text": "Sebuah jaring-jaring (net) kubus ditunjukkan dengan 6 simbol berbeda pada tiap kotak. Jika dilipat menjadi kubus, simbol apa yang akan berhadapan langsung (berlawanan sisi) dengan simbol bintang?", "image_description": "Jaring-jaring kubus berbentuk salib (cross/plus) dengan 6 kotak persegi. Susunan dari atas ke bawah, kiri ke kanan: kotak tengah-atas berisi simbol bintang, kotak kiri-tengah berisi lingkaran, kotak tengah-tengah (pusat salib) berisi segitiga, kotak kanan-tengah berisi kotak/persegi, kotak bawah-tengah berisi hati, dan kotak paling bawah (di bawah hati) berisi bulan sabit."},
+          "options": [{"id":"A","text":"Lingkaran"},{"id":"B","text":"Hati"},{"id":"C","text":"Bulan sabit"},{"id":"D","text":"Persegi"}],
+          "correct_answer": "B",
+          "explanation": "Dalam jaring-jaring kubus berbentuk salib vertikal, kotak yang terpisah oleh dua kotak dalam garis lurus vertikal (bintang di atas, segitiga di tengah, hati di bawah tengah) akan menjadi sisi yang berlawanan setelah dilipat. Bintang dan hati terpisah oleh dua kotak dalam kolom yang sama, sehingga keduanya menjadi sisi berlawanan.",
+          "skills_tested": ["pelipatan kubus", "visualisasi spasial 3D"]
+        },
+        {"id": "VZ04","section": "Visualisasi","variant": "Cube Folding","difficulty": "Hard","estimated_time_seconds": 65,
+          "content": {"text": "Jaring-jaring kubus berbentuk T terbalik ditunjukkan dengan huruf pada tiap kotak: A, B, C, D, E, F. Jika dilipat menjadi kubus, huruf apa yang berhadapan dengan huruf C?", "image_description": "Jaring-jaring kubus berbentuk T terbalik: baris atas terdiri dari empat kotak berurutan berisi huruf A, B, C, D dari kiri ke kanan. Di bawah kotak B (kotak kedua dari baris atas) terdapat kotak E. Di bawah kotak E terdapat kotak F. Kotak B berfungsi sebagai basis kubus yang menghubungkan baris horizontal dengan kolom vertikal E dan F."},
+          "options": [{"id":"A","text":"A"},{"id":"B","text":"E"},{"id":"C","text":"F"},{"id":"D","text":"D"}],
+          "correct_answer": "A",
+          "explanation": "Saat dilipat, kotak B menjadi sisi dasar (bawah), dengan A dan C menjadi sisi kiri dan kanan dari B, sementara E dan F melipat menjadi sisi atas dan belakang. Dalam konfigurasi ini, A (di ujung kiri berlawanan dari C melalui B) menjadi sisi yang berhadapan dengan C.",
+          "skills_tested": ["pelipatan kubus kompleks", "visualisasi spasial 3D"]
+        },
+        {"id": "VZ05","section": "Visualisasi","variant": "Matrix Reasoning","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Sebuah matriks 3x3 berisi bentuk-bentuk dengan pola tertentu, dengan satu kotak kosong di posisi kanan bawah. Bentuk apa yang seharusnya mengisi kotak kosong tersebut?", "image_description": "Matriks 3x3. Baris 1: lingkaran kecil, lingkaran sedang, lingkaran besar. Baris 2: persegi kecil, persegi sedang, persegi besar. Baris 3: segitiga kecil, segitiga sedang, [KOTAK KOSONG]. Pola menunjukkan bahwa setiap baris menggunakan satu bentuk dengan ukuran bertambah dari kiri ke kanan (kecil-sedang-besar)."},
+          "options": [{"id":"A","text":"Segitiga besar"},{"id":"B","text":"Segitiga kecil"},{"id":"C","text":"Lingkaran besar"},{"id":"D","text":"Persegi besar"}],
+          "correct_answer": "A",
+          "explanation": "Pola matriks menunjukkan bahwa setiap baris mempertahankan bentuk yang sama dengan ukuran bertambah besar dari kiri ke kanan. Baris ketiga menggunakan segitiga, sehingga kotak kosong harus diisi segitiga besar.",
+          "skills_tested": ["penalaran matriks", "pengenalan pola visual"]
+        },
+        {"id": "VZ06","section": "Visualisasi","variant": "Matrix Reasoning","difficulty": "Hard","estimated_time_seconds": 65,
+          "content": {"text": "Matriks 3x3 menunjukkan kombinasi bentuk dan jumlah titik di dalamnya, dengan satu kotak kosong di posisi kanan bawah. Tentukan gambar yang tepat untuk mengisi kotak kosong.", "image_description": "Matriks 3x3. Baris 1: segitiga dengan 1 titik, persegi dengan 1 titik, lingkaran dengan 1 titik. Baris 2: segitiga dengan 2 titik, persegi dengan 2 titik, lingkaran dengan 2 titik. Baris 3: segitiga dengan 3 titik, persegi dengan 3 titik, [KOTAK KOSONG]. Pola menunjukkan jumlah titik bertambah per baris (1,2,3) sementara bentuk bervariasi per kolom (segitiga, persegi, lingkaran) secara konsisten di semua baris."},
+          "options": [{"id":"A","text":"Lingkaran dengan 3 titik"},{"id":"B","text":"Lingkaran dengan 2 titik"},{"id":"C","text":"Persegi dengan 3 titik"},{"id":"D","text":"Segitiga dengan 3 titik"}],
+          "correct_answer": "A",
+          "explanation": "Kolom ketiga secara konsisten menggunakan bentuk lingkaran, dan baris ketiga secara konsisten menggunakan 3 titik, sehingga kotak kosong harus berisi lingkaran dengan 3 titik.",
+          "skills_tested": ["penalaran matriks dua-dimensi", "identifikasi pola ganda"]
+        },
+        {"id": "VZ07","section": "Visualisasi","variant": "Matrix Reasoning","difficulty": "Expert","estimated_time_seconds": 80,
+          "content": {"text": "Matriks 3x3 menampilkan bentuk dengan rotasi dan pengisian (shading) yang berubah mengikuti aturan tertentu, dengan kotak kanan bawah kosong. Tentukan gambar yang tepat mengisi kotak kosong.", "image_description": "Matriks 3x3 berisi panah. Baris 1: panah mengarah ke atas (tidak diarsir), panah mengarah kanan (tidak diarsir), panah mengarah bawah (tidak diarsir) — rotasi 90° searah jarum jam tiap kolom. Baris 2: panah mengarah ke atas (diarsir separuh), panah mengarah kanan (diarsir separuh), panah mengarah bawah (diarsir separuh). Baris 3: panah mengarah ke atas (diarsir penuh/hitam solid), panah mengarah kanan (diarsir penuh/hitam solid), [KOTAK KOSONG]. Pola rotasi 90 derajat searah jarum jam per kolom konsisten di semua baris, dan tingkat pengisian (kosong, separuh, penuh) konsisten per baris."},
+          "options": [{"id":"A","text":"Panah mengarah bawah, diarsir penuh (hitam solid)"},{"id":"B","text":"Panah mengarah bawah, diarsir separuh"},{"id":"C","text":"Panah mengarah atas, diarsir penuh"},{"id":"D","text":"Panah mengarah kanan, diarsir penuh"}],
+          "correct_answer": "A",
+          "explanation": "Pola rotasi searah jarum jam (atas→kanan→bawah) konsisten di setiap baris, dan tingkat pengisian (kosong-separuh-penuh) konsisten per baris berdasarkan baris ketiga yang seluruhnya diarsir penuh. Kotak kosong harus berisi panah mengarah bawah dengan pengisian penuh.",
+          "skills_tested": ["penalaran matriks multi-atribut", "identifikasi dua pola simultan"]
+        },
+        {"id": "VZ08","section": "Visualisasi","variant": "Figure Sequence","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Perhatikan urutan gambar berikut. Gambar apa yang seharusnya melanjutkan urutan tersebut?", "image_description": "Urutan 4 gambar lingkaran dengan garis radial (seperti jarum jam) yang berputar 45 derajat searah jarum jam pada setiap gambar berurutan. Gambar 1: garis mengarah ke jam 12. Gambar 2: garis mengarah ke jam 1:30 (45°). Gambar 3: garis mengarah ke jam 3 (90°). Gambar 4: garis mengarah ke jam 4:30 (135°). Empat opsi jawaban menunjukkan posisi garis berbeda: Opsi A pada jam 6 (180°), Opsi B pada jam 7:30, Opsi C pada jam 9, Opsi D kembali ke jam 12."},
+          "options": [{"id":"A","text":"Opsi A (garis pada posisi 180°)"},{"id":"B","text":"Opsi B"},{"id":"C","text":"Opsi C"},{"id":"D","text":"Opsi D"}],
+          "correct_answer": "A",
+          "explanation": "Pola menunjukkan rotasi konsisten 45 derajat searah jarum jam pada setiap langkah. Setelah 135° (gambar 4), langkah berikutnya adalah 180°, sesuai Opsi A.",
+          "skills_tested": ["urutan figur", "pengenalan pola rotasi"]
+        },
+        {"id": "VZ09","section": "Visualisasi","variant": "Figure Sequence","difficulty": "Hard","estimated_time_seconds": 65,
+          "content": {"text": "Perhatikan urutan gambar berikut yang menunjukkan perubahan bentuk dan jumlah sisi. Gambar apa yang melanjutkan urutan tersebut?", "image_description": "Urutan 4 gambar poligon: Gambar 1 adalah segitiga (3 sisi) berwarna putih dengan satu titik hitam di dalamnya. Gambar 2 adalah persegi (4 sisi) berwarna putih dengan dua titik hitam. Gambar 3 adalah pentagon (5 sisi) dengan tiga titik hitam. Gambar 4 adalah heksagon (6 sisi) dengan empat titik hitam. Pola menunjukkan jumlah sisi bertambah satu setiap langkah, dan jumlah titik hitam di dalam bentuk juga bertambah satu setiap langkah, sama dengan urutan posisi gambar."},
+          "options": [{"id":"A","text":"Heptagon (7 sisi) dengan lima titik hitam"},{"id":"B","text":"Heptagon (7 sisi) dengan empat titik hitam"},{"id":"C","text":"Oktagon (8 sisi) dengan lima titik hitam"},{"id":"D","text":"Heksagon (6 sisi) dengan lima titik hitam"}],
+          "correct_answer": "A",
+          "explanation": "Pola menunjukkan jumlah sisi bertambah 1 setiap gambar (3,4,5,6→7) dan jumlah titik bertambah 1 setiap gambar (1,2,3,4→5), sehingga gambar kelima harus berupa heptagon dengan lima titik hitam.",
+          "skills_tested": ["urutan figur dengan dua atribut berubah"]
+        },
+        {"id": "VZ10","section": "Visualisasi","variant": "Figure Sequence","difficulty": "Expert","estimated_time_seconds": 80,
+          "content": {"text": "Perhatikan urutan gambar kompleks berikut yang menggabungkan rotasi, perubahan warna, dan penambahan elemen. Gambar apa yang melanjutkan urutan tersebut?", "image_description": "Urutan 4 gambar bintang bersudut lima. Gambar 1: bintang putih dengan satu sudut atas mengarah ke jam 12, tanpa titik di tengah. Gambar 2: bintang berwarna abu-abu muda, diputar 72° searah jarum jam (satu sudut kini mengarah ke posisi berikutnya), dengan satu titik hitam di tengah. Gambar 3: bintang berwarna abu-abu sedang, diputar total 144°, dengan dua titik hitam di tengah. Gambar 4: bintang berwarna abu-abu tua, diputar total 216°, dengan tiga titik hitam di tengah. Pola menggabungkan rotasi 72° per langkah, warna yang semakin gelap per langkah, dan jumlah titik yang bertambah 1 per langkah."},
+          "options": [{"id":"A","text":"Bintang hitam solid, diputar total 288°, dengan empat titik putih di tengah"},{"id":"B","text":"Bintang abu-abu tua, diputar total 288°, dengan tiga titik hitam"},{"id":"C","text":"Bintang hitam solid, diputar total 216°, dengan empat titik"},{"id":"D","text":"Bintang putih, diputar total 288°, dengan empat titik hitam"}],
+          "correct_answer": "A",
+          "explanation": "Mengikuti tiga pola simultan: rotasi bertambah 72° per langkah (0°,72°,144°,216°→288°), warna semakin gelap tiap langkah (putih→abu muda→abu sedang→abu tua→hitam solid), dan jumlah titik bertambah 1 per langkah (0,1,2,3→4). Karena bintang menjadi hitam solid, titik di tengah harus berwarna putih agar tetap terlihat kontras.",
+          "skills_tested": ["integrasi pola multi-atribut", "penalaran visual kompleks"]
+        },
+        {"id": "VZ11","section": "Visualisasi","variant": "Shape Transformation","difficulty": "Medium","estimated_time_seconds": 50,
+          "content": {"text": "Sebuah bentuk mengalami transformasi dari Gambar 1 ke Gambar 2 mengikuti aturan tertentu. Aturan yang sama diterapkan pada Gambar 3. Bentuk apa hasilnya?", "image_description": "Gambar 1 menunjukkan persegi utuh berwarna biru. Gambar 2 menunjukkan persegi yang sama namun dibagi menjadi 4 bagian sama besar oleh garis horizontal dan vertikal di tengah, dengan dua bagian diagonal (kiri-atas dan kanan-bawah) diarsir gelap. Gambar 3 menunjukkan lingkaran utuh berwarna biru yang akan mengalami transformasi serupa. Empat opsi jawaban menunjukkan lingkaran yang dibagi 4 dengan berbagai pola pengarsiran: Opsi A membagi lingkaran menjadi 4 kuadran dengan kuadran kiri-atas dan kanan-bawah diarsir gelap (pola diagonal sama seperti Gambar 2). Opsi B mengarsir seluruh lingkaran. Opsi C mengarsir hanya kuadran atas. Opsi D membagi lingkaran namun mengarsir kuadran kiri-bawah dan kanan-atas (diagonal berlawanan)."},
+          "options": [{"id":"A","text":"Opsi A"},{"id":"B","text":"Opsi B"},{"id":"C","text":"Opsi C"},{"id":"D","text":"Opsi D"}],
+          "correct_answer": "A",
+          "explanation": "Aturan transformasi adalah membagi bentuk menjadi 4 bagian sama besar dan mengarsir gelap dua bagian yang berada pada posisi diagonal kiri-atas dan kanan-bawah. Opsi A menerapkan aturan yang identik pada lingkaran.",
+          "skills_tested": ["transformasi bentuk", "penerapan aturan visual"]
+        },
+        {"id": "VZ12","section": "Visualisasi","variant": "Shape Transformation","difficulty": "Hard","estimated_time_seconds": 65,
+          "content": {"text": "Perhatikan transformasi dari Gambar 1 ke Gambar 2, yang melibatkan pemotongan sudut dan penambahan pola dalam. Terapkan aturan yang sama pada Gambar 3.", "image_description": "Gambar 1 menunjukkan persegi utuh polos. Gambar 2 menunjukkan persegi dengan keempat sudutnya dipotong menjadi bentuk oktagon, dan di bagian tengah ditambahkan sebuah lingkaran kecil berwarna hitam. Gambar 3 menunjukkan segitiga sama sisi utuh polos, yang akan mengalami transformasi serupa. Opsi A menunjukkan segitiga dengan ketiga sudutnya dipotong (menjadi heksagon) dengan lingkaran hitam kecil di tengah. Opsi B menunjukkan segitiga utuh dengan lingkaran di tengah tanpa sudut dipotong. Opsi C menunjukkan segitiga dengan sudut dipotong tetapi tanpa lingkaran di tengah. Opsi D menunjukkan segitiga dengan sudut dipotong dan persegi kecil (bukan lingkaran) di tengah."},
+          "options": [{"id":"A","text":"Opsi A"},{"id":"B","text":"Opsi B"},{"id":"C","text":"Opsi C"},{"id":"D","text":"Opsi D"}],
+          "correct_answer": "A",
+          "explanation": "Aturan transformasi melibatkan dua perubahan simultan: memotong semua sudut bentuk asli, dan menambahkan lingkaran hitam kecil di pusat. Hanya Opsi A menerapkan kedua perubahan tersebut secara konsisten pada segitiga.",
+          "skills_tested": ["transformasi bentuk multi-langkah", "penerapan aturan ganda"]
+        },
+        {"id": "VZ13","section": "Visualisasi","variant": "Mental Rotation","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {"text": "Sebuah objek 3D tidak beraturan (mirip huruf L dalam bentuk balok) ditunjukkan dari sudut pandang tertentu. Manakah dari opsi berikut yang menunjukkan objek yang sama namun dilihat dari sudut pandang yang diputar, bukan bayangan cermin?", "image_description": "Gambar utama menunjukkan balok berbentuk L 3D (seperti sebuah kubus besar dengan satu kubus kecil menempel di salah satu sisi bawah, membentuk siku), digambarkan secara isometrik dengan bagian panjang mengarah ke kanan dan bagian pendek mengarah ke atas-belakang. Opsi A menunjukkan objek L yang sama diputar 90° sehingga bagian panjang kini mengarah ke arah pengamat. Opsi B menunjukkan versi cermin dari objek (bagian pendek berada di sisi berlawanan/kiri, bukan kanan) yang tidak bisa dicapai dengan rotasi murni. Opsi C menunjukkan objek dengan proporsi berbeda (bagian pendek lebih panjang dari aslinya). Opsi D menunjukkan objek yang identik dengan gambar utama tanpa perubahan apa pun (bukan rotasi)."},
+          "options": [{"id":"A","text":"Opsi A"},{"id":"B","text":"Opsi B"},{"id":"C","text":"Opsi C"},{"id":"D","text":"Opsi D"}],
+          "correct_answer": "A",
+          "explanation": "Rotasi murni mempertahankan chirality (kidal/kanan) objek. Opsi B adalah bayangan cermin yang tidak dapat dicapai hanya dengan rotasi. Opsi C mengubah proporsi objek. Opsi D tidak menunjukkan rotasi sama sekali. Hanya Opsi A adalah hasil rotasi murni yang valid.",
+          "skills_tested": ["rotasi mental objek 3D tidak beraturan", "diskriminasi bayangan cermin"]
+        },
+        {"id": "VZ14","section": "Visualisasi","variant": "Cube Folding","difficulty": "Expert","estimated_time_seconds": 85,
+          "content": {"text": "Jaring-jaring kubus berbentuk zig-zag ditunjukkan dengan 6 pola berbeda (garis, titik, kotak-kotak, polos, garis silang, dan bergelombang). Jika dilipat menjadi kubus, dan sisi 'polos' menghadap ke atas dengan sisi 'garis' menghadap ke depan, pola apa yang akan menghadap ke sisi kanan?", "image_description": "Jaring-jaring kubus berbentuk zig-zag (staircase): kotak 1 (pola garis horizontal) di kiri-atas, kotak 2 (pola titik-titik) menempel di kanan kotak 1 pada baris yang sama, kotak 3 (pola polos/kosong) menempel di bawah kotak 2, kotak 4 (pola kotak-kotak/checkerboard) menempel di kanan kotak 3, kotak 5 (pola garis silang/cross-hatch) menempel di bawah kotak 4, dan kotak 6 (pola bergelombang/wavy) menempel di kanan kotak 5."},
+          "options": [{"id":"A","text":"Pola titik-titik"},{"id":"B","text":"Pola kotak-kotak"},{"id":"C","text":"Pola garis silang"},{"id":"D","text":"Pola bergelombang"}],
+          "correct_answer": "B",
+          "explanation": "Dengan melacak posisi setiap kotak saat dilipat langkah demi langkah mengikuti struktur zig-zag: kotak 3 (polos) menjadi sisi atas, kotak 1 (garis) menjadi sisi depan setelah pelipatan berurutan, dan melalui pelacakan spasial kotak 4 (kotak-kotak) akan berada pada posisi sisi kanan relatif terhadap orientasi tersebut.",
+          "skills_tested": ["pelipatan kubus zig-zag kompleks", "pelacakan spasial multi-langkah"]
+        },
+        {"id": "VZ15","section": "Visualisasi","variant": "Shape Transformation","difficulty": "Expert","estimated_time_seconds": 85,
+          "content": {"text": "Perhatikan dua pasang transformasi: Pasangan 1 (Gambar A ke Gambar B) dan terapkan aturan gabungan yang sama pada Gambar C untuk menemukan Gambar D.", "image_description": "Gambar A: pentagon dengan garis tunggal di dalamnya menghubungkan dua sudut berlawanan, berwarna putih. Gambar B: pentagon yang telah diputar 72° searah jarum jam DAN warnanya berubah menjadi abu-abu, dengan garis dalam yang juga ikut berputar mengikuti rotasi bentuk. Gambar C: heksagon dengan garis tunggal di dalamnya menghubungkan dua sudut berlawanan, berwarna putih, akan mengalami transformasi yang sama (rotasi sebesar sudut internal setara dan perubahan warna menjadi abu-abu). Opsi A menunjukkan heksagon diputar 60° searah jarum jam dengan warna abu-abu dan garis dalam ikut berputar. Opsi B menunjukkan heksagon diputar 72° (sudut yang sama dengan pentagon, bukan disesuaikan dengan heksagon) dengan warna abu-abu. Opsi C menunjukkan heksagon tanpa rotasi namun warna abu-abu. Opsi D menunjukkan heksagon diputar 60° namun warna tetap putih."},
+          "options": [{"id":"A","text":"Opsi A"},{"id":"B","text":"Opsi B"},{"id":"C","text":"Opsi C"},{"id":"D","text":"Opsi D"}],
+          "correct_answer": "A",
+          "explanation": "Aturan transformasi adalah memutar bentuk sebesar satu sudut internal unit bentuk tersebut (360° dibagi jumlah sisi) searah jarum jam, dan mengubah warna dari putih menjadi abu-abu. Untuk pentagon (5 sisi), rotasinya adalah 360/5=72°. Untuk heksagon (6 sisi), rotasi yang setara adalah 360/6=60°. Hanya Opsi A menerapkan rotasi yang proporsional dengan benar beserta perubahan warna.",
+          "skills_tested": ["transformasi bentuk dengan aturan proporsional", "generalisasi aturan lintas bentuk"]
+        }
+      ]
+    },
+    {
+      "section": "Ketelitian / Kecepatan Periksa",
+      "questions": [
+        {"id": "CK01","section": "Ketelitian / Kecepatan Periksa","variant": "Symbol Matching","difficulty": "Easy","estimated_time_seconds": 25,
+          "content": {"text": "Apakah kedua rangkaian simbol berikut identik?\n\n#@%&*  vs  #@%&*", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua rangkaian simbol memiliki urutan dan karakter yang identik.",
+          "skills_tested": ["pencocokan simbol", "ketelitian visual"]
+        },
+        {"id": "CK02","section": "Ketelitian / Kecepatan Periksa","variant": "Symbol Matching","difficulty": "Easy","estimated_time_seconds": 25,
+          "content": {"text": "Apakah kedua rangkaian simbol berikut identik?\n\n$%^&*()  vs  $%^&*(*)", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "B",
+          "explanation": "Rangkaian kedua memiliki karakter tambahan '*' sebelum tanda kurung penutup, membuatnya berbeda dari rangkaian pertama.",
+          "skills_tested": ["pencocokan simbol", "deteksi perbedaan"]
+        },
+        {"id": "CK03","section": "Ketelitian / Kecepatan Periksa","variant": "Symbol Matching","difficulty": "Medium","estimated_time_seconds": 35,
+          "content": {"text": "Apakah kedua rangkaian simbol berikut identik?\n\n@#$%^&*()_+{}|:\"<>?  vs  @#$%^&*()_+{}|:\"<>?", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua rangkaian simbol yang panjang tersebut identik karakter demi karakter.",
+          "skills_tested": ["pencocokan simbol panjang", "ketelitian tinggi"]
+        },
+        {"id": "CK04","section": "Ketelitian / Kecepatan Periksa","variant": "Number Comparison","difficulty": "Easy","estimated_time_seconds": 25,
+          "content": {"text": "Apakah kedua angka berikut identik?\n\n84732619  vs  84732619", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua deret angka identik digit per digit.",
+          "skills_tested": ["perbandingan angka", "ketelitian visual"]
+        },
+        {"id": "CK05","section": "Ketelitian / Kecepatan Periksa","variant": "Number Comparison","difficulty": "Medium","estimated_time_seconds": 35,
+          "content": {"text": "Apakah kedua angka berikut identik?\n\n5729384615  vs  5729384165", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "B",
+          "explanation": "Dua digit terakhir sebelum digit penutup tertukar posisinya (61 menjadi 16), membuat kedua deret berbeda.",
+          "skills_tested": ["perbandingan angka", "deteksi transposisi digit"]
+        },
+        {"id": "CK06","section": "Ketelitian / Kecepatan Periksa","variant": "Number Comparison","difficulty": "Hard","estimated_time_seconds": 45,
+          "content": {"text": "Apakah kedua angka berikut identik?\n\n938475620194857  vs  938475620194857", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua deret angka yang panjang (15 digit) tersebut identik digit per digit setelah pemeriksaan cermat.",
+          "skills_tested": ["perbandingan angka panjang", "ketelitian tinggi di bawah tekanan waktu"]
+        },
+        {"id": "CK07","section": "Ketelitian / Kecepatan Periksa","variant": "Number Comparison","difficulty": "Hard","estimated_time_seconds": 45,
+          "content": {"text": "Apakah kedua angka berikut identik?\n\n472958301674829  vs  472958301647829", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "B",
+          "explanation": "Pada bagian tengah deret, urutan '674' pada deret pertama menjadi '647' pada deret kedua, sehingga kedua deret berbeda.",
+          "skills_tested": ["perbandingan angka panjang", "deteksi transposisi tersembunyi"]
+        },
+        {"id": "CK08","section": "Ketelitian / Kecepatan Periksa","variant": "Letter Comparison","difficulty": "Easy","estimated_time_seconds": 25,
+          "content": {"text": "Apakah kedua rangkaian huruf berikut identik?\n\nKJHGFDSA  vs  KJHGFDSA", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua rangkaian huruf identik karakter demi karakter.",
+          "skills_tested": ["perbandingan huruf", "ketelitian visual"]
+        },
+        {"id": "CK09","section": "Ketelitian / Kecepatan Periksa","variant": "Letter Comparison","difficulty": "Medium","estimated_time_seconds": 35,
+          "content": {"text": "Apakah kedua rangkaian huruf berikut identik?\n\nMNBVCXZLKJH  vs  MNBVCXZLKJH", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua rangkaian huruf yang lebih panjang tersebut tetap identik setelah pemeriksaan huruf demi huruf.",
+          "skills_tested": ["perbandingan huruf", "ketelitian menengah"]
+        },
+        {"id": "CK10","section": "Ketelitian / Kecepatan Periksa","variant": "Letter Comparison","difficulty": "Hard","estimated_time_seconds": 45,
+          "content": {"text": "Apakah kedua rangkaian huruf berikut identik?\n\nQAZWSXEDCRFVTGBYHNUJM  vs  QAZWSXEDCRFVTGBYHNUJN", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "B",
+          "explanation": "Huruf terakhir pada deret pertama adalah 'M', sedangkan pada deret kedua adalah 'N', membuat kedua deret berbeda.",
+          "skills_tested": ["perbandingan huruf panjang", "deteksi kesalahan di akhir deret"]
+        },
+        {"id": "CK11","section": "Ketelitian / Kecepatan Periksa","variant": "Error Detection","difficulty": "Medium","estimated_time_seconds": 40,
+          "content": {"text": "Temukan kesalahan penulisan pada kalimat berikut: 'Laporan keuangan tersebut harus diselesaikan sebelum akhir bullan ini.'", "image_description": null},
+          "options": [{"id":"A","text":"'keuangan' salah eja"},{"id":"B","text":"'diselesaikan' salah eja"},{"id":"C","text":"'bullan' salah eja (seharusnya 'bulan')"},{"id":"D","text":"Tidak ada kesalahan"}],
+          "correct_answer": "C",
+          "explanation": "Kata 'bullan' memiliki huruf 'l' ganda yang salah, seharusnya ditulis 'bulan'.",
+          "skills_tested": ["deteksi kesalahan ejaan", "ketelitian tekstual"]
+        },
+        {"id": "CK12","section": "Ketelitian / Kecepatan Periksa","variant": "Error Detection","difficulty": "Hard","estimated_time_seconds": 50,
+          "content": {"text": "Bandingkan dua daftar nomor invoice berikut dan temukan invoice yang TIDAK muncul di kedua daftar:\n\nDaftar 1: INV-2201, INV-2202, INV-2203, INV-2204, INV-2205\nDaftar 2: INV-2201, INV-2202, INV-2203, INV-2204, INV-2206", "image_description": null},
+          "options": [{"id":"A","text":"INV-2202"},{"id":"B","text":"INV-2203"},{"id":"C","text":"INV-2205 dan INV-2206"},{"id":"D","text":"INV-2204"}],
+          "correct_answer": "C",
+          "explanation": "INV-2205 hanya muncul di Daftar 1, sedangkan INV-2206 hanya muncul di Daftar 2 — keduanya tidak muncul di kedua daftar secara bersamaan.",
+          "skills_tested": ["deteksi kesalahan lintas daftar", "ketelitian data"]
+        },
+        {"id": "CK13","section": "Ketelitian / Kecepatan Periksa","variant": "Error Detection","difficulty": "Expert","estimated_time_seconds": 70,
+          "content": {"text": "Sebuah tabel entri data pelanggan berisi 5 baris. Baris mana yang mengandung inkonsistensi format dibandingkan baris lainnya?\n\nBaris 1: 081234567890\nBaris 2: 081298765432\nBaris 3: 0812-3456-7891\nBaris 4: 081345678912\nBaris 5: 081456789123", "image_description": null},
+          "options": [{"id":"A","text":"Baris 1"},{"id":"B","text":"Baris 3"},{"id":"C","text":"Baris 4"},{"id":"D","text":"Baris 5"}],
+          "correct_answer": "B",
+          "explanation": "Baris 3 menggunakan format dengan tanda hubung (0812-3456-7891), sementara baris lainnya menggunakan format angka tanpa pemisah, menunjukkan inkonsistensi format.",
+          "skills_tested": ["deteksi inkonsistensi format", "ketelitian data terstruktur"]
+        },
+        {"id": "CK14","section": "Ketelitian / Kecepatan Periksa","variant": "Error Detection","difficulty": "Expert","estimated_time_seconds": 75,
+          "content": {"text": "Periksa kesesuaian antara kode produk dan deskripsinya berikut. Manakah pasangan yang TIDAK konsisten?\n\nA) SKU-1001: Kemeja Biru Ukuran M\nB) SKU-1002: Kemeja Merah Ukuran L\nC) SKU-1003: Celana Hitam Ukuran M\nD) SKU-1002: Kemeja Merah Ukuran XL (muncul kembali dengan ukuran berbeda)", "image_description": null},
+          "options": [{"id":"A","text":"Pasangan A"},{"id":"B","text":"Pasangan B dan D (SKU-1002 muncul dua kali dengan ukuran berbeda)"},{"id":"C","text":"Pasangan C"},{"id":"D","text":"Tidak ada inkonsistensi"}],
+          "correct_answer": "B",
+          "explanation": "SKU-1002 seharusnya merujuk pada satu produk unik, namun muncul dua kali dengan ukuran yang berbeda (L dan XL), menunjukkan inkonsistensi data.",
+          "skills_tested": ["deteksi duplikasi data", "validasi konsistensi kode"]
+        },
+        {"id": "CK15","section": "Ketelitian / Kecepatan Periksa","variant": "Symbol Matching","difficulty": "Hard","estimated_time_seconds": 45,
+          "content": {"text": "Apakah kedua rangkaian simbol berikut identik?\n\n<>{}[]()!@#$%^&*  vs  <>{}[]()!@#$%^&*", "image_description": null},
+          "options": [{"id":"A","text":"Sama"},{"id":"B","text":"Berbeda"}],
+          "correct_answer": "A",
+          "explanation": "Kedua rangkaian simbol yang kompleks tersebut identik karakter demi karakter setelah pemeriksaan cermat.",
+          "skills_tested": ["pencocokan simbol kompleks", "ketelitian tinggi"]
+        }
+      ]
+    },
+    {
+      "section": "Memori Kerja",
+      "questions": [
+        {"id": "WM01","section": "Memori Kerja","variant": "Digit Span","difficulty": "Easy","estimated_time_seconds": 30,
+          "content": {"text": "Hafalkan deret angka berikut selama 5 detik: 7 - 3 - 9 - 2. Setelah deret disembunyikan, angka apa yang berada di posisi ketiga?", "image_description": null},
+          "options": [{"id":"A","text":"7"},{"id":"B","text":"3"},{"id":"C","text":"9"},{"id":"D","text":"2"}],
+          "correct_answer": "C",
+          "explanation": "Posisi ketiga dalam deret 7-3-9-2 adalah angka 9.",
+          "skills_tested": ["rentang digit", "memori jangka pendek"]
+        },
+        {"id": "WM02","section": "Memori Kerja","variant": "Digit Span","difficulty": "Medium","estimated_time_seconds": 40,
+          "content": {"text": "Hafalkan deret angka berikut selama 6 detik: 5 - 8 - 1 - 4 - 7 - 2. Setelah deret disembunyikan, jika deret dibaca terbalik, angka apa yang muncul pertama?", "image_description": null},
+          "options": [{"id":"A","text":"5"},{"id":"B","text":"7"},{"id":"C","text":"2"},{"id":"D","text":"4"}],
+          "correct_answer": "C",
+          "explanation": "Deret asli adalah 5-8-1-4-7-2. Jika dibalik, urutannya menjadi 2-7-4-1-8-5, sehingga angka pertama adalah 2.",
+          "skills_tested": ["rentang digit terbalik", "manipulasi memori kerja"]
+        },
+        {"id": "WM03","section": "Memori Kerja","variant": "Digit Span","difficulty": "Hard","estimated_time_seconds": 50,
+          "content": {"text": "Hafalkan deret angka berikut selama 8 detik: 9 - 2 - 6 - 4 - 8 - 1 - 5 - 3. Berapa jumlah dari angka pada posisi ke-2, ke-4, dan ke-6?", "image_description": null},
+          "options": [{"id":"A","text":"7"},{"id":"B","text":"9"},{"id":"C","text":"11"},{"id":"D","text":"13"}],
+          "correct_answer": "A",
+          "explanation": "Posisi ke-2 = 2, posisi ke-4 = 4, posisi ke-6 = 1. Jumlah = 2 + 4 + 1 = 7.",
+          "skills_tested": ["rentang digit panjang", "operasi memori kerja"]
+        },
+        {"id": "WM04","section": "Memori Kerja","variant": "Sequence Recall","difficulty": "Medium","estimated_time_seconds": 40,
+          "content": {"text": "Hafalkan urutan kata berikut selama 6 detik: Meja - Kursi - Lampu - Buku - Pintu. Kata apa yang berada tepat sebelum 'Buku'?", "image_description": null},
+          "options": [{"id":"A","text":"Meja"},{"id":"B","text":"Kursi"},{"id":"C","text":"Lampu"},{"id":"D","text":"Pintu"}],
+          "correct_answer": "C",
+          "explanation": "Dalam urutan Meja-Kursi-Lampu-Buku-Pintu, kata yang berada tepat sebelum 'Buku' adalah 'Lampu'.",
+          "skills_tested": ["recall urutan", "memori jangka pendek verbal"]
+        },
+        {"id": "WM05","section": "Memori Kerja","variant": "Sequence Recall","difficulty": "Hard","estimated_time_seconds": 55,
+          "content": {"text": "Hafalkan urutan berikut selama 8 detik: Merah - Biru - Kuning - Hijau - Ungu - Oranye - Cokelat. Warna apa yang berada di posisi kedua dari akhir?", "image_description": null},
+          "options": [{"id":"A","text":"Oranye"},{"id":"B","text":"Ungu"},{"id":"C","text":"Hijau"},{"id":"D","text":"Cokelat"}],
+          "correct_answer": "A",
+          "explanation": "Urutan memiliki 7 elemen; posisi kedua dari akhir (posisi ke-6) adalah 'Oranye'.",
+          "skills_tested": ["recall urutan panjang", "identifikasi posisi relatif"]
+        },
+        {"id": "WM06","section": "Memori Kerja","variant": "Sequence Recall","difficulty": "Expert","estimated_time_seconds": 70,
+          "content": {"text": "Hafalkan urutan berikut selama 10 detik: Senin-Rapat, Selasa-Presentasi, Rabu-Pelatihan, Kamis-Evaluasi, Jumat-Libur. Kegiatan apa yang terjadi dua hari setelah 'Presentasi'?", "image_description": null},
+          "options": [{"id":"A","text":"Pelatihan"},{"id":"B","text":"Evaluasi"},{"id":"C","text":"Libur"},{"id":"D","text":"Rapat"}],
+          "correct_answer": "B",
+          "explanation": "Presentasi terjadi hari Selasa. Dua hari setelah Selasa adalah Kamis, di mana kegiatannya adalah 'Evaluasi'.",
+          "skills_tested": ["recall pasangan asosiatif", "manipulasi memori kerja kompleks"]
+        },
+        {"id": "WM07","section": "Memori Kerja","variant": "Pattern Recall","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {
+            "text": "Perhatikan pola grid berikut selama 6 detik, lalu jawab: sel mana yang berwarna gelap pada baris kedua?",
+            "image_description": "Grid 3x3 dengan sel-sel berwarna. Baris pertama: putih, gelap, putih. Baris kedua: putih, putih, gelap. Baris ketiga: gelap, putih, putih. Pola ditampilkan selama 6 detik sebelum disembunyikan untuk pengujian recall."
+          },
+          "options": [{"id":"A","text":"Sel kiri"},{"id":"B","text":"Sel tengah"},{"id":"C","text":"Sel kanan"},{"id":"D","text":"Tidak ada sel gelap di baris kedua"}],
+          "correct_answer": "C",
+          "explanation": "Berdasarkan pola grid, baris kedua memiliki sel gelap pada posisi kanan (kolom ketiga).",
+          "skills_tested": ["recall pola visual", "memori kerja spasial"]
+        },
+        {"id": "WM08","section": "Memori Kerja","variant": "Pattern Recall","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {
+            "text": "Perhatikan pola grid 4x4 berikut selama 8 detik, lalu jawab: berapa total sel gelap di seluruh grid?",
+            "image_description": "Grid 4x4 dengan pola sel gelap dan terang. Baris 1: gelap, terang, gelap, terang. Baris 2: terang, gelap, terang, gelap. Baris 3: gelap, terang, terang, gelap. Baris 4: terang, gelap, gelap, terang. Pola membentuk susunan semi-simetris yang ditampilkan selama 8 detik."
+          },
+          "options": [{"id":"A","text":"6"},{"id":"B","text":"7"},{"id":"C","text":"8"},{"id":"D","text":"9"}],
+          "correct_answer": "C",
+          "explanation": "Menghitung sel gelap per baris: Baris 1 = 2, Baris 2 = 2, Baris 3 = 2, Baris 4 = 2. Total = 8 sel gelap.",
+          "skills_tested": ["recall pola grid kompleks", "penghitungan memori visual"]
+        },
+        {"id": "WM09","section": "Memori Kerja","variant": "Visual Memory","difficulty": "Medium","estimated_time_seconds": 45,
+          "content": {
+            "text": "Perhatikan susunan bentuk berikut selama 6 detik, lalu jawab: bentuk apa yang berada di posisi paling kanan?",
+            "image_description": "Sebuah baris horizontal berisi 5 bentuk berurutan dari kiri ke kanan: lingkaran biru, segitiga merah, persegi hijau, bintang kuning, dan hati ungu. Ditampilkan selama 6 detik sebelum disembunyikan."
+          },
+          "options": [{"id":"A","text":"Lingkaran biru"},{"id":"B","text":"Bintang kuning"},{"id":"C","text":"Hati ungu"},{"id":"D","text":"Persegi hijau"}],
+          "correct_answer": "C",
+          "explanation": "Bentuk paling kanan dalam susunan tersebut adalah hati berwarna ungu.",
+          "skills_tested": ["memori visual", "recall posisi spasial"]
+        },
+        {"id": "WM10","section": "Memori Kerja","variant": "Visual Memory","difficulty": "Hard","estimated_time_seconds": 60,
+          "content": {
+            "text": "Perhatikan susunan bentuk dan warna berikut selama 8 detik, lalu jawab: berapa banyak bentuk berwarna merah yang muncul, dan di posisi ke berapa saja?",
+            "image_description": "Delapan bentuk berjajar horizontal: 1) segitiga merah, 2) lingkaran biru, 3) persegi merah, 4) bintang hijau, 5) hati kuning, 6) segitiga merah, 7) lingkaran ungu, 8) persegi biru. Ditampilkan selama 8 detik sebelum disembunyikan untuk pengujian recall."
+          },
+          "options": [{"id":"A","text":"2 bentuk merah, di posisi 1 dan 3"},{"id":"B","text":"3 bentuk merah, di posisi 1, 3, dan 6"},{"id":"C","text":"2 bentuk merah, di posisi 1 dan 6"},{"id":"D","text":"3 bentuk merah, di posisi 1, 6, dan 8"}],
+          "correct_answer": "B",
+          "explanation": "Bentuk berwarna merah muncul pada posisi 1 (segitiga merah), posisi 3 (persegi merah), dan posisi 6 (segitiga merah) — total 3 bentuk merah.",
+          "skills_tested": ["memori visual kompleks", "penghitungan dan pelacakan posisi"]
+        }
+      ]
+    },
+    {
+      "section": "Asesmen Kepribadian",
+      "questions": [
+        {"id": "PA01","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya tetap melaporkan kesalahan yang saya buat meskipun tidak ada yang menyadarinya.","trait_measured": "Integrity","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA02","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Terkadang saya melebih-lebihkan pencapaian saya agar terlihat lebih baik di depan atasan.","trait_measured": "Integrity","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA03","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya akan menolak instruksi atasan jika hal tersebut melanggar aturan perusahaan.","trait_measured": "Integrity","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA04","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya pernah menggunakan fasilitas kantor untuk keperluan pribadi tanpa izin.","trait_measured": "Integrity","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA05","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya merasa tidak nyaman jika harus menyembunyikan informasi penting dari rekan kerja.","trait_measured": "Integrity","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA06","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Jika tidak ketahuan, saya tidak masalah mengambil kredit atas pekerjaan orang lain.","trait_measured": "Integrity","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA07","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya selalu berusaha memberikan informasi yang akurat, meskipun itu tidak menguntungkan saya.","trait_measured": "Integrity","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA08","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya pernah memanipulasi data laporan agar terlihat lebih baik dari kenyataan.","trait_measured": "Integrity","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA09","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya konsisten menepati janji yang saya buat kepada rekan kerja, bahkan untuk hal-hal kecil.","trait_measured": "Integrity","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA10","section": "Asesmen Kepribadian","variant": "Integrity","statement": "Saya rasa wajar mengambil barang kecil milik kantor jika tidak akan ada yang memperhatikan.","trait_measured": "Integrity","reverse_keyed": true,"scale":[1,2,3,4,5]},
+
+        {"id": "PA11","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya selalu menyelesaikan tugas sebelum tenggat waktu yang ditentukan.","trait_measured": "Discipline","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA12","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya sering menunda pekerjaan hingga mendekati batas waktu.","trait_measured": "Discipline","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA13","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya membuat rencana kerja harian dan berusaha mengikutinya secara konsisten.","trait_measured": "Discipline","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA14","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya cenderung datang terlambat ke rapat atau janji temu.","trait_measured": "Discipline","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA15","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya tetap mematuhi prosedur kerja meskipun tidak ada yang mengawasi.","trait_measured": "Discipline","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA16","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya kesulitan menjaga konsistensi dalam menyelesaikan tugas rutin.","trait_measured": "Discipline","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA17","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya memeriksa kembali pekerjaan saya sebelum menyerahkannya untuk memastikan tidak ada kesalahan.","trait_measured": "Discipline","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA18","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya sering mengabaikan aturan kecil jika menurut saya tidak penting.","trait_measured": "Discipline","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA19","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya tetap fokus menyelesaikan tugas meskipun ada gangguan di sekitar saya.","trait_measured": "Discipline","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA20","section": "Asesmen Kepribadian","variant": "Discipline","statement": "Saya cenderung berpindah dari satu tugas ke tugas lain tanpa menyelesaikan yang sebelumnya.","trait_measured": "Discipline","reverse_keyed": true,"scale":[1,2,3,4,5]},
+
+        {"id": "PA21","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya senang berbagi informasi yang bermanfaat dengan anggota tim lainnya.","trait_measured": "Teamwork","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA22","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya lebih suka bekerja sendiri dan menghindari kolaborasi tim jika memungkinkan.","trait_measured": "Teamwork","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA23","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya bersedia membantu rekan kerja meskipun tugas itu bukan tanggung jawab saya.","trait_measured": "Teamwork","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA24","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya merasa kesal ketika harus menyesuaikan pendapat saya dengan keputusan tim.","trait_measured": "Teamwork","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA25","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya menghargai kontribusi anggota tim lain meskipun berbeda dari pendekatan saya.","trait_measured": "Teamwork","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA26","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya sering mengambil keputusan sendiri tanpa berdiskusi dengan tim terlebih dahulu.","trait_measured": "Teamwork","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA27","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya aktif memberikan masukan dalam diskusi kelompok untuk mencapai tujuan bersama.","trait_measured": "Teamwork","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA28","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya cenderung menyalahkan anggota tim lain ketika proyek tidak berjalan lancar.","trait_measured": "Teamwork","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA29","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya berusaha memahami sudut pandang rekan kerja sebelum menyampaikan pendapat saya.","trait_measured": "Teamwork","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA30","section": "Asesmen Kepribadian","variant": "Teamwork","statement": "Saya merasa hasil kerja tim biasanya lebih baik jika saya kerjakan sendiri.","trait_measured": "Teamwork","reverse_keyed": true,"scale":[1,2,3,4,5]},
+
+        {"id": "PA31","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya merasa nyaman mengambil peran memimpin ketika situasi membutuhkannya.","trait_measured": "Leadership","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA32","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya menghindari tanggung jawab memimpin karena takut membuat keputusan yang salah.","trait_measured": "Leadership","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA33","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya mampu memotivasi rekan kerja untuk mencapai target bersama.","trait_measured": "Leadership","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA34","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya sulit memberikan arahan yang jelas kepada orang lain.","trait_measured": "Leadership","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA35","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya berusaha memberi contoh yang baik agar diikuti oleh anggota tim.","trait_measured": "Leadership","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA36","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya cenderung ragu-ragu saat harus mengambil keputusan penting dalam kelompok.","trait_measured": "Leadership","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA37","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya dapat mendelegasikan tugas kepada orang lain sesuai kemampuan masing-masing.","trait_measured": "Leadership","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA38","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya lebih suka mengikuti arahan orang lain daripada mengambil inisiatif memimpin.","trait_measured": "Leadership","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA39","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya mampu menyelesaikan konflik antar anggota tim dengan pendekatan yang adil.","trait_measured": "Leadership","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA40","section": "Asesmen Kepribadian","variant": "Leadership","statement": "Saya merasa tidak percaya diri saat harus berbicara di depan kelompok besar.","trait_measured": "Leadership","reverse_keyed": true,"scale":[1,2,3,4,5]},
+
+        {"id": "PA41","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya cepat menyesuaikan diri ketika ada perubahan mendadak dalam rencana kerja.","trait_measured": "Adaptability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA42","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya merasa sangat terganggu ketika prosedur kerja yang biasa saya lakukan diubah.","trait_measured": "Adaptability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA43","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya terbuka mencoba metode kerja baru meskipun belum familiar.","trait_measured": "Adaptability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA44","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya lebih suka bekerja dengan cara yang sudah biasa dan menghindari perubahan.","trait_measured": "Adaptability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA45","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya bisa tetap tenang dan produktif saat menghadapi situasi yang tidak terduga.","trait_measured": "Adaptability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA46","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya butuh waktu lama untuk menyesuaikan diri dengan lingkungan kerja baru.","trait_measured": "Adaptability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA47","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya mampu bekerja secara efektif meskipun instruksi yang diberikan berubah-ubah.","trait_measured": "Adaptability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA48","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya cenderung stres berlebihan saat menghadapi tugas yang belum pernah saya kerjakan sebelumnya.","trait_measured": "Adaptability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA49","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya dapat menyesuaikan gaya komunikasi saya tergantung pada lawan bicara.","trait_measured": "Adaptability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA50","section": "Asesmen Kepribadian","variant": "Adaptability","statement": "Saya merasa kewalahan ketika harus mengerjakan beberapa jenis tugas berbeda dalam waktu bersamaan.","trait_measured": "Adaptability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+
+        {"id": "PA51","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya sering mengusulkan ide baru untuk memperbaiki proses kerja.","trait_measured": "Initiative","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA52","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya menunggu instruksi sebelum memulai pekerjaan, meskipun saya tahu apa yang perlu dilakukan.","trait_measured": "Initiative","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA53","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya proaktif mencari solusi ketika menemukan masalah dalam pekerjaan.","trait_measured": "Initiative","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA54","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya cenderung diam saja jika melihat ada peluang perbaikan yang bukan tanggung jawab saya.","trait_measured": "Initiative","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA55","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya mengambil langkah tambahan di luar tugas pokok jika itu bermanfaat bagi perusahaan.","trait_measured": "Initiative","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA56","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya lebih suka menunggu arahan atasan daripada bertindak atas inisiatif sendiri.","trait_measured": "Initiative","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA57","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya berusaha mempelajari keterampilan baru tanpa harus diminta oleh perusahaan.","trait_measured": "Initiative","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA58","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya jarang menawarkan bantuan kecuali diminta secara langsung.","trait_measured": "Initiative","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA59","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya sering menjadi orang pertama yang mengangkat masalah yang belum disadari orang lain.","trait_measured": "Initiative","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA60","section": "Asesmen Kepribadian","variant": "Initiative","statement": "Saya merasa tidak perlu melakukan lebih dari apa yang tertulis dalam deskripsi pekerjaan saya.","trait_measured": "Initiative","reverse_keyed": true,"scale":[1,2,3,4,5]},
+
+        {"id": "PA61","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya dapat tetap tenang saat menghadapi kritik dari atasan.","trait_measured": "Emotional Stability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA62","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya mudah merasa kesal ketika pekerjaan tidak berjalan sesuai rencana.","trait_measured": "Emotional Stability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA63","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya mampu mengendalikan emosi saya dalam situasi kerja yang penuh tekanan.","trait_measured": "Emotional Stability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA64","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya sering merasa cemas berlebihan menjelang tenggat waktu penting.","trait_measured": "Emotional Stability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA65","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya dapat berpikir jernih meskipun sedang menghadapi konflik dengan rekan kerja.","trait_measured": "Emotional Stability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA66","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Suasana hati saya mudah terpengaruh oleh komentar negatif dari orang lain.","trait_measured": "Emotional Stability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA67","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya bisa pulih dengan cepat setelah mengalami kegagalan dalam pekerjaan.","trait_measured": "Emotional Stability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA68","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya cenderung membawa masalah pribadi ke dalam lingkungan kerja sehingga memengaruhi performa saya.","trait_measured": "Emotional Stability","reverse_keyed": true,"scale":[1,2,3,4,5]},
+        {"id": "PA69","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya tetap bersikap profesional meskipun menghadapi rekan kerja yang sulit.","trait_measured": "Emotional Stability","reverse_keyed": false,"scale":[1,2,3,4,5]},
+        {"id": "PA70","section": "Asesmen Kepribadian","variant": "Emotional Stability","statement": "Saya sulit mengendalikan reaksi emosional saya saat menerima umpan balik yang keras.","trait_measured": "Emotional Stability","reverse_keyed": true,"scale":[1,2,3,4,5]}
+      ]
+    }
+  ]
+}
