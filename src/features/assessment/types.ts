@@ -48,6 +48,7 @@ export interface SectionResult {
 
 export interface AssessmentState {
   status: 'landing' | 'instructions' | 'testing' | 'finished';
+  selectedPacket: 'packet_1' | 'packet_2';
   sections: Section[];
   currentSectionIndex: number;
   currentQuestionIndex: number;
@@ -58,7 +59,7 @@ export interface AssessmentState {
   isTimerActive: boolean;
 
   // Actions
-  startAssessment: () => void;
+  startAssessment: (packetId?: 'packet_1' | 'packet_2') => void;
   confirmInstructions: () => void;
   nextQuestion: () => void;
   prevQuestion: () => void;

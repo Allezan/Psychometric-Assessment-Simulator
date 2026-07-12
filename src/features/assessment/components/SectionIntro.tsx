@@ -40,7 +40,7 @@ export const SectionIntro: React.FC = () => {
           </CardDescription>
         </CardHeader>
 
-        <CardContent className="p-8">
+        <CardContent className="p-8 pt-8">
           <div className="flex items-center gap-2 mb-4 text-xs font-bold uppercase tracking-wider text-zinc-400">
             <FileText className="h-4 w-4" /> Instructions & Guidelines
           </div>
@@ -63,7 +63,7 @@ export const SectionIntro: React.FC = () => {
           </div>
         </CardContent>
 
-        <CardFooter className="bg-zinc-50/50 dark:bg-zinc-900/10 border-t border-zinc-100 dark:border-zinc-800 p-8 flex justify-end">
+        <CardFooter className="bg-zinc-50/50 dark:bg-zinc-900/10 border-t border-zinc-100 dark:border-zinc-800 p-8 pt-8 flex justify-end">
           <Button
             onClick={confirmInstructions}
             className="flex items-center gap-2 font-medium text-sm px-6"

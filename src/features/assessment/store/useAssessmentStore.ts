@@ -1,14 +1,16 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { AssessmentState, UserResponse, Section } from '../types';
-import { assessmentSections } from '@/data/questions';
+import { getSectionsForPacket } from '@/data/questions';
 
-const INITIAL_TIMERS = assessmentSections.reduce((acc, section) => {
+const defaultSections = getSectionsForPacket('packet_1');
+
+const getInitialTimers = (sections: Section[]) => sections.reduce((acc, section) => {
   acc[section.id] = section.timeLimit;
   return acc;
 }, {} as Record<string, number>);
 
-const INITIAL_TIME_SPENT = assessmentSections.reduce((acc, section) => {
+const getInitialTimeSpent = (sections: Section[]) => sections.reduce((acc, section) => {
   acc[section.id] = 0;
   return acc;
 }, {} as Record<string, number>);
@@ -17,23 +19,27 @@ export const useAssessmentStore = create<AssessmentState>()(
   persist(
     (set, get) => ({
       status: 'landing',
-      sections: assessmentSections,
+      selectedPacket: 'packet_1',
+      sections: defaultSections,
       currentSectionIndex: 0,
       currentQuestionIndex: 0,
       responses: {},
-      sectionTimers: { ...INITIAL_TIMERS },
-      sectionTimeSpent: { ...INITIAL_TIME_SPENT },
+      sectionTimers: getInitialTimers(defaultSections),
+      sectionTimeSpent: getInitialTimeSpent(defaultSections),
       overallTimeSpent: 0,
       isTimerActive: false,
 
-  startAssessment: () => {
+  startAssessment: (packetId = 'packet_1') => {
+    const sections = getSectionsForPacket(packetId);
     set({
       status: 'instructions',
+      selectedPacket: packetId,
+      sections,
       currentSectionIndex: 0,
       currentQuestionIndex: 0,
       responses: {},
-      sectionTimers: { ...INITIAL_TIMERS },
-      sectionTimeSpent: { ...INITIAL_TIME_SPENT },
+      sectionTimers: getInitialTimers(sections),
+      sectionTimeSpent: getInitialTimeSpent(sections),
       overallTimeSpent: 0,
       isTimerActive: false,
     });
@@ -70,8 +76,9 @@ export const useAssessmentStore = create<AssessmentState>()(
   },
 
   selectOption: (sectionId: string, questionId: string, option: string) => {
+    const { sections } = get();
     const key = `${sectionId}_${questionId}`;
-    const question = assessmentSections
+    const question = sections
       .find(s => s.id === sectionId)
       ?.questions.find(q => q.id === questionId);
 
@@ -178,13 +185,15 @@ export const useAssessmentStore = create<AssessmentState>()(
   },
 
   resetAssessment: () => {
+    const { selectedPacket } = get();
+    const sections = getSectionsForPacket(selectedPacket);
     set({
       status: 'landing',
       currentSectionIndex: 0,
       currentQuestionIndex: 0,
       responses: {},
-      sectionTimers: { ...INITIAL_TIMERS },
-      sectionTimeSpent: { ...INITIAL_TIME_SPENT },
+      sectionTimers: getInitialTimers(sections),
+      sectionTimeSpent: getInitialTimeSpent(sections),
       overallTimeSpent: 0,
       isTimerActive: false,
     });

@@ -18,12 +18,13 @@ import {
 export default function Home() {
   const router = useRouter();
   const [isLoading, setIsLoading] = React.useState(false);
+  const [packetId, setPacketId] = React.useState<'packet_1' | 'packet_2'>('packet_1');
   const startAssessment = useAssessmentStore(state => state.startAssessment);
 
   const handleStart = () => {
     setIsLoading(true);
     setTimeout(() => {
-      startAssessment();
+      startAssessment(packetId);
       router.push('/assessment');
     }, 1000);
   };
@@ -97,6 +98,45 @@ export default function Home() {
         <p className="text-sm md:text-base text-zinc-500 dark:text-zinc-400 mt-6 max-w-xl leading-relaxed">
           Prepare for modern corporate recruitment testing. Project Aegis simulates realistic numerical, verbal, spatial, memory, and personality assessments inside a clean, high-performance console.
         </p>
+
+        {/* Packet Selector */}
+        <div className="mt-10 max-w-xl w-full mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <button
+            onClick={() => setPacketId('packet_1')}
+            className={`flex flex-col items-start text-left p-4 rounded-lg border transition-all duration-200 cursor-pointer focus:outline-none ${
+              packetId === 'packet_1'
+                ? 'border-zinc-900 bg-zinc-50 dark:border-zinc-100 dark:bg-zinc-900/50 text-zinc-950 dark:text-zinc-50 shadow-sm ring-1 ring-zinc-900 dark:ring-zinc-100'
+                : 'border-zinc-200 bg-white hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-900/50 text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-200'
+            }`}
+          >
+            <div className="flex items-center justify-between w-full">
+              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-zinc-400">Paket Soal 1</span>
+              {packetId === 'packet_1' && <span className="h-2 w-2 rounded-full bg-zinc-950 dark:bg-zinc-50"></span>}
+            </div>
+            <h4 className="text-sm font-bold mt-2">ASTRA Cognitive & Personality (ID)</h4>
+            <p className="text-xxs leading-relaxed mt-1 text-zinc-400 dark:text-zinc-500">
+              6 Bagian ujian termasuk Deret Gambar, Memory Game, & 100 Soal Kepribadian Indonesia.
+            </p>
+          </button>
+
+          <button
+            onClick={() => setPacketId('packet_2')}
+            className={`flex flex-col items-start text-left p-4 rounded-lg border transition-all duration-200 cursor-pointer focus:outline-none ${
+              packetId === 'packet_2'
+                ? 'border-zinc-900 bg-zinc-50 dark:border-zinc-100 dark:bg-zinc-900/50 text-zinc-950 dark:text-zinc-50 shadow-sm ring-1 ring-zinc-900 dark:ring-zinc-100'
+                : 'border-zinc-200 bg-white hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-900/50 text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-200'
+            }`}
+          >
+            <div className="flex items-center justify-between w-full">
+              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-zinc-400">Paket Soal 2</span>
+              {packetId === 'packet_2' && <span className="h-2 w-2 rounded-full bg-zinc-950 dark:bg-zinc-50"></span>}
+            </div>
+            <h4 className="text-sm font-bold mt-2">Corporate Psychometric (ID)</h4>
+            <p className="text-xxs leading-relaxed mt-1 text-zinc-400 dark:text-zinc-500">
+              5 Bagian ujian kognitif komprehensif & 100 Soal Evaluasi Perilaku Kerja (Bahasa Indonesia).
+            </p>
+          </button>
+        </div>
 
         {/* Start Button */}
         <div className="mt-8 flex justify-center">

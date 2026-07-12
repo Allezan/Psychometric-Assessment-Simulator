@@ -109,7 +109,7 @@ export const QuestionDisplay: React.FC<QuestionDisplayProps> = ({
             <FileText className="h-4 w-4" /> Reading Passage
           </div>
           <Card className="flex-1 border-zinc-200 dark:border-zinc-800 bg-zinc-50/50 dark:bg-zinc-900/20 overflow-y-auto max-h-[350px] lg:max-h-[500px]">
-            <CardContent className="p-6">
+            <CardContent className="p-6 pt-6">
               <p className="text-sm md:text-base text-zinc-700 dark:text-zinc-300 leading-relaxed whitespace-pre-line font-serif">
                 {question.passage}
               </p>

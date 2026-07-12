@@ -1,0 +1,3990 @@
+{
+  "assessment": {
+    "name": "Simulasi Asesmen Psikometri Perusahaan",
+    "duration_minutes": 100
+  },
+  "sections": [
+    {
+      "name": "Logical Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "LR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Semua karyawan di Departemen X menghadiri pengarahan hari Senin. Rina menghadiri briefing hari Senin. Oleh karena itu, Rina adalah pegawai di Departemen X.\nApakah kesimpulan ini valid?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Sah"
+            },
+            {
+              "id": "B",
+              "text": "Tidak sah"
+            },
+            {
+              "id": "C",
+              "text": "Tidak dapat ditentukan"
+            },
+            {
+              "id": "D",
+              "text": "Baik sah maupun tidak sah"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Ini adalah kekeliruan logika dalam menegaskan konsekuensinya; menghadiri pengarahan tidak menjamin keanggotaan di Departemen X, karena orang lain juga dapat hadir.",
+          "skills_tested": [
+            "deductive reasoning",
+            "syllogism"
+          ]
+        },
+        {
+          "id": "LR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Lengkapi urutannya: Senin, Rabu, Jumat, Minggu, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Senin"
+            },
+            {
+              "id": "B",
+              "text": "Selasa"
+            },
+            {
+              "id": "C",
+              "text": "Rabu"
+            },
+            {
+              "id": "D",
+              "text": "Kamis"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Polanya melompati satu hari setiap kali (+2 hari). Minggu +2 = Selasa.",
+          "skills_tested": [
+            "logical sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "LR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Semua manajer harus menyetujui permintaan lembur. Budi adalah seorang manajer. Beberapa manajer tidak menyukai dokumen. Kesimpulan mana yang benar?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Budi tidak menyukai dokumen"
+            },
+            {
+              "id": "B",
+              "text": "Budi bisa menyetujui permintaan lembur"
+            },
+            {
+              "id": "C",
+              "text": "Budi tidak disukai oleh staf"
+            },
+            {
+              "id": "D",
+              "text": "Semua manajer tidak menyukai dokumen"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Hanya premis pertama yang langsung berlaku bagi Budi karena ia dikukuhkan menjadi manajer; premis dokumen adalah pernyataan parsial ('beberapa') dan tidak dapat diterapkan pada Budi secara spesifik.",
+          "skills_tested": [
+            "syllogism",
+            "deductive reasoning"
+          ]
+        },
+        {
+          "id": "LR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Jika suatu proyek tertunda, maka klien akan diberitahu dalam waktu 24 jam. Klien tidak diberitahu dalam waktu 24 jam. Apa yang bisa disimpulkan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Proyek ini tertunda"
+            },
+            {
+              "id": "B",
+              "text": "Proyek ini tidak tertunda"
+            },
+            {
+              "id": "C",
+              "text": "Klien tidak senang"
+            },
+            {
+              "id": "D",
+              "text": "Manajer proyek dipecat"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Ini modus tollensnya: Jika P maka Q; bukan Q; oleh karena itu bukan P. Karena klien tidak diberitahu, proyek tidak ditunda.",
+          "skills_tested": [
+            "conditional reasoning",
+            "deductive logic"
+          ]
+        },
+        {
+          "id": "LR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Temukan angka berikutnya dalam pola tersebut: 2, 6, 12, 20, 30, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "40"
+            },
+            {
+              "id": "B",
+              "text": "42"
+            },
+            {
+              "id": "C",
+              "text": "44"
+            },
+            {
+              "id": "D",
+              "text": "36"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Selisihnya 4,6,8,10,12 (bertambah 2). 30+12=42.",
+          "skills_tested": [
+            "logical sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "LR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Pernyataan: 'Hanya kandidat yang lulus wawancara yang menerima tawaran pekerjaan.' Andi menerima tawaran pekerjaan. Apa yang harus benar?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Andi lolos wawancara"
+            },
+            {
+              "id": "B",
+              "text": "Andi adalah kandidat terbaik"
+            },
+            {
+              "id": "C",
+              "text": "Andi punya pengalaman paling banyak"
+            },
+            {
+              "id": "D",
+              "text": "Andi melamar ke beberapa perusahaan"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "'Hanya X yang menerima Y' artinya Y menyiratkan X. Karena Andi mendapat tawaran, dia pasti lolos wawancara.",
+          "skills_tested": [
+            "statement analysis",
+            "conditional reasoning"
+          ]
+        },
+        {
+          "id": "LR007",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Tiga karyawan, Vina, Wati, dan Yoga duduk berjajar. Vina tidak berada di kedua sisi. Yoga ada di sebelah kanan Vina. Siapa yang duduk di ujung kiri?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Vina"
+            },
+            {
+              "id": "B",
+              "text": "Wat"
+            },
+            {
+              "id": "C",
+              "text": "Yoga"
+            },
+            {
+              "id": "D",
+              "text": "Tidak dapat ditentukan"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Vina pasti berada di tengah karena dia tidak berada di kedua ujung. Yoga di sebelah kanannya, jadi Yoga di ujung kanan, meninggalkan Wati di ujung kiri.",
+          "skills_tested": [
+            "spatial-logical reasoning",
+            "deduction"
+          ]
+        },
+        {
+          "id": "LR008",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "'Tidak ada pekerja magang yang diizinkan menandatangani kontrak.' Doni menandatangani kontrak. Apa yang bisa disimpulkan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Doni magang"
+            },
+            {
+              "id": "B",
+              "text": "Doni bukan magang"
+            },
+            {
+              "id": "C",
+              "text": "Doni melanggar aturan"
+            },
+            {
+              "id": "D",
+              "text": "Kontraknya tidak sah"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Karena tidak ada pekerja magang yang boleh menandatangani kontrak, dan Doni menandatangani kontrak, maka Doni tidak bisa magang (dengan kontrapositif).",
+          "skills_tested": [
+            "statement analysis",
+            "deductive reasoning"
+          ]
+        },
+        {
+          "id": "LR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Semua analis senior memiliki sertifikasi. Beberapa staf bersertifikat bekerja di bidang keuangan. Tidak ada seorang pun di bagian keuangan yang bekerja lebih dari jam 6 sore. Pernyataan mana yang benar secara pasti?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Semua analis senior bekerja di bidang keuangan"
+            },
+            {
+              "id": "B",
+              "text": "Beberapa analis senior tidak pernah bekerja lebih dari jam 6 sore"
+            },
+            {
+              "id": "C",
+              "text": "Semua staf bersertifikat bekerja di bidang keuangan"
+            },
+            {
+              "id": "D",
+              "text": "Semua hal di atas tidak dapat disimpulkan"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Premis tersebut tidak menjamin adanya tumpang tindih antara subkelompok 'analis senior' dan 'staf bersertifikat yang bekerja di bidang keuangan', karena 'beberapa' staf bersertifikat, belum tentu analis senior, bekerja di bidang keuangan.",
+          "skills_tested": [
+            "syllogism",
+            "multi-premise reasoning"
+          ]
+        },
+        {
+          "id": "LR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Jika penjualan meningkat, maka produksi pun meningkat. Jika produksi meningkat, maka perekrutan meningkat. Perekrutan tidak meningkat. Apa yang benar?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Penjualan meningkat"
+            },
+            {
+              "id": "B",
+              "text": "Penjualan tidak meningkat"
+            },
+            {
+              "id": "C",
+              "text": "Produksi meningkat tetapi penjualan tidak"
+            },
+            {
+              "id": "D",
+              "text": "Perekrutan tidak berhubungan dengan penjualan"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Berdasarkan modus rantai tollens: perekrutan tidak meningkat → produksi tidak meningkat → penjualan tidak meningkat.",
+          "skills_tested": [
+            "conditional reasoning",
+            "chained logic"
+          ]
+        },
+        {
+          "id": "LR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Selesaikan barisan berikut: 3, 7, 15, 31, 63, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "121"
+            },
+            {
+              "id": "B",
+              "text": "125"
+            },
+            {
+              "id": "C",
+              "text": "127"
+            },
+            {
+              "id": "D",
+              "text": "129"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Setiap suku adalah suku sebelumnya digandakan ditambah 1: 63*2+1=127.",
+          "skills_tested": [
+            "logical sequence",
+            "numerical-logical pattern"
+          ]
+        },
+        {
+          "id": "LR012",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Di sebuah perusahaan, setiap orang yang bekerja lembur mendapat bayaran ekstra. Beberapa karyawan yang mendapat bayaran ekstra juga menerima bonus. Rudi tidak menerima bonus. Pernyataan mana yang valid?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rudi tidak bekerja lembur"
+            },
+            {
+              "id": "B",
+              "text": "Rudi bekerja lembur tetapi tidak cukup untuk menyimpulkan bahwa ia mendapat bayaran ekstra"
+            },
+            {
+              "id": "C",
+              "text": "Belum ada kesimpulan yang bisa diambil mengenai apakah Rudi bekerja lembur"
+            },
+            {
+              "id": "D",
+              "text": "Rudi tidak pernah berhak menerima bonus"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Tidak menerima bonus tidak meniadakan kerja lembur, karena hanya 'sebagian' yang mendapat gaji ekstra saja yang menerima bonus; kategori-kategori tersebut tidak sepenuhnya terhubung.",
+          "skills_tested": [
+            "statement analysis",
+            "logical fallacy detection"
+          ]
+        },
+        {
+          "id": "LR013",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Lima departemen diberi peringkat berdasarkan efisiensi: SDM lebih efisien dibandingkan Keuangan namun kurang efisien dibandingkan Operasi. TI lebih efisien daripada Operasi. Pemasaran adalah yang paling tidak efisien. Departemen mana yang paling efisien?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "SDM"
+            },
+            {
+              "id": "B",
+              "text": "Keuangan"
+            },
+            {
+              "id": "C",
+              "text": "Operasi"
+            },
+            {
+              "id": "D",
+              "text": "DIA"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Peringkat: IT > Operasional > HR > Keuangan > Pemasaran, jadi IT paling efisien.",
+          "skills_tested": [
+            "ordering logic",
+            "deduction"
+          ]
+        },
+        {
+          "id": "LR014",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "'Setiap kali server mogok, tim TI akan diberitahu secara otomatis, kecuali jika itu adalah jendela pemeliharaan terjadwal.' Tim IT tidak diberitahu. Manakah yang merupakan kesimpulan yang valid?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Servernya pasti crash"
+            },
+            {
+              "id": "B",
+              "text": "Server tidak mogok, atau mogok selama jangka waktu pemeliharaan terjadwal"
+            },
+            {
+              "id": "C",
+              "text": "Itu jelas merupakan masa pemeliharaan"
+            },
+            {
+              "id": "D",
+              "text": "Sistem notifikasi rusak"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Aturan tersebut memiliki klausul pengecualian; tidak diberi tahu berarti tidak ada kerusakan atau kerusakan selama pemeliharaan.",
+          "skills_tested": [
+            "conditional reasoning with exceptions",
+            "statement analysis"
+          ]
+        },
+        {
+          "id": "LR015",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Perusahaan menyetujui pinjaman hanya jika pemohon memiliki pendapatan stabil DAN nilai kredit yang baik, ATAU jika pemohon memberikan jaminan. Pinjaman Rani ditolak dan tidak diberikan jaminan. Apa yang harus benar?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rani memiliki penghasilan stabil namun kredit macet"
+            },
+            {
+              "id": "B",
+              "text": "Rani tidak memiliki pendapatan yang stabil, nilai kredit yang baik, atau keduanya"
+            },
+            {
+              "id": "C",
+              "text": "Rani memiliki nilai kredit yang bagus"
+            },
+            {
+              "id": "D",
+              "text": "Rani memiliki pendapatan yang stabil"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Karena dia tidak memiliki agunan, persetujuannya memerlukan pendapatan yang stabil dan kredit yang baik; penolakan tanpa jaminan berarti setidaknya salah satu dari dua kondisi tersebut gagal.",
+          "skills_tested": [
+            "complex conditional logic",
+            "boolean reasoning"
+          ]
+        },
+        {
+          "id": "LR016",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Temukan yang ganjil berdasarkan hubungan logis: Kontrak, Perjanjian, Tanda Tangan, Negosiasi, Jabat Tangan",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Kontrak"
+            },
+            {
+              "id": "B",
+              "text": "Perjanjian"
+            },
+            {
+              "id": "C",
+              "text": "Perundingan"
+            },
+            {
+              "id": "D",
+              "text": "Tanda tangan"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Kontrak, Perjanjian, Tanda Tangan, dan Jabat Tangan semuanya mewakili hasil/konfirmasi suatu kesepakatan, sedangkan Negosiasi adalah proses yang mengarah pada kesepakatan tersebut.",
+          "skills_tested": [
+            "categorical reasoning",
+            "analytical thinking"
+          ]
+        },
+        {
+          "id": "LR017",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Jika laporan mengandung kesalahan, laporan tersebut ditolak. Jika laporan ditolak, analis harus merevisinya dalam waktu 48 jam. Laporan Ana tidak direvisi dalam waktu 48 jam. Apa yang bisa disimpulkan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Laporan Ana mengandung kesalahan"
+            },
+            {
+              "id": "B",
+              "text": "Laporan Ana tidak ditolak"
+            },
+            {
+              "id": "C",
+              "text": "Laporan Ana ditolak tetapi dia mungkin tidak merevisinya tepat waktu karena tidak ditolak, ATAU tidak pernah ditolak"
+            },
+            {
+              "id": "D",
+              "text": "Laporan Ana jelas tidak mengandung kesalahan"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Dengan modus tollens pada rantai: tidak direvisi dalam 48 jam → tidak ditolak (satu-satunya kesimpulan yang pasti); kita tidak dapat mengkonfirmasi apa pun tentang kesalahan secara langsung karena 'mengandung kesalahan' hanya menyiratkan penolakan, bukan sebaliknya.",
+          "skills_tested": [
+            "chained conditional reasoning",
+            "deduction"
+          ]
+        },
+        {
+          "id": "LR018",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Dalam sebuah tim yang beranggotakan 6 orang, setiap orang berjabat tangan satu sama lain tepat satu kali, kecuali dua orang yang menolak untuk berjabat tangan satu sama lain. Berapa banyak jabat tangan yang terjadi secara keseluruhan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "14"
+            },
+            {
+              "id": "B",
+              "text": "15"
+            },
+            {
+              "id": "C",
+              "text": "13"
+            },
+            {
+              "id": "D",
+              "text": "12"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Jumlah jabat tangan yang mungkin = 6C2 = 15. Kurangi jabat tangan yang ditolak = 14.",
+          "skills_tested": [
+            "combinatorial logic",
+            "problem solving"
+          ]
+        },
+        {
+          "id": "LR019",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Pernyataannya adalah 'Anggarannya dipotong, atau jangka waktu proyek diperpanjang, tapi tidak keduanya.' Jangka waktu proyek tidak diperpanjang. Apa yang harus benar, dengan asumsi pernyataan asli berlaku?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Anggarannya dipotong"
+            },
+            {
+              "id": "B",
+              "text": "Anggarannya tidak dipotong"
+            },
+            {
+              "id": "C",
+              "text": "Keduanya terjadi"
+            },
+            {
+              "id": "D",
+              "text": "Tidak ada yang terjadi"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Ini adalah OR eksklusif (XOR). Jika satu sisi salah, sisi lainnya harus benar agar XOR dapat bertahan: karena jangka waktu tidak diperpanjang, anggaran pasti dipotong.",
+          "skills_tested": [
+            "exclusive-or logic",
+            "conditional reasoning"
+          ]
+        },
+        {
+          "id": "LR020",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Empat kandidat (P, Q, R, S) menduduki peringkat 1-4 dalam penilaian tanpa ikatan. P tidak menempati peringkat 1 atau 4. Q berada di peringkat tepat di atas R. S berada di peringkat 1. Berapa peringkat R?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "ke-2"
+            },
+            {
+              "id": "B",
+              "text": "ke-3"
+            },
+            {
+              "id": "C",
+              "text": "ke-4"
+            },
+            {
+              "id": "D",
+              "text": "Tidak dapat ditentukan"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "S=1. P adalah yang ke-2 atau ke-3. Q tepat di atas R, jadi Q-R bisa jadi (2,3) atau (3,4). Jika P=2, Q-R harus (3,4) artinya Q=3,R=4. Jika P=3, Q-R memerlukan dua slot berturut-turut di antara sisa {2,4} yang tidak berurutan, tidak valid. Jadi P=2, Q=3, R=4.",
+          "skills_tested": [
+            "ranking logic",
+            "multi-constraint deduction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Numerical Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "NR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Urutan selanjutnya apa: 4, 8, 12, 16, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "18"
+            },
+            {
+              "id": "B",
+              "text": "20"
+            },
+            {
+              "id": "C",
+              "text": "22"
+            },
+            {
+              "id": "D",
+              "text": "24"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Urutannya bertambah 4 setiap kali: 16+4=20.",
+          "skills_tested": [
+            "number sequence"
+          ]
+        },
+        {
+          "id": "NR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Harga suatu produk meningkat dari Rp100.000 menjadi Rp120.000. Berapa persentase kenaikannya?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "10%"
+            },
+            {
+              "id": "B",
+              "text": "15%"
+            },
+            {
+              "id": "C",
+              "text": "20%"
+            },
+            {
+              "id": "D",
+              "text": "25%"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "(120.000-100.000)/100.000 * 100% = 20%.",
+          "skills_tested": [
+            "percentage calculation"
+          ]
+        },
+        {
+          "id": "NR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Rasio pendapatan perusahaan antara Q1 dan Q2 adalah 3:5. Jika pendapatan Q1 adalah Rp90 juta, berapakah pendapatan Q2?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp120 juta"
+            },
+            {
+              "id": "B",
+              "text": "Rp150 juta"
+            },
+            {
+              "id": "C",
+              "text": "Rp135 juta"
+            },
+            {
+              "id": "D",
+              "text": "Rp160 juta"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "90 juta / 3 = 30 juta per unit nisbah; Q2 = 5 x 30 juta = 150 juta.",
+          "skills_tested": [
+            "ratio",
+            "proportional reasoning"
+          ]
+        },
+        {
+          "id": "NR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Nomor berikutnya: 5, 11, 23, 47, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "93"
+            },
+            {
+              "id": "B",
+              "text": "94"
+            },
+            {
+              "id": "C",
+              "text": "95"
+            },
+            {
+              "id": "D",
+              "text": "96"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Setiap suku menggandakan suku sebelumnya dan menambahkan 1: 47*2+1=95.",
+          "skills_tested": [
+            "number sequence"
+          ]
+        },
+        {
+          "id": "NR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Gaji seorang karyawan sebesar Rp8.000.000 dengan potongan pajak dan asuransi sebesar 12%. Berapa gaji yang bisa dibawa pulang?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp6.960.000"
+            },
+            {
+              "id": "B",
+              "text": "Rp7.040.000"
+            },
+            {
+              "id": "C",
+              "text": "Rp7.200.000"
+            },
+            {
+              "id": "D",
+              "text": "Rp7.360.000"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "8.000.000 x 0,88 = 7.040.000.",
+          "skills_tested": [
+            "percentage",
+            "arithmetic logic"
+          ]
+        },
+        {
+          "id": "NR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "Penjualan bulanan (unit): Jan=120, Feb=150, Mar=135, Apr=180. Berapa rata-rata penjualan bulanan?",
+            "image_description": "Data tabel diberikan sebagai teks karena tidak diperlukan gambar bagan."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "146.25"
+            },
+            {
+              "id": "B",
+              "text": "150"
+            },
+            {
+              "id": "C",
+              "text": "148.5"
+            },
+            {
+              "id": "D",
+              "text": "145"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "(120+150+135+180)/4 = 585/4 = 146,25.",
+          "skills_tested": [
+            "data interpretation",
+            "arithmetic mean"
+          ]
+        },
+        {
+          "id": "NR007",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "Jika 15 pekerja menyelesaikan suatu tugas dalam 8 hari, berapa hari yang dibutuhkan 12 pekerja untuk menyelesaikan tugas yang sama, dengan asumsi kecepatan kerja sama?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "9 hari"
+            },
+            {
+              "id": "B",
+              "text": "10 hari"
+            },
+            {
+              "id": "C",
+              "text": "11 hari"
+            },
+            {
+              "id": "D",
+              "text": "12 hari"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "15x8=120 hari kerja. 120/12=10 hari.",
+          "skills_tested": [
+            "work-rate problems",
+            "proportional reasoning"
+          ]
+        },
+        {
+          "id": "NR008",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "Pengeluaran suatu perusahaan dibagi menjadi: Gaji 45%, Operasi 30%, Pemasaran 15%, Lain-lain 10%. Jika total pengeluaran adalah Rp200.000.000, berapa biaya yang dikeluarkan untuk Pemasaran?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp20.000.000"
+            },
+            {
+              "id": "B",
+              "text": "Rp25.000.000"
+            },
+            {
+              "id": "C",
+              "text": "Rp30.000.000"
+            },
+            {
+              "id": "D",
+              "text": "Rp35.000.000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "15% dari 200.000.000 = 30.000.000.",
+          "skills_tested": [
+            "percentage",
+            "data interpretation"
+          ]
+        },
+        {
+          "id": "NR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Nomor berikutnya: 2, 3, 5, 8, 13, 21, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "32"
+            },
+            {
+              "id": "B",
+              "text": "33"
+            },
+            {
+              "id": "C",
+              "text": "34"
+            },
+            {
+              "id": "D",
+              "text": "35"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Barisan gaya Fibonacci: setiap suku = jumlah dua suku sebelumnya. 13+21=34.",
+          "skills_tested": [
+            "number sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "NR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Sebuah toko menjual suatu barang dengan margin keuntungan 25% dari biaya perolehan. Jika harga jualnya Rp250.000, berapa harga pokoknya?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp187.500"
+            },
+            {
+              "id": "B",
+              "text": "Rp195.000"
+            },
+            {
+              "id": "C",
+              "text": "Rp200.000"
+            },
+            {
+              "id": "D",
+              "text": "Rp210.000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Harga Jual = Biaya x 1,25. Biaya = 250.000/1,25 = 200.000.",
+          "skills_tested": [
+            "profit-margin calculation",
+            "algebraic reasoning"
+          ]
+        },
+        {
+          "id": "NR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Pendapatan Wilayah A tumbuh 10% lalu turun 10% selama dua tahun berturut-turut, mulai dari Rp100 juta. Berapa pendapatan akhirnya?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp100 juta"
+            },
+            {
+              "id": "B",
+              "text": "Rp99 juta"
+            },
+            {
+              "id": "C",
+              "text": "Rp101 juta"
+            },
+            {
+              "id": "D",
+              "text": "Rp98 juta"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "100M x 1,10 = 110M; 110M x 0,90 = 99M. Pertumbuhan dan penurunan persentase yang sama tidak hilang karena perubahan basis.",
+          "skills_tested": [
+            "percentage change",
+            "sequential calculation"
+          ]
+        },
+        {
+          "id": "NR012",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Keuntungan triwulanan (dalam jutaan): Q1=50, Q2=65, Q3=58, Q4=80. Berapa persentase pertumbuhan dari Q1 ke Q4?",
+            "image_description": "Data disajikan dalam bentuk tabel dengan empat nilai triwulanan."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "50%"
+            },
+            {
+              "id": "B",
+              "text": "55%"
+            },
+            {
+              "id": "C",
+              "text": "60%"
+            },
+            {
+              "id": "D",
+              "text": "65%"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "(80-50)/50 x 100% = 60%.",
+          "skills_tested": [
+            "table analysis",
+            "percentage growth"
+          ]
+        },
+        {
+          "id": "NR013",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Sebuah mesin menghasilkan 240 unit dalam waktu 6 jam. Mesin lain menghasilkan 300 unit dalam 5 jam. Jika keduanya bekerja sama, berapa unit yang dihasilkan dalam waktu 4 jam?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "400"
+            },
+            {
+              "id": "B",
+              "text": "410"
+            },
+            {
+              "id": "C",
+              "text": "420"
+            },
+            {
+              "id": "D",
+              "text": "430"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Kecepatan mesin 1 = 40 unit/jam. Kecepatan mesin 2 = 60 unit/jam. Gabungan = 100 unit/jam x 4 jam = 400.",
+          "skills_tested": [
+            "rate calculation",
+            "combined work problems"
+          ]
+        },
+        {
+          "id": "NR014",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Investasi sebesar Rp50.000.000 menghasilkan bunga majemuk 8% per tahun. Berapa perkiraan nilainya setelah 2 tahun?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp56.000.000"
+            },
+            {
+              "id": "B",
+              "text": "Rp58.320.000"
+            },
+            {
+              "id": "C",
+              "text": "Rp58.000.000"
+            },
+            {
+              "id": "D",
+              "text": "Rp60.000.000"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "50M x 1,08 x 1,08 = 58.320.000 (perkiraan).",
+          "skills_tested": [
+            "compound interest",
+            "quantitative reasoning"
+          ]
+        },
+        {
+          "id": "NR015",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Alokasi anggaran departemen: Operasi 40%, SDM 20%, Pemasaran 25%, Litbang 15%. Jika anggaran SDM sebesar Rp40.000.000, berapa total anggaran perusahaan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp150.000.000"
+            },
+            {
+              "id": "B",
+              "text": "Rp180.000.000"
+            },
+            {
+              "id": "C",
+              "text": "Rp200.000.000"
+            },
+            {
+              "id": "D",
+              "text": "Rp220.000.000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "HR=20% dari total = 40.000.000, jadi total = 40.000.000/0,20 = 200.000.000.",
+          "skills_tested": [
+            "percentage",
+            "reverse calculation"
+          ]
+        },
+        {
+          "id": "NR016",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Angka berikutnya dalam pola: 1, 4, 9, 16, 25, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "30"
+            },
+            {
+              "id": "B",
+              "text": "32"
+            },
+            {
+              "id": "C",
+              "text": "36"
+            },
+            {
+              "id": "D",
+              "text": "49"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Ini adalah kuadrat sempurna (1²,2²,3²...). Berikutnya adalah 6²=36.",
+          "skills_tested": [
+            "number sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "NR017",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Tingkat kerusakan sebuah pabrik adalah 2,5%. Dari 4.000 unit yang diproduksi, berapa unit yang diharapkan bebas cacat?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "3.890"
+            },
+            {
+              "id": "B",
+              "text": "3.895"
+            },
+            {
+              "id": "C",
+              "text": "3.900"
+            },
+            {
+              "id": "D",
+              "text": "3.910"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "2,5% dari 4000 = 100 cacat. 4000-100=3900 bebas cacat.",
+          "skills_tested": [
+            "percentage",
+            "quality control calculation"
+          ]
+        },
+        {
+          "id": "NR018",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Dua cabang memiliki tingkat pertumbuhan penjualan masing-masing sebesar 12% dan 18% per tahun, keduanya dimulai dari Rp80 juta. Setelah 2 tahun, berapa perkiraan perbedaan pendapatan mereka?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp8,7 juta"
+            },
+            {
+              "id": "B",
+              "text": "Rp9,4 juta"
+            },
+            {
+              "id": "C",
+              "text": "Rp10,1 juta"
+            },
+            {
+              "id": "D",
+              "text": "Rp11,3 juta"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Cabang1: 80x1.12²≈100.4M. Cabang2: 80x1.18²≈111.4M. Selisih≈9,4M (pembulatan mungkin sedikit berbeda menurut metode, opsi terdekat adalah B).",
+          "skills_tested": [
+            "compound growth",
+            "comparative analysis"
+          ]
+        },
+        {
+          "id": "NR019",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Anggaran proyek sebesar Rp500.000.000 dibagi dalam 3 tahap dengan perbandingan 2:3:5. Fase 2 membelanjakan 10% melebihi alokasinya. Berapa sebenarnya pengeluaran Tahap 2?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp150.000.000"
+            },
+            {
+              "id": "B",
+              "text": "Rp160.000.000"
+            },
+            {
+              "id": "C",
+              "text": "Rp165.000.000"
+            },
+            {
+              "id": "D",
+              "text": "Rp170.000.000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Alokasi tahap 2 = 3/10 x 500M = 150M. 10% lebih = 150 juta x 1,10 = 165 juta.",
+          "skills_tested": [
+            "ratio",
+            "percentage",
+            "multi-step calculation"
+          ]
+        },
+        {
+          "id": "NR020",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Tabel Pendapatan Perusahaan: 2022=Rp1.2M, 2023=Rp1.44M, 2024=Rp1.728M. Jika tingkat pertumbuhan ini terus berlanjut, berapa proyeksi pendapatan pada tahun 2025?",
+            "image_description": "Tabel yang menunjukkan angka pendapatan tahunan selama tiga tahun dengan tren pertumbuhan yang konsisten."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp1,95M"
+            },
+            {
+              "id": "B",
+              "text": "Rp2,07M"
+            },
+            {
+              "id": "C",
+              "text": "Rp2,10M"
+            },
+            {
+              "id": "D",
+              "text": "Rp2,17M"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Tingkat pertumbuhan = 20% setiap tahun (1,44/1,2=1,2). 2025 = 1,728 miliar x 1,2 = 2,0736 miliar ≈ Rp2,07 miliar.",
+          "skills_tested": [
+            "table analysis",
+            "growth rate extrapolation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verbal Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "VR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 40,
+          "content": {
+            "text": "Pilihlah kata yang paling mirip artinya dengan 'RAJIN':",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Malas"
+            },
+            {
+              "id": "B",
+              "text": "Pekerja keras"
+            },
+            {
+              "id": "C",
+              "text": "Ceroboh"
+            },
+            {
+              "id": "D",
+              "text": "Lambat"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Rajin artinya menunjukkan kepedulian dan ketelitian, identik dengan pekerja keras.",
+          "skills_tested": [
+            "synonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 40,
+          "content": {
+            "text": "PEN bagi PENULIS sebagaimana SCALPEL bagi:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Sabar"
+            },
+            {
+              "id": "B",
+              "text": "RSUD"
+            },
+            {
+              "id": "C",
+              "text": "Ahli bedah"
+            },
+            {
+              "id": "D",
+              "text": "Pisau"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Pena adalah alat utama seorang penulis, seperti halnya pisau bedah adalah alat utama seorang ahli bedah.",
+          "skills_tested": [
+            "analogy",
+            "relationship reasoning"
+          ]
+        },
+        {
+          "id": "VR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Pilihlah kata yang paling BERLAWANAN artinya 'TRANSPARAN' (dalam konteks bisnis):",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Jernih"
+            },
+            {
+              "id": "B",
+              "text": "Jujur"
+            },
+            {
+              "id": "C",
+              "text": "Tersembunyi"
+            },
+            {
+              "id": "D",
+              "text": "Jelas"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Transparan berarti keterbukaan; kebalikannya adalah tersembunyi atau tersembunyi.",
+          "skills_tested": [
+            "antonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "ANGGARAN adalah BEBAN sebagaimana JADWAL adalah untuk:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Waktu"
+            },
+            {
+              "id": "B",
+              "text": "Tugas"
+            },
+            {
+              "id": "C",
+              "text": "Tenggat waktu"
+            },
+            {
+              "id": "D",
+              "text": "Rapat"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Anggaran mengatur/mengalokasikan pengeluaran, seperti halnya jadwal mengatur/mengalokasikan tugas.",
+          "skills_tested": [
+            "analogy"
+          ]
+        },
+        {
+          "id": "VR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Baca: 'Meskipun ada penundaan dalam pengiriman, klien memperbarui kontrak karena kualitas pengiriman sebelumnya secara konsisten tinggi.' Apa alasan utama klien memperbarui kontrak?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Pengiriman tepat waktu"
+            },
+            {
+              "id": "B",
+              "text": "Kualitas yang konsisten dari pengiriman sebelumnya"
+            },
+            {
+              "id": "C",
+              "text": "Harganya diturunkan"
+            },
+            {
+              "id": "D",
+              "text": "Klien tidak punya pilihan lain"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Bagian tersebut secara eksplisit menyatakan pembaruan ini 'karena kualitas pengiriman sebelumnya secara konsisten tinggi,' meskipun ada penundaan.",
+          "skills_tested": [
+            "reading comprehension",
+            "cause-effect analysis"
+          ]
+        },
+        {
+          "id": "VR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Pilihlah kata yang TIDAK termasuk: Teliti, Ceroboh, Teliti, Tepat",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Teliti"
+            },
+            {
+              "id": "B",
+              "text": "Ceroboh"
+            },
+            {
+              "id": "C",
+              "text": "Menyeluruh"
+            },
+            {
+              "id": "D",
+              "text": "Tepat"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Teliti, Teliti, dan Tepat semuanya berkaitan dengan perhatian cermat terhadap detail; Ceroboh justru sebaliknya.",
+          "skills_tested": [
+            "categorical vocabulary",
+            "odd one out"
+          ]
+        },
+        {
+          "id": "VR007",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "AMBIGUOUS berarti CLEAR sebagaimana CHAOTIC berarti:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Terorganisir"
+            },
+            {
+              "id": "B",
+              "text": "Keras"
+            },
+            {
+              "id": "C",
+              "text": "Kompleks"
+            },
+            {
+              "id": "D",
+              "text": "Acak"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Ambigu adalah kebalikan dari Jelas; demikian pula Chaotic adalah kebalikan dari Terorganisir.",
+          "skills_tested": [
+            "analogy",
+            "antonym relationship"
+          ]
+        },
+        {
+          "id": "VR008",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Pernyataan: 'Semua pemimpin yang efektif berkomunikasi dengan jelas, namun tidak semua yang berkomunikasi dengan jelas adalah pemimpin yang efektif.' Manakah yang paling mencerminkan pernyataan ini?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Komunikasi yang jelas menjamin keberhasilan kepemimpinan"
+            },
+            {
+              "id": "B",
+              "text": "Komunikasi yang jelas diperlukan namun tidak cukup untuk kepemimpinan yang efektif"
+            },
+            {
+              "id": "C",
+              "text": "Pemimpin tidak perlu berkomunikasi"
+            },
+            {
+              "id": "D",
+              "text": "Komunikasi dan kepemimpinan tidak berhubungan"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Pernyataan tersebut menetapkan komunikasi yang jelas sebagai ciri penting dari pemimpin yang efektif, namun hal itu tidak cukup jika hanya satu hal saja.",
+          "skills_tested": [
+            "statement evaluation",
+            "logical comprehension"
+          ]
+        },
+        {
+          "id": "VR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Pilih kata yang paling mirip dengan 'PRAGMATIS':",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Idealistis"
+            },
+            {
+              "id": "B",
+              "text": "Praktis"
+            },
+            {
+              "id": "C",
+              "text": "Emosional"
+            },
+            {
+              "id": "D",
+              "text": "Teoretis"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Pragmatis artinya menyikapi sesuatu secara masuk akal dan realistis, identik dengan praktis.",
+          "skills_tested": [
+            "synonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "MITIGATE menjadi BURUK sebagaimana CONSOLIDATE adalah:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Memperkuat"
+            },
+            {
+              "id": "B",
+              "text": "Fragmen"
+            },
+            {
+              "id": "C",
+              "text": "Menggabungkan"
+            },
+            {
+              "id": "D",
+              "text": "Mengurangi"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Mitigasi adalah kebalikan dari Memburuk; Konsolidasi (untuk menyatukan/memperkuat) adalah kebalikan dari Fragmen.",
+          "skills_tested": [
+            "analogy",
+            "antonym reasoning"
+          ]
+        },
+        {
+          "id": "VR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Baca: 'Meskipun otomatisasi meningkatkan efisiensi, ketergantungan yang berlebihan terhadap otomatisasi tanpa pengawasan yang tepat dapat menyebabkan kesalahan sistemik yang tidak disadari.' Apa peringatan utama dari bagian ini?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Otomatisasi tidak boleh digunakan"
+            },
+            {
+              "id": "B",
+              "text": "Pengawasan tidak diperlukan dalam otomatisasi"
+            },
+            {
+              "id": "C",
+              "text": "Otomatisasi tanpa pengawasan berisiko menyebabkan kesalahan yang tidak terdeteksi"
+            },
+            {
+              "id": "D",
+              "text": "Efisiensi tidak penting"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Bagian ini memperingatkan bahwa otomasi tanpa pengawasan berisiko menimbulkan 'kesalahan sistemis yang tidak disadari', dan bukan otomasi itu sendiri yang buruk.",
+          "skills_tested": [
+            "reading comprehension",
+            "critical reading"
+          ]
+        },
+        {
+          "id": "VR012",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Pilih kata yang paling BERLAWANAN dengan 'RINGKAS':",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Singkat"
+            },
+            {
+              "id": "B",
+              "text": "Bertele-tele"
+            },
+            {
+              "id": "C",
+              "text": "Jernih"
+            },
+            {
+              "id": "D",
+              "text": "Langsung"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Ringkas berarti mengungkapkan banyak hal dalam beberapa kata; kebalikannya adalah verbose (bertele-tele).",
+          "skills_tested": [
+            "antonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR013",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Pernyataan A: 'Kebijakan baru ini mengurangi omzet sebesar 15%.' Pernyataan B: 'Survei kepuasan karyawan tidak menunjukkan perubahan yang signifikan.' Jika keduanya benar, kesimpulan manakah yang paling masuk akal?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Kebijakan tersebut tidak memberikan dampak nyata"
+            },
+            {
+              "id": "B",
+              "text": "Berkurangnya turnover mungkin disebabkan oleh faktor lain selain kepuasan"
+            },
+            {
+              "id": "C",
+              "text": "Survei kepuasan karyawan tidak akurat"
+            },
+            {
+              "id": "D",
+              "text": "Kebijakan tersebut menimbulkan ketidakpuasan"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Karena tingkat turnover menurun namun kepuasan tetap sama, penurunan tersebut kemungkinan besar berasal dari faktor yang tidak berhubungan dengan kepuasan secara keseluruhan (misalnya, kondisi pasar).",
+          "skills_tested": [
+            "statement evaluation",
+            "inferential reasoning"
+          ]
+        },
+        {
+          "id": "VR014",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "AUDIT adalah untuk MEMVERIFIKASI sebagaimana NEGOSIASI adalah untuk:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Kompromi"
+            },
+            {
+              "id": "B",
+              "text": "Konflik"
+            },
+            {
+              "id": "C",
+              "text": "Mengabaikan"
+            },
+            {
+              "id": "D",
+              "text": "Menunda"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Tujuan audit adalah untuk memverifikasi; Tujuan negosiasi adalah untuk mencapai kompromi.",
+          "skills_tested": [
+            "analogy",
+            "functional relationship"
+          ]
+        },
+        {
+          "id": "VR015",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Baca: 'Merger ditunda bukan karena perselisihan finansial, namun karena persetujuan peraturan masih tertunda.' Mengapa merger ditunda?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Ketidaksepakatan keuangan antar pihak"
+            },
+            {
+              "id": "B",
+              "text": "Menunggu persetujuan peraturan"
+            },
+            {
+              "id": "C",
+              "text": "Baik masalah finansial maupun regulasi"
+            },
+            {
+              "id": "D",
+              "text": "Tidak ada pihak yang menginginkan merger"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Pasal ini secara eksplisit mengesampingkan perselisihan finansial dan mengaitkan penundaan tersebut dengan menunggu persetujuan peraturan.",
+          "skills_tested": [
+            "reading comprehension",
+            "detail identification"
+          ]
+        },
+        {
+          "id": "VR016",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Pilih kata yang paling mirip dengan 'SEWENANG' (dalam konteks pengambilan keputusan):",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Beralasan"
+            },
+            {
+              "id": "B",
+              "text": "Acak"
+            },
+            {
+              "id": "C",
+              "text": "Adil"
+            },
+            {
+              "id": "D",
+              "text": "Konsisten"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Sewenang-wenang artinya berdasarkan pilihan acak bukan alasan, sinonimnya acak.",
+          "skills_tested": [
+            "synonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR017",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Baca: 'Meskipun laporan tersebut menyoroti penurunan laba, dewan menyetujui rencana ekspansi, dengan alasan posisi pasar jangka panjang dibandingkan keuntungan jangka pendek.' Apa yang terungkap dari hal ini mengenai prioritas dewan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Profitabilitas langsung dibandingkan pertumbuhan"
+            },
+            {
+              "id": "B",
+              "text": "Posisi strategis jangka panjang dibandingkan kinerja keuangan jangka pendek"
+            },
+            {
+              "id": "C",
+              "text": "Mengabaikan semua data keuangan"
+            },
+            {
+              "id": "D",
+              "text": "Penolakan total terhadap ekspansi"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Bagian tersebut menyatakan bahwa dewan direksi memprioritaskan 'posisi pasar jangka panjang dibandingkan keuntungan jangka pendek,' meskipun keuntungan menurun.",
+          "skills_tested": [
+            "critical reading",
+            "inference"
+          ]
+        },
+        {
+          "id": "VR018",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Pilihlah pasangan yang mempunyai hubungan yang sama dengan: ANAK PERUSAHAAN : PERUSAHAAN INDUK",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Cabang : Kantor Pusat"
+            },
+            {
+              "id": "B",
+              "text": "Karyawan : Manajer"
+            },
+            {
+              "id": "C",
+              "text": "Pelanggan : Penjual"
+            },
+            {
+              "id": "D",
+              "text": "Produk : Pasar"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Anak perusahaan beroperasi di bawah dan melapor ke perusahaan induk, seperti halnya cabang beroperasi di bawah dan melapor ke kantor pusat.",
+          "skills_tested": [
+            "analogy",
+            "organizational relationship"
+          ]
+        },
+        {
+          "id": "VR019",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Pernyataan: 'Setiap perubahan kebijakan memerlukan tinjauan hukum, kecuali tindakan darurat yang disetujui langsung oleh CEO.' Perubahan kebijakan dilaksanakan tanpa tinjauan hukum. Apa yang bisa disimpulkan?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Ini jelas merupakan tindakan darurat"
+            },
+            {
+              "id": "B",
+              "text": "Bisa jadi itu merupakan tindakan darurat yang disetujui oleh CEO, atau aturan tersebut dilanggar"
+            },
+            {
+              "id": "C",
+              "text": "Aturan tersebut tidak berlaku untuk kasus ini"
+            },
+            {
+              "id": "D",
+              "text": "Tinjauan hukum bersifat opsional"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Dengan adanya klausul pengecualian, melewatkan tinjauan hukum hanya sah jika tindakan tersebut merupakan tindakan darurat yang disetujui oleh CEO; jika tidak, aturan tersebut dilanggar.",
+          "skills_tested": [
+            "statement analysis",
+            "conditional exception logic"
+          ]
+        },
+        {
+          "id": "VR020",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Baca: 'Para pengkritik berpendapat bahwa sistem KPI memberi imbalan pada keluaran jangka pendek dengan mengorbankan inovasi jangka panjang, karena karyawan diberi insentif untuk memprioritaskan hasil yang terukur dan segera.' Apa kekhawatiran utama para kritikus?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "KPI terlalu sulit untuk diukur"
+            },
+            {
+              "id": "B",
+              "text": "Sistem KPI menghambat inovasi jangka panjang dengan memberi insentif pada hasil jangka pendek"
+            },
+            {
+              "id": "C",
+              "text": "Karyawan tidak suka diukur"
+            },
+            {
+              "id": "D",
+              "text": "KPI tidak berpengaruh pada perilaku"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Bagian tersebut menyatakan bahwa para kritikus percaya bahwa sistem tersebut 'menghargai keluaran jangka pendek dengan mengorbankan inovasi jangka panjang.'",
+          "skills_tested": [
+            "critical reading",
+            "argument comprehension"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abstract/Figural Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "AR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Tentukan bangun yang melengkapi matriks 3x3 berikut polanya.",
+            "image_description": "Matriks bentuk 3x3. Baris 1: lingkaran kecil, lingkaran sedang, lingkaran besar. Baris 2: kotak kecil, kotak sedang, kotak besar. Baris 3: segitiga kecil, segitiga sedang, [hilang]. Polanya menunjukkan setiap baris menggunakan satu tipe bentuk yang ukurannya bertambah dari kiri ke kanan."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Sebuah segitiga besar"
+            },
+            {
+              "id": "B",
+              "text": "Sebuah lingkaran besar"
+            },
+            {
+              "id": "C",
+              "text": "Sebuah segitiga kecil"
+            },
+            {
+              "id": "D",
+              "text": "Sebuah persegi besar"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Mengikuti pola baris yang bertambah besar dengan tipe bentuk yang konsisten, gambar yang hilang adalah segitiga besar.",
+          "skills_tested": [
+            "matrix reasoning",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "AR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Gambar manakah yang meneruskan urutan tersebut?",
+            "image_description": "Urutan empat gambar yang menunjukkan titik hitam bergerak satu posisi searah jarum jam di sekitar sudut persegi dalam setiap langkah: kiri atas, kanan atas, kanan bawah, dan posisi yang diharapkan berikutnya."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Titik di kiri bawah"
+            },
+            {
+              "id": "B",
+              "text": "Titik di kiri atas"
+            },
+            {
+              "id": "C",
+              "text": "Titik di tengah"
+            },
+            {
+              "id": "D",
+              "text": "Titik di kanan atas"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Titik bergerak searah jarum jam di sekitar sudut persegi satu posisi per langkah; setelah kanan bawah, ia berpindah ke kiri bawah.",
+          "skills_tested": [
+            "figure sequence",
+            "spatial reasoning"
+          ]
+        },
+        {
+          "id": "AR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Tentukan bentuk yang secara logis melengkapi urutan transformasi.",
+            "image_description": "Tiga gambar yang menunjukkan segi enam semakin kehilangan salah satu sisinya setiap langkah, menjadi segi lima, lalu persegi. Gambar berikutnya dalam urutan wajib diisi."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Sebuah segitiga"
+            },
+            {
+              "id": "B",
+              "text": "Sebuah segi lima"
+            },
+            {
+              "id": "C",
+              "text": "Segi enam"
+            },
+            {
+              "id": "D",
+              "text": "Sebuah lingkaran"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Pola ini mengurangi jumlah sisi sebanyak satu setiap langkah: segi enam(6)→pentagon(5)→persegi(4)→segitiga(3).",
+          "skills_tested": [
+            "shape transformation",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "AR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Identifikasi gambar yang hilang dalam matriks.",
+            "image_description": "Matriks berukuran 3x3 yang setiap selnya berisi kombinasi bentuk (lingkaran, persegi, segitiga) dan bayangan (padat, bergaris, kosong). Baris dan kolom masing-masing berisi satu dari setiap bentuk dan satu dari setiap pola arsiran, mengikuti logika kotak Latin. Satu sel hilang."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Segitiga bergaris"
+            },
+            {
+              "id": "B",
+              "text": "Lingkaran padat"
+            },
+            {
+              "id": "C",
+              "text": "Kotak kosong"
+            },
+            {
+              "id": "D",
+              "text": "Segitiga padat"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Menggunakan logika Latin-square, setiap baris dan kolom harus berisi setiap bentuk dan bayangan tepat satu kali; sel yang hilang harus berupa segitiga bergaris untuk melengkapi polanya.",
+          "skills_tested": [
+            "matrix reasoning",
+            "logical deduction"
+          ]
+        },
+        {
+          "id": "AR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Simbol manakah yang melanjutkan pola tersebut?",
+            "image_description": "Urutan simbol: panah menunjuk ke atas, panah menunjuk ke kanan, panah menunjuk ke bawah, panah menunjuk ke kiri, panah menunjuk ke atas, panah menunjuk ke kanan, [?]. Panah berputar 90 derajat searah jarum jam setiap langkah."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Panah menunjuk ke bawah"
+            },
+            {
+              "id": "B",
+              "text": "Panah menunjuk ke atas"
+            },
+            {
+              "id": "C",
+              "text": "Panah menunjuk ke kiri"
+            },
+            {
+              "id": "D",
+              "text": "Panah menunjuk ke kanan"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Panah berputar 90° searah jarum jam setiap langkah; setelah 'kanan' putaran selanjutnya mengarah ke 'bawah'.",
+          "skills_tested": [
+            "symbol pattern",
+            "rotational reasoning"
+          ]
+        },
+        {
+          "id": "AR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "Pilih gambar yang bukan milik grup.",
+            "image_description": "Empat bangun datar: (1) persegi dengan dua garis diagonal membentuk X, (2) lingkaran dengan dua garis diagonal membentuk X, (3) segitiga dengan dua garis diagonal membentuk X, (4) persegi dengan hanya satu garis diagonal."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Gambar 1"
+            },
+            {
+              "id": "B",
+              "text": "Gambar 2"
+            },
+            {
+              "id": "C",
+              "text": "Gambar 3"
+            },
+            {
+              "id": "D",
+              "text": "Gambar 4"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Gambar 1-3 semuanya berisi dua garis diagonal yang membentuk X lengkap, sedangkan Gambar 4 hanya memiliki satu garis diagonal, sehingga mematahkan polanya.",
+          "skills_tested": [
+            "pattern recognition",
+            "categorical reasoning"
+          ]
+        },
+        {
+          "id": "AR007",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Tentukan gambar berikutnya dalam barisan transformasi yang melibatkan rotasi dan perubahan bayangan.",
+            "image_description": "Empat buah bangun persegi yang dibagi secara diagonal menjadi dua buah segitiga. Dalam setiap langkah, segitiga yang diarsir berputar 90° searah jarum jam DAN bayangannya bergantian antara hitam pekat dan bergaris. Gambar 1: segitiga atas berwarna hitam pekat. Gambar 2: segitiga siku-siku bergaris. Gambar 3: segitiga bawah berwarna hitam pekat. Gambar 4 (hilang): posisi dan bayangan yang diharapkan mengikuti pola ganda yang sama."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Segitiga kiri bergaris"
+            },
+            {
+              "id": "B",
+              "text": "Segitiga kiri berwarna hitam pekat"
+            },
+            {
+              "id": "C",
+              "text": "Segitiga atas bergaris"
+            },
+            {
+              "id": "D",
+              "text": "Segitiga siku-siku berwarna hitam pekat"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Bagian yang diarsir berputar 90° searah jarum jam setiap langkah (atas→kanan→bawah→kiri) sementara arsiran bergantian solid/bergaris setiap langkah (hitam→bergaris→hitam→bergaris), menghasilkan 'segitiga kiri bergaris'.",
+          "skills_tested": [
+            "shape transformation",
+            "dual-attribute pattern"
+          ]
+        },
+        {
+          "id": "AR008",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Identifikasi bagian yang hilang dalam matriks berdasarkan jumlah titik internal dan garis bentuk.",
+            "image_description": "Matriks berukuran 3x3 yang setiap bangunnya berbentuk bangun (lingkaran, persegi, atau segitiga) yang memuat banyak titik sama dengan nomor barisnya (baris 1=1 titik, baris 2=2 titik, baris 3=3 titik), dan setiap kolom mempunyai bentuk yang konsisten (kolom 1=lingkaran, kolom 2=persegi, kolom 3=segitiga). Sel kanan bawah tidak ada."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Segitiga dengan 3 titik"
+            },
+            {
+              "id": "B",
+              "text": "Segitiga dengan 2 titik"
+            },
+            {
+              "id": "C",
+              "text": "Kotak dengan 3 titik"
+            },
+            {
+              "id": "D",
+              "text": "Lingkaran dengan 3 titik"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Baris 3 memerlukan 3 titik dan kolom 3 memerlukan bentuk segitiga, sehingga gambar yang hilang adalah segitiga dengan 3 titik.",
+          "skills_tested": [
+            "matrix reasoning",
+            "multi-attribute pattern"
+          ]
+        },
+        {
+          "id": "AR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Gambar manakah yang secara logis melengkapi urutan yang menunjukkan rotasi progresif dan perubahan ukuran?",
+            "image_description": "Urutan anak panah, masing-masing diputar 45° searah jarum jam dari yang sebelumnya dan bertambah besar: panah kecil pada 0°, panah sedang pada 45°, panah besar pada 90°, dan panah ekstra besar yang hilang diperkirakan pada 135°."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Panah ekstra besar pada 135°"
+            },
+            {
+              "id": "B",
+              "text": "Panah ekstra besar pada 180°"
+            },
+            {
+              "id": "C",
+              "text": "Panah besar pada 135°"
+            },
+            {
+              "id": "D",
+              "text": "Panah ekstra besar pada 90°"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Pola ini menggabungkan rotasi 45° searah jarum jam yang konsisten dengan peningkatan ukuran yang konsisten; gambar berikutnya adalah panah ekstra besar yang diputar 135°.",
+          "skills_tested": [
+            "figure sequence",
+            "combined transformation"
+          ]
+        },
+        {
+          "id": "AR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Pilihlah gambar jawaban yang melengkapi analoginya: Gambar A ke Gambar B dan Gambar C ke ?",
+            "image_description": "Gambar A: kotak hitam solid besar. Gambar B: kotak berongga kecil (hanya garis luar), menunjukkan transformasi 'menyusut dan melubangi'. Gambar C: lingkaran hitam solid besar. Gambar D yang hilang harus mengikuti aturan transformasi yang sama yang diterapkan pada Gambar C."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Lingkaran berongga kecil"
+            },
+            {
+              "id": "B",
+              "text": "Lingkaran berongga besar"
+            },
+            {
+              "id": "C",
+              "text": "Lingkaran padat kecil"
+            },
+            {
+              "id": "D",
+              "text": "Segitiga padat besar"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Transformasi dari A ke B adalah 'perkecil ukurannya dan hilangkan isian (garis berongga)'; menerapkan hal yang sama pada Gambar C menghasilkan lingkaran berongga kecil.",
+          "skills_tested": [
+            "figural analogy",
+            "transformation reasoning"
+          ]
+        },
+        {
+          "id": "AR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Tentukan bangun mana yang ganjil berdasarkan banyaknya daerah tertutup (daerah yang seluruhnya dibatasi garis).",
+            "image_description": "Empat gambar yang terbuat dari garis dan bentuk yang tumpang tindih: Gambar 1 mempunyai 3 daerah tertutup, Gambar 2 mempunyai 3 daerah tertutup, Gambar 3 mempunyai 3 daerah tertutup, Gambar 4 mempunyai 4 daerah tertutup."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Gambar 1"
+            },
+            {
+              "id": "B",
+              "text": "Gambar 2"
+            },
+            {
+              "id": "C",
+              "text": "Gambar 3"
+            },
+            {
+              "id": "D",
+              "text": "Gambar 4"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Gambar 1-3 masing-masing berisi tepat 3 daerah tertutup, sedangkan Gambar 4 berisi 4 daerah, sehingga merupakan daerah ganjil.",
+          "skills_tested": [
+            "visual analysis",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "AR012",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Identifikasi bangun yang hilang dalam matriks 3x3 yang setiap bangunnya mengkodekan jumlah bentuk dan sudut rotasi mengikuti dua aturan independen.",
+            "image_description": "Matriks 3x3. Dari segi kolom, jumlah bentuk bertambah dari kiri ke kanan (1, 2, 3 bentuk per sel). Dari segi baris, semua bentuk dalam sel diputar dengan sudut yang sama dengan (nomor baris x 30°) dari orientasi defaultnya. Sel di baris 3, kolom 3 hilang, dan harus berisi 3 bentuk yang masing-masing diputar 90°."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "3 bentuk diputar 90°"
+            },
+            {
+              "id": "B",
+              "text": "3 bentuk diputar 60°"
+            },
+            {
+              "id": "C",
+              "text": "2 bentuk diputar 90°"
+            },
+            {
+              "id": "D",
+              "text": "3 bentuk diputar 30°"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Kolom 3 memerlukan 3 bentuk (sesuai aturan kolom), dan baris 3 memerlukan putaran 90° (3 x 30°), sehingga gambar yang hilang adalah 3 bentuk yang diputar 90°.",
+          "skills_tested": [
+            "matrix reasoning",
+            "dual-rule integration"
+          ]
+        },
+        {
+          "id": "AR013",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Tentukan gambar berikutnya dalam urutan yang diatur oleh dua aturan siklus yang tumpang tindih: rotasi bentuk (setiap 3 langkah) dan perputaran warna (setiap 2 langkah).",
+            "image_description": "Urutan 5 segi enam, masing-masing dengan panah di dalamnya menunjuk ke arah berputar (siklus 3: atas, kanan, bawah, berulang) dan diwarnai mengikuti siklus berulang 2 (merah, biru, berulang). Gambar 1: atas/merah. Gambar 2: kanan/biru. Gambar 3: bawah/merah. Gambar 4: atas/biru. Gambar 5: kanan/merah. Gambar 6 hilang."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Segi enam panah bawah/biru"
+            },
+            {
+              "id": "B",
+              "text": "Segi enam panah atas/merah"
+            },
+            {
+              "id": "C",
+              "text": "Segi enam panah bawah/merah"
+            },
+            {
+              "id": "D",
+              "text": "Segi enam panah kanan/biru"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Siklus arah setiap 3 langkah (atas, kanan, bawah...) jadi gambar 6 = bawah. Siklus warna setiap 2 langkah (merah, biru...) jadi gambar 6 = biru. Gabungan: bawah/biru.",
+          "skills_tested": [
+            "figure sequence",
+            "dual-cycle pattern recognition"
+          ]
+        },
+        {
+          "id": "AR014",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Pilih gambar yang melengkapi matriks, dimana setiap baris menerapkan aturan pencerminan yang konsisten dan setiap kolom menerapkan aturan inversi warna yang konsisten.",
+            "image_description": "Matriks gambar berbentuk panah berukuran 3x3. Setiap baris menunjukkan gambar yang dicerminkan secara horizontal secara progresif dari sel sebelumnya. Setiap kolom menampilkan gambar dengan isian hitam/putih bergantian. Sel kanan bawah tidak ada dan harus dicerminkan sesuai pola barisnya dan diwarnai dengan benar sesuai pola kolomnya."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Panah putih yang dicerminkan secara horizontal"
+            },
+            {
+              "id": "B",
+              "text": "Panah hitam yang dicerminkan secara horizontal"
+            },
+            {
+              "id": "C",
+              "text": "Panah putih yang tidak dicerminkan"
+            },
+            {
+              "id": "D",
+              "text": "Panah hitam tanpa cermin"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Menerapkan aturan pencerminan kumulatif baris dan aturan warna bergantian kolom bersama-sama menghasilkan panah yang dicerminkan secara horizontal dengan isian putih.",
+          "skills_tested": [
+            "matrix reasoning",
+            "combined transformation logic"
+          ]
+        },
+        {
+          "id": "AR015",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 95,
+          "content": {
+            "text": "Identifikasikan bangun yang mengikuti secara logis, mengingat barisan tersebut menggabungkan jumlah sisi yang bertambah dengan jumlah titik dalam yang berkurang.",
+            "image_description": "Urutan bentuk: segitiga dengan 4 titik, persegi dengan 3 titik, segi lima dengan 2 titik, segi enam dengan 1 titik, dan gambar akhir yang hilang. Jumlah sisi bertambah 1 setiap langkah (3,4,5,6,7) sedangkan jumlah titik berkurang 1 setiap langkah (4,3,2,1,0)."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Segi tujuh dengan 0 titik"
+            },
+            {
+              "id": "B",
+              "text": "Segi tujuh dengan 1 titik"
+            },
+            {
+              "id": "C",
+              "text": "Segi delapan dengan 0 titik"
+            },
+            {
+              "id": "D",
+              "text": "Segi enam dengan 0 titik"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Sisi bertambah 1 setiap langkah (berikutnya = 7 sisi = segi tujuh) sedangkan titik berkurang 1 setiap langkah (berikutnya = 0 titik).",
+          "skills_tested": [
+            "figure sequence",
+            "inverse dual-pattern reasoning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personality Assessment",
+      "category": "personality",
+      "duration_minutes": 40,
+      "questions": [
+        {
+          "id": "PA001",
+          "type": "personality",
+          "statement": "Saya biasanya memeriksa ulang pekerjaan saya hanya ketika tugas tersebut dirasa sangat penting.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA002",
+          "type": "personality",
+          "statement": "Ketika tenggat waktu tampak tidak realistis, saya diam-diam memperpanjangnya daripada membicarakan masalah ini dengan atasan saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA003",
+          "type": "personality",
+          "statement": "Saya cenderung menyelesaikan tugas-tugas mendesak terlebih dahulu dan membiarkan dokumen-dokumen rutin menumpuk untuk sementara waktu.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA004",
+          "type": "personality",
+          "statement": "Jika tidak ada yang memeriksa pekerjaan saya, perhatian saya terhadap detail tetap sama seperti saat saya diawasi.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA005",
+          "type": "personality",
+          "statement": "Saya terkadang mengirimkan pekerjaan dengan kesalahan kecil jika pesan keseluruhan masih jelas.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA006",
+          "type": "personality",
+          "statement": "Saya lebih suka memiliki rutinitas yang ketat daripada menyesuaikan jadwal saya hari demi hari.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA007",
+          "type": "personality",
+          "statement": "Ketika saya tidak setuju dengan prosedur perusahaan, saya tetap mengikutinya sambil menyampaikan kekhawatiran saya secara terpisah.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA008",
+          "type": "personality",
+          "statement": "Saya merasa sulit untuk tetap termotivasi pada tugas-tugas yang tidak memiliki tenggat waktu segera.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA009",
+          "type": "personality",
+          "statement": "Saya terus mengerjakan tugas sampai memenuhi standar pribadi saya, bahkan melewati titik yang dianggap 'cukup baik' oleh orang lain.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA010",
+          "type": "personality",
+          "statement": "Saya terkadang melakukan banyak tugas selama rapat jika saya merasa isinya tidak secara langsung menjadi perhatian saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA011",
+          "type": "personality",
+          "statement": "Saya lebih suka menyerahkan laporan yang solid tepat waktu daripada laporan yang sempurna terlambat satu hari.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA012",
+          "type": "personality",
+          "statement": "Saya melihat ada sedikit ketidakkonsistenan dalam dokumen yang diabaikan oleh kebanyakan orang.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA013",
+          "type": "personality",
+          "statement": "Jika seorang kolega berulang kali melewatkan detail-detail kecil, saya lebih suka mengulangi pekerjaan itu sendiri daripada menghadapinya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA014",
+          "type": "personality",
+          "statement": "Saya merencanakan minggu saya sebelumnya daripada memutuskan tugas hari demi hari.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA015",
+          "type": "personality",
+          "statement": "Ketika aturan bertentangan dengan hasil yang lebih cepat, saya cenderung mengikuti aturan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA016",
+          "type": "personality",
+          "statement": "Saya merasa tidak nyaman meninggalkan tugas yang belum terselesaikan di penghujung hari, meskipun tugas tersebut belum selesai dalam waktu dekat.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA017",
+          "type": "personality",
+          "statement": "Saya terkadang meremehkan berapa lama waktu yang dibutuhkan untuk suatu tugas, sehingga menyebabkan keterlambatan penyerahan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA018",
+          "type": "personality",
+          "statement": "Saya mencatat komitmen saya menggunakan perencana, aplikasi, atau daftar tertulis, bukan hanya memori.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA019",
+          "type": "personality",
+          "statement": "Jika suatu tugas bersifat berulang, kualitas pekerjaan saya secara bertahap menurun seiring berjalannya waktu.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA020",
+          "type": "personality",
+          "statement": "Saya lebih memilih meminta perpanjangan daripada menyerahkan pekerjaan yang belum selesai tepat waktu.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA021",
+          "type": "personality",
+          "statement": "Dalam diskusi kelompok, saya biasanya menunggu orang lain menyampaikan pendapatnya sebelum mengutarakan pendapat saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA022",
+          "type": "personality",
+          "statement": "Ketika rekan satu tim mendapat pujian atas pekerjaan bersama, saya menyampaikannya secara pribadi dan bukan di depan orang lain.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA023",
+          "type": "personality",
+          "statement": "Saya merasa sangat menguras tenaga untuk bekerja dalam tim yang keputusannya diambil berdasarkan konsensus, bukan oleh seorang pemimpin.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA024",
+          "type": "personality",
+          "statement": "Jika saya sangat tidak setuju dengan keputusan tim, saya tetap mendukungnya secara terbuka setelah keputusan tersebut diselesaikan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA025",
+          "type": "personality",
+          "statement": "Saya lebih suka membagi tugas dengan jelas sehingga setiap orang bekerja secara mandiri daripada berkolaborasi secara erat.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA026",
+          "type": "personality",
+          "statement": "Ketika seorang rekan kerja melakukan kesalahan yang memengaruhi pekerjaan saya, reaksi pertama saya adalah frustrasi sebelum memahami.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA027",
+          "type": "personality",
+          "statement": "Saya secara aktif meminta pendapat anggota tim yang lebih pendiam selama rapat.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA028",
+          "type": "personality",
+          "statement": "Saya merasa lebih mudah memberikan masukan secara tertulis daripada mengatakannya langsung di depan orang lain.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA029",
+          "type": "personality",
+          "statement": "Jika ada anggota tim yang berkinerja buruk, saya lebih suka membantu mereka memperbaikinya daripada segera melaporkannya kepada manajer.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA030",
+          "type": "personality",
+          "statement": "Saya terkadang menghindari obrolan grup atau diskusi yang tidak relevan secara langsung dengan tugas saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA031",
+          "type": "personality",
+          "statement": "Saya menyesuaikan gaya komunikasi saya tergantung dengan siapa saya berbicara di tim.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA032",
+          "type": "personality",
+          "statement": "Ketika konflik muncul dalam sebuah tim, saya lebih memilih untuk membiarkan segala sesuatunya diselesaikan secara alami daripada langsung mengatasinya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA033",
+          "type": "personality",
+          "statement": "Saya lebih suka berkompromi dengan preferensi saya sendiri daripada memperpanjang perselisihan dengan rekan kerja.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA034",
+          "type": "personality",
+          "statement": "Saya merasa tidak nyaman ketika rekan satu tim secara terbuka mengkritik suatu ide dalam kelompok.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA035",
+          "type": "personality",
+          "statement": "Saya cenderung mengambil tugas ekstra untuk membantu rekan satu tim, meskipun hal itu memengaruhi tenggat waktu saya sendiri.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA036",
+          "type": "personality",
+          "statement": "Saat menerima masukan dari rekan-rekan, awalnya saya merasa defensif sebelum mempertimbangkannya secara objektif.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA037",
+          "type": "personality",
+          "statement": "Saya lebih suka bekerja dengan tim kecil yang akrab daripada bergiliran antar kelompok proyek yang berbeda.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA038",
+          "type": "personality",
+          "statement": "Jika ada dua rekan satu tim yang berbeda pendapat, saya biasanya bersikap netral dibandingkan memihak.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA039",
+          "type": "personality",
+          "statement": "Saya merasa aktivitas membangun tim di luar jam kerja tidak diperlukan untuk kolaborasi yang baik.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA040",
+          "type": "personality",
+          "statement": "Saya secara terbuka mengakui ketika ide rekan kerja lebih baik dari ide saya, bahkan di depan orang lain.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA041",
+          "type": "personality",
+          "statement": "Ketika tidak ada seorang pun yang mengambil alih tugas kelompok, saya biasanya turun tangan untuk mengatur berbagai hal.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA042",
+          "type": "personality",
+          "statement": "Saya lebih suka diberi instruksi yang jelas daripada memiliki otonomi penuh dalam menyelesaikan suatu tugas.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA043",
+          "type": "personality",
+          "statement": "Jika saya mengambil keputusan yang ternyata salah, saya mengambil tanggung jawab daripada menjelaskan keadaannya terlebih dahulu.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA044",
+          "type": "personality",
+          "statement": "Saya merasa nyaman mengambil keputusan dengan informasi yang tidak lengkap jika diperlukan keputusan yang cepat.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA045",
+          "type": "personality",
+          "statement": "Saya lebih suka mendelegasikan tugas kepada rekan setim yang cakap daripada menyelesaikan semuanya sendiri.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA046",
+          "type": "personality",
+          "statement": "Ketika diberi peran kepemimpinan, naluri pertama saya adalah menetapkan ekspektasi sebelum mengambil tindakan apa pun.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA047",
+          "type": "personality",
+          "statement": "Saya terkadang ragu mengambil keputusan yang dapat berdampak negatif terhadap rekan kerja, bahkan ketika diperlukan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA048",
+          "type": "personality",
+          "statement": "Saya lebih suka mengikuti proses yang sudah ada daripada bereksperimen dengan pendekatan baru, meskipun pendekatan baru tersebut tampak menjanjikan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA049",
+          "type": "personality",
+          "statement": "Ketika suatu proyek keluar jalur, saya segera menyampaikan masalah tersebut daripada menunggu jadwal check-in.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA050",
+          "type": "personality",
+          "statement": "Saya merasa lebih mudah memberi instruksi daripada menerimanya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA051",
+          "type": "personality",
+          "statement": "Saya akan mengambil inisiatif terhadap ide baru bahkan tanpa persetujuan eksplisit, asalkan sejalan dengan tujuan tim.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA052",
+          "type": "personality",
+          "statement": "Ketika berada di bawah tekanan, saya lebih suka berkonsultasi dengan orang lain sebelum mengambil keputusan akhir.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA053",
+          "type": "personality",
+          "statement": "Saya nyaman menjadi orang yang menyampaikan berita sulit kepada tim.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA054",
+          "type": "personality",
+          "statement": "Saya terkadang menghindari menjadi sukarelawan untuk peran kepemimpinan karena tanggung jawab tambahan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA055",
+          "type": "personality",
+          "statement": "Jika manajer saya berhalangan, saya membuat keputusan atas nama mereka berdasarkan penilaian terbaik saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA056",
+          "type": "personality",
+          "statement": "Saya lebih suka memimpin dengan memberi contoh dibandingkan memberikan instruksi langsung.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA057",
+          "type": "personality",
+          "statement": "Ketika ide saya ditolak oleh tim, saya tetap mendorong agar ide tersebut dipertimbangkan kembali jika saya yakin ide tersebut benar.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA058",
+          "type": "personality",
+          "statement": "Saya mengambil kepemilikan atas hasil suatu proyek bahkan untuk bagian-bagian yang tidak saya tangani secara pribadi.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA059",
+          "type": "personality",
+          "statement": "Saya lebih suka membiarkan rekan kerja yang berpengalaman memimpin suatu tugas, meskipun saya secara resmi ditugaskan sebagai pemimpin.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA060",
+          "type": "personality",
+          "statement": "Saya secara proaktif mengidentifikasi masalah sebelum masalah tersebut ditunjukkan oleh supervisor.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA061",
+          "type": "personality",
+          "statement": "Ketika proses perusahaan berubah secara tiba-tiba, saya memerlukan waktu untuk menyesuaikan diri sebelum saya merasa nyaman dengan sistem baru.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA062",
+          "type": "personality",
+          "statement": "Saya merasa stres ketika ruang lingkup proyek berubah di tengah jalan, meskipun perubahan itu diperlukan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA063",
+          "type": "personality",
+          "statement": "Saya secara aktif mencari alat atau metode baru, meskipun pendekatan saya saat ini sudah berhasil.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA064",
+          "type": "personality",
+          "statement": "Ketika dihadapkan pada tugas yang asing, saya lebih suka menelitinya sendiri sebelum meminta bantuan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA065",
+          "type": "personality",
+          "statement": "Saya merasa lebih nyaman dalam peran pekerjaan yang stabil dibandingkan dengan tanggung jawab yang terus berubah.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA066",
+          "type": "personality",
+          "statement": "Ketika sebuah rencana gagal, saya beralih ke pendekatan alternatif dengan cukup cepat.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA067",
+          "type": "personality",
+          "statement": "Saya lebih suka bekerja di lingkungan yang terstruktur dengan prosedur yang jelas dibandingkan lingkungan yang fleksibel dengan sedikit pedoman.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA068",
+          "type": "personality",
+          "statement": "Saya merasa umpan balik negatif yang berulang sulit diterima, meskipun umpan balik tersebut akurat.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA069",
+          "type": "personality",
+          "statement": "Saya secara teratur memperbarui keterampilan saya melalui kursus atau belajar mandiri di luar persyaratan kerja.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA070",
+          "type": "personality",
+          "statement": "Ketika teknologi atau sistem di tempat kerja berubah, produktivitas saya turun beberapa saat sebelum pulih.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA071",
+          "type": "personality",
+          "statement": "Saya merasa tidak nyaman ketika diminta untuk sering berpindah tugas sepanjang hari.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA072",
+          "type": "personality",
+          "statement": "Ketika pendekatan awal saya terhadap suatu masalah tidak berhasil, saya mencoba metode yang benar-benar berbeda daripada melakukan sedikit penyesuaian.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA073",
+          "type": "personality",
+          "statement": "Saya lebih memilih pekerjaan dengan rutinitas yang dapat diprediksi daripada pekerjaan yang bervariasi dan tidak dapat diprediksi.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA074",
+          "type": "personality",
+          "statement": "Saya pulih dengan cepat dari kemunduran dan kembali fokus pada tugas yang ada.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA075",
+          "type": "personality",
+          "statement": "Saya merasa sulit menerima kritik dari seseorang yang kurang berpengalaman dari saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA076",
+          "type": "personality",
+          "statement": "Ketika seorang manajer baru bergabung dengan gaya kerja yang berbeda, saya menyesuaikan pendekatan saya dengan cukup mudah.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA077",
+          "type": "personality",
+          "statement": "Saya lebih suka tetap menggunakan solusi yang sudah dikenal daripada mencoba solusi yang belum teruji, meskipun solusi tersebut mungkin lebih efisien.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA078",
+          "type": "personality",
+          "statement": "Ketika prioritas pekerjaan berubah secara tak terduga, saya tetap tenang dan membuat rencana ulang sesuai dengan itu.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA079",
+          "type": "personality",
+          "statement": "Saya membutuhkan waktu lebih lama dibandingkan kebanyakan rekan kerja untuk merasa nyaman dengan perangkat lunak atau sistem baru.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA080",
+          "type": "personality",
+          "statement": "Saya melihat perubahan tak terduga di tempat kerja sebagai peluang, bukan gangguan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA081",
+          "type": "personality",
+          "statement": "Jika saya melihat rekan kerja sedikit melebih-lebihkan angka dalam laporan agar terlihat lebih baik, saya akan melaporkannya meskipun dampaknya tampak kecil.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA082",
+          "type": "personality",
+          "statement": "Saya lebih suka mengakui bahwa saya tidak mengetahui sesuatu daripada menebak-nebak dan mengambil risiko salah di depan tim saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA083",
+          "type": "personality",
+          "statement": "Jika tip atau hadiah kepada klien dapat memengaruhi keputusan bisnis, saya akan menolaknya, meskipun tampaknya tidak berbahaya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA084",
+          "type": "personality",
+          "statement": "Saya terkadang membulatkan data sedikit demi keuntungan saya ketika melaporkan hasil jika perbedaannya tampaknya dapat diabaikan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA085",
+          "type": "personality",
+          "statement": "Ketika saya melakukan kesalahan yang tidak diketahui orang lain, saya tetap mengungkapkannya kepada atasan saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA086",
+          "type": "personality",
+          "statement": "Saya akan mengikuti kebijakan perusahaan meskipun secara pribadi saya yakin kebijakan tersebut sudah ketinggalan zaman atau tidak diperlukan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA087",
+          "type": "personality",
+          "statement": "Jika diminta untuk melanggar peraturan demi tujuan baik oleh atasan, saya akan tetap mengemukakan kekhawatiran sebelum mematuhinya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA088",
+          "type": "personality",
+          "statement": "Saya merasa diperbolehkan menggunakan sumber daya perusahaan untuk tugas-tugas pribadi yang kecil sesekali.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA089",
+          "type": "personality",
+          "statement": "Saya akan melaporkan pelanggaran kebijakan yang dilakukan oleh rekan dekat, meskipun hal itu dapat merugikan persahabatan kami.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA090",
+          "type": "personality",
+          "statement": "Saat menerima penghargaan atas pencapaian tim, saya memastikan untuk secara jelas mengakui kontribusi orang lain.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA091",
+          "type": "personality",
+          "statement": "Saya percaya bahwa menyembunyikan informasi negatif kecil dari klien adalah hal yang dapat diterima jika hal itu tidak mempengaruhi hasilnya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA092",
+          "type": "personality",
+          "statement": "Jika saya tidak setuju dengan arahan dari manajemen, saya akan menyuarakan kekhawatiran saya melalui saluran yang tepat daripada mengabaikannya secara diam-diam.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA093",
+          "type": "personality",
+          "statement": "Saya menolak memalsukan absensi meskipun manajer menyatakan bahwa hal itu merupakan praktik umum.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA094",
+          "type": "personality",
+          "statement": "Saya terkadang mengatakan sebagian kebenaran untuk menghindari konflik, selama hal itu tidak menimbulkan kerugian yang nyata.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA095",
+          "type": "personality",
+          "statement": "Saya memegang standar etika yang sama, baik saya diawasi atau tidak.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA096",
+          "type": "personality",
+          "statement": "Jika saya menemukan kesalahan finansial yang menguntungkan saya, saya akan melaporkannya daripada diam saja.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA097",
+          "type": "personality",
+          "statement": "Saya yakin pengecualian kecil terhadap peraturan perusahaan dapat diterima jika hasilnya menguntungkan perusahaan.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA098",
+          "type": "personality",
+          "statement": "Saya akan menolak instruksi yang saya yakini tidak etis, meskipun instruksi tersebut berasal dari manajemen senior.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA099",
+          "type": "personality",
+          "statement": "Saya transparan tentang kesalahan saya meskipun hal itu dapat mempengaruhi pandangan orang lain terhadap kinerja saya.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA100",
+          "type": "personality",
+          "statement": "Menurut saya, menyajikan proyeksi yang terlalu optimistis untuk mendapatkan persetujuan atas proyek yang saya yakini adalah hal yang wajar.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        }
+      ]
+    }
+  ]
+}

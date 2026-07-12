@@ -663,6 +663,798 @@ export const figuralSvgs: Record<string, string> = {
     <text x="182.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Selasa</text>
     <text x="267.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Rabu</text>
     <text x="352.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Kamis</text>
+  </svg>`,
+
+  // AR001: 3x3 shapes & sizes matrix
+  AR001: `<svg viewBox="0 0 280 280" class="w-full max-w-[240px] h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Row 1: Circles -->
+    <g transform="translate(10, 10)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="8" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 10)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="14" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 10)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="22" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    
+    <!-- Row 2: Squares -->
+    <g transform="translate(10, 100)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="27.5" y="27.5" width="15" height="15" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 100)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="21" y="21" width="28" height="28" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 100)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="13" y="13" width="44" height="44" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+
+    <!-- Row 3: Triangles -->
+    <g transform="translate(10, 190)">
+      <rect width="70" height="70" rx="4" />
+      <polygon points="35,27.5 27.5,42.5 42.5,42.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 190)">
+      <rect width="70" height="70" rx="4" />
+      <polygon points="35,21 21,49 49,49" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 190)">
+      <rect width="70" height="70" rx="4" stroke-dasharray="4" />
+      <text x="35" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR002: Dot movement in square corners
+  AR002: `<svg viewBox="0 0 420 100" class="w-full max-w-lg h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1: Left top dot -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" stroke-dasharray="2" />
+      <circle cx="25" cy="25" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 2: Right top dot -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" stroke-dasharray="2" />
+      <circle cx="55" cy="25" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 3: Right bottom dot -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" stroke-dasharray="2" />
+      <circle cx="55" cy="55" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 4: ? -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR003: Hexagon losing sides
+  AR003: `<svg viewBox="0 0 420 100" class="w-full max-w-lg h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1: Hexagon -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,20 62,32 62,58 40,70 18,58 18,32" class="fill-zinc-100 dark:fill-zinc-900" />
+    </g>
+    <!-- Box 2: Pentagon -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,20 62,36 53,65 27,65 18,36" class="fill-zinc-100 dark:fill-zinc-900" />
+    </g>
+    <!-- Box 3: Square -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" class="fill-zinc-100 dark:fill-zinc-900" />
+    </g>
+    <!-- Box 4: ? -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR004: 3x3 Matrix Shapes and Shadings (Latin Square)
+  AR004: `<svg viewBox="0 0 280 280" class="w-full max-w-[240px] h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <defs>
+      <!-- Pattern for hatched lines -->
+      <pattern id="hatch-ar" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="10" stroke="#888" stroke-width="2" />
+      </pattern>
+    </defs>
+    <!-- Row 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="20" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 10)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="18" y="18" width="34" height="34" fill="url(#hatch-ar)" />
+    </g>
+    <g transform="translate(190, 10)">
+      <rect width="70" height="70" rx="4" />
+      <polygon points="35,18 18,52 52,52" />
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(10, 100)">
+      <rect width="70" height="70" rx="4" />
+      <polygon points="35,18 18,52 52,52" fill="url(#hatch-ar)" />
+    </g>
+    <g transform="translate(100, 100)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="20" />
+    </g>
+    <g transform="translate(190, 100)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="18" y="18" width="34" height="34" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(10, 190)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="18" y="18" width="34" height="34" />
+    </g>
+    <g transform="translate(100, 190)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="20" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 190)">
+      <rect width="70" height="70" rx="4" stroke-dasharray="4" />
+      <text x="35" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR005: Rotating arrows (Up, Right, Down, Left, Up, ?)
+  AR005: `<svg viewBox="0 0 620 100" class="w-full max-w-2xl h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <defs>
+      <g id="arrow-ar">
+        <line x1="40" y1="65" x2="40" y2="20" />
+        <polygon points="40,15 34,27 46,27" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </defs>
+    <!-- Up -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <use href="#arrow-ar" />
+    </g>
+    <!-- Right -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <use href="#arrow-ar" transform="rotate(90, 40, 40)" />
+    </g>
+    <!-- Down -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <use href="#arrow-ar" transform="rotate(180, 40, 40)" />
+    </g>
+    <!-- Left -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" />
+      <use href="#arrow-ar" transform="rotate(270, 40, 40)" />
+    </g>
+    <!-- Up -->
+    <g transform="translate(410, 10)">
+      <rect width="80" height="80" rx="4" />
+      <use href="#arrow-ar" />
+    </g>
+    <!-- Right -->
+    <g transform="translate(510, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR006: Find the odd shape
+  AR006: `<svg viewBox="0 0 420 100" class="w-full max-w-lg h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1: Square with X -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" />
+      <line x1="25" y1="25" x2="55" y2="55" />
+      <line x1="55" y1="25" x2="25" y2="55" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(1)</text>
+    </g>
+    <!-- Box 2: Circle with X -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <circle cx="40" cy="40" r="16" />
+      <line x1="28.7" y1="28.7" x2="51.3" y2="51.3" />
+      <line x1="51.3" y1="28.7" x2="28.7" y2="51.3" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(2)</text>
+    </g>
+    <!-- Box 3: Triangle with X -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,22 22,53 58,53" />
+      <line x1="40" y1="22" x2="40" y2="53" />
+      <line x1="22" y1="53" x2="49" y2="37.5" />
+      <line x1="58" y1="53" x2="31" y2="37.5" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(3)</text>
+    </g>
+    <!-- Box 4: Square with single diagonal -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" />
+      <line x1="25" y1="25" x2="55" y2="55" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(4)</text>
+    </g>
+  </svg>`,
+
+  // AR007: Diagonally split square, rotation + shading
+  AR007: `<svg viewBox="0 0 420 100" class="w-full max-w-lg h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <defs>
+      <pattern id="hatch-ar-7" width="6" height="6" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#888" stroke-width="1.5" />
+      </pattern>
+    </defs>
+    <!-- Box 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" />
+      <line x1="25" y1="25" x2="55" y2="55" />
+      <line x1="55" y1="25" x2="25" y2="55" />
+      <polygon points="25,25 55,25 40,40" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 2 -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" />
+      <line x1="25" y1="25" x2="55" y2="55" />
+      <line x1="55" y1="25" x2="25" y2="55" />
+      <polygon points="55,25 55,55 40,40" fill="url(#hatch-ar-7)" />
+    </g>
+    <!-- Box 3 -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" />
+      <line x1="25" y1="25" x2="55" y2="55" />
+      <line x1="55" y1="25" x2="25" y2="55" />
+      <polygon points="25,55 55,55 40,40" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 4: ? -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR008: 3x3 Matrix Shapes with internal dots
+  AR008: `<svg viewBox="0 0 280 280" class="w-full max-w-[240px] h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Row 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="16" />
+      <circle cx="35" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 10)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="18" y="18" width="34" height="34" />
+      <circle cx="35" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 10)">
+      <rect width="70" height="70" rx="4" />
+      <polygon points="35,16 16,50 54,50" />
+      <circle cx="35" cy="37" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(10, 100)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="16" />
+      <circle cx="28" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="42" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 100)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="18" y="18" width="34" height="34" />
+      <circle cx="28" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="42" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 100)">
+      <rect width="70" height="70" rx="4" />
+      <polygon points="35,16 16,50 54,50" />
+      <circle cx="28" cy="37" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="42" cy="37" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(10, 190)">
+      <rect width="70" height="70" rx="4" />
+      <circle cx="35" cy="35" r="16" />
+      <circle cx="26" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="35" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="44" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(100, 190)">
+      <rect width="70" height="70" rx="4" />
+      <rect x="18" y="18" width="34" height="34" />
+      <circle cx="26" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="35" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="44" cy="35" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <g transform="translate(190, 190)">
+      <rect width="70" height="70" rx="4" stroke-dasharray="4" />
+      <text x="35" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR009: Rotating and sizing arrows (45° steps)
+  AR009: `<svg viewBox="0 0 420 100" class="w-full max-w-lg h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1: Small arrow pointing UP -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <line x1="40" y1="55" x2="40" y2="30" stroke-width="1.5" />
+      <polygon points="40,25 36,34 44,34" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 2: Medium arrow pointing UP-RIGHT (45°) -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <g transform="rotate(45, 40, 40)">
+        <line x1="40" y1="60" x2="40" y2="25" stroke-width="2.5" />
+        <polygon points="40,18 34,29 46,29" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <!-- Box 3: Large arrow pointing RIGHT (90°) -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <g transform="rotate(90, 40, 40)">
+        <line x1="40" y1="65" x2="40" y2="20" stroke-width="4" />
+        <polygon points="40,12 32,25 48,25" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <!-- Box 4: ? -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR010: Figural analogy (A -> B | C -> ?)
+  AR010: `<svg viewBox="0 0 520 100" class="w-full max-w-xl h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1: Large Solid Square -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="22" y="22" width="36" height="36" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Arrow 1 -->
+    <g transform="translate(95, 10)">
+      <path d="M 5,40 L 20,40 M 15,35 L 20,40 L 15,45" stroke-width="2.5" />
+    </g>
+    <!-- Box 2: Small Hollow Square -->
+    <g transform="translate(125, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="31" y="31" width="18" height="18" />
+    </g>
+    <!-- Separator -->
+    <g transform="translate(212.5, 10)">
+      <line x1="0" y1="10" x2="0" y2="70" stroke-dasharray="3" class="stroke-zinc-300 dark:stroke-zinc-700" />
+    </g>
+    <!-- Box 3: Large Solid Circle -->
+    <g transform="translate(225, 10)">
+      <rect width="80" height="80" rx="4" />
+      <circle cx="40" cy="40" r="18" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Arrow 2 -->
+    <g transform="translate(310, 10)">
+      <path d="M 5,40 L 20,40 M 15,35 L 20,40 L 15,45" stroke-width="2.5" />
+    </g>
+    <!-- Box 4: ? -->
+    <g transform="translate(340, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR011: Find the odd region count
+  AR011: `<svg viewBox="0 0 420 100" class="w-full max-w-lg h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <circle cx="40" cy="40" r="22" />
+      <line x1="20" y1="30" x2="60" y2="30" />
+      <line x1="20" y1="50" x2="60" y2="50" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(1)</text>
+    </g>
+    <!-- Box 2 -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,16 16,58 64,58" />
+      <line x1="28" y1="37" x2="52" y2="37" />
+      <line x1="22" y1="48" x2="58" y2="48" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(2)</text>
+    </g>
+    <!-- Box 3 -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="20" y="26" width="40" height="28" />
+      <line x1="33.3" y1="26" x2="33.3" y2="54" />
+      <line x1="46.6" y1="26" x2="46.6" y2="54" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(3)</text>
+    </g>
+    <!-- Box 4 -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="22" y="22" width="36" height="36" />
+      <line x1="22" y1="40" x2="58" y2="40" />
+      <line x1="40" y1="22" x2="40" y2="58" />
+      <text x="40" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-500 font-bold" stroke="none">(4)</text>
+    </g>
+  </svg>`,
+
+  // AR012: 3x3 Matrix with count rules and rotational offsets
+  AR012: `<svg viewBox="0 0 280 280" class="w-full max-w-[240px] h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Row 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(30, 35, 35)">
+        <polygon points="35,18 24,46 46,46" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <g transform="translate(100, 10)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(30, 24, 35)">
+        <polygon points="24,22 15,44 33,44" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(30, 46, 35)">
+        <polygon points="46,22 37,44 55,44" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <g transform="translate(190, 10)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(30, 18, 35)">
+        <polygon points="18,24 11,42 25,42" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(30, 35, 35)">
+        <polygon points="35,24 28,42 42,42" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(30, 52, 35)">
+        <polygon points="52,24 45,42 59,42" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(10, 100)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(60, 35, 35)">
+        <polygon points="35,18 24,46 46,46" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <g transform="translate(100, 100)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(60, 24, 35)">
+        <polygon points="24,22 15,44 33,44" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(60, 46, 35)">
+        <polygon points="46,22 37,44 55,44" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <g transform="translate(190, 100)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(60, 18, 35)">
+        <polygon points="18,24 11,42 25,42" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(60, 35, 35)">
+        <polygon points="35,24 28,42 42,42" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(60, 52, 35)">
+        <polygon points="52,24 45,42 59,42" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(10, 190)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(90, 35, 35)">
+        <polygon points="35,18 24,46 46,46" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <g transform="translate(100, 190)">
+      <rect width="70" height="70" rx="4" />
+      <g transform="rotate(90, 24, 35)">
+        <polygon points="24,22 15,44 33,44" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(90, 46, 35)">
+        <polygon points="46,22 37,44 55,44" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </g>
+    <g transform="translate(190, 190)">
+      <rect width="70" height="70" rx="4" stroke-dasharray="4" />
+      <text x="35" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR013: 5 Hexagons sequence (arrow rotation + color cycle)
+  AR013: `<svg viewBox="0 0 500 100" class="w-full max-w-xl h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <defs>
+      <polygon id="hex-base" points="40,22 58,32 58,52 40,62 22,52 22,32" />
+      <g id="arrow-up-red">
+        <line x1="40" y1="52" x2="40" y2="32" class="stroke-red-500" stroke-width="2" />
+        <polygon points="40,28 36,36 44,36" class="fill-red-500 stroke-red-500" />
+      </g>
+      <g id="arrow-right-blue">
+        <line x1="28" y1="42" x2="48" y2="42" class="stroke-blue-500" stroke-width="2" />
+        <polygon points="54,42 46,38 46,46" class="fill-blue-500 stroke-blue-500" />
+      </g>
+      <g id="arrow-down-red">
+        <line x1="40" y1="32" x2="40" y2="52" class="stroke-red-500" stroke-width="2" />
+        <polygon points="40,56 36,48 44,48" class="fill-red-500 stroke-red-500" />
+      </g>
+      <g id="arrow-up-blue">
+        <line x1="40" y1="52" x2="40" y2="32" class="stroke-blue-500" stroke-width="2" />
+        <polygon points="40,28 36,36 44,36" class="fill-blue-500 stroke-blue-500" />
+      </g>
+      <g id="arrow-right-red">
+        <line x1="28" y1="42" x2="48" y2="42" class="stroke-red-500" stroke-width="2" />
+        <polygon points="54,42 46,38 46,46" class="fill-red-500 stroke-red-500" />
+      </g>
+    </defs>
+    <!-- Hex 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#hex-base" class="stroke-red-500" />
+      <use href="#arrow-up-red" />
+    </g>
+    <!-- Hex 2 -->
+    <g transform="translate(90, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#hex-base" class="stroke-blue-500" />
+      <use href="#arrow-right-blue" />
+    </g>
+    <!-- Hex 3 -->
+    <g transform="translate(170, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#hex-base" class="stroke-red-500" />
+      <use href="#arrow-down-red" />
+    </g>
+    <!-- Hex 4 -->
+    <g transform="translate(250, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#hex-base" class="stroke-blue-500" />
+      <use href="#arrow-up-blue" />
+    </g>
+    <!-- Hex 5 -->
+    <g transform="translate(330, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#hex-base" class="stroke-red-500" />
+      <use href="#arrow-right-red" />
+    </g>
+    <!-- Hex 6: ? -->
+    <g transform="translate(410, 10)">
+      <rect width="70" height="70" rx="4" stroke-dasharray="4" />
+      <text x="35" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR014: 3x3 Matrix with mirror and inversion rules
+  AR014: `<svg viewBox="0 0 280 280" class="w-full max-w-[240px] h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <defs>
+      <g id="arrow-asym">
+        <path d="M 22,48 L 48,22" />
+        <polygon points="48,22 36,25 45,34" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g id="arrow-asym-white">
+        <path d="M 22,48 L 48,22" />
+        <polygon points="48,22 36,25 45,34" fill="white" />
+      </g>
+      <g id="arrow-asym-ref">
+        <path d="M 48,48 L 22,22" />
+        <polygon points="22,22 34,25 25,34" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g id="arrow-asym-ref-white">
+        <path d="M 48,48 L 22,22" />
+        <polygon points="22,22 34,25 25,34" fill="white" />
+      </g>
+    </defs>
+    <!-- Row 1 -->
+    <g transform="translate(10, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym" />
+    </g>
+    <g transform="translate(100, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym-ref-white" />
+    </g>
+    <g transform="translate(190, 10)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym" />
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(10, 100)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym-white" />
+    </g>
+    <g transform="translate(100, 100)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym-ref" />
+    </g>
+    <g transform="translate(190, 100)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym-white" />
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(10, 190)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym" />
+    </g>
+    <g transform="translate(100, 190)">
+      <rect width="70" height="70" rx="4" />
+      <use href="#arrow-asym-ref-white" />
+    </g>
+    <g transform="translate(190, 190)">
+      <rect width="70" height="70" rx="4" stroke-dasharray="4" />
+      <text x="35" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // AR015: Shapes sequence with side counts and inner dots
+  AR015: `<svg viewBox="0 0 520 100" class="w-full max-w-xl h-auto stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+    <!-- Box 1: Triangle (3 sides) with 4 dots -->
+    <g transform="translate(10, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,20 20,60 60,60" />
+      <circle cx="34" cy="42" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="46" cy="42" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="40" cy="52" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="40" cy="33" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 2: Square (4 sides) with 3 dots -->
+    <g transform="translate(110, 10)">
+      <rect width="80" height="80" rx="4" />
+      <rect x="25" y="25" width="30" height="30" />
+      <circle cx="33" cy="40" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="47" cy="40" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="40" cy="47" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 3: Pentagon (5 sides) with 2 dots -->
+    <g transform="translate(210, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,22 62,38 54,63 26,63 18,38" />
+      <circle cx="34" cy="45" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="46" cy="45" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 4: Hexagon (6 sides) with 1 dot -->
+    <g transform="translate(310, 10)">
+      <rect width="80" height="80" rx="4" />
+      <polygon points="40,20 60,31 60,57 40,68 20,57 20,31" />
+      <circle cx="40" cy="44" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </g>
+    <!-- Box 5: ? -->
+    <g transform="translate(410, 10)">
+      <rect width="80" height="80" rx="4" stroke-dasharray="4" />
+      <text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" class="fill-zinc-600 dark:fill-zinc-400 font-bold" stroke="none">?</text>
+    </g>
+  </svg>`,
+
+  // NR006: Monthly Sales bar chart
+  NR006: `<svg viewBox="0 0 450 250" class="w-full max-w-md h-auto fill-none stroke-zinc-700 dark:stroke-zinc-400" stroke-width="2">
+    <!-- Grid Lines -->
+    <line x1="55" y1="50" x2="420" y2="50" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    <line x1="55" y1="100" x2="420" y2="100" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    <line x1="55" y1="150" x2="420" y2="150" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    
+    <!-- Y-Axis Labels -->
+    <text x="45" y="54" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">200</text>
+    <text x="45" y="104" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">130</text>
+    <text x="45" y="154" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">60</text>
+    <text x="45" y="204" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">0</text>
+
+    <!-- Bars -->
+    <!-- Jan: 120 -> Y = 200 - 120/200*150 = 110 -->
+    <rect x="75" y="110" width="45" height="90" rx="3" class="fill-zinc-100 dark:fill-zinc-900 stroke-zinc-400 dark:stroke-zinc-700" />
+    <text x="97.5" y="102" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-600 dark:fill-zinc-300 font-semibold" stroke="none">120</text>
+
+    <!-- Feb: 150 -> Y = 200 - 150/200*150 = 87.5 -->
+    <rect x="160" y="87.5" width="45" height="112.5" rx="3" class="fill-zinc-100 dark:fill-zinc-900 stroke-zinc-400 dark:stroke-zinc-700" />
+    <text x="182.5" y="79.5" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-600 dark:fill-zinc-300 font-semibold" stroke="none">150</text>
+
+    <!-- Mar: 135 -> Y = 200 - 135/200*150 = 98.75 -->
+    <rect x="245" y="98.75" width="45" height="101.25" rx="3" class="fill-zinc-100 dark:fill-zinc-900 stroke-zinc-400 dark:stroke-zinc-700" />
+    <text x="267.5" y="90.75" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-600 dark:fill-zinc-300 font-semibold" stroke="none">135</text>
+
+    <!-- Apr: 180 -> Y = 200 - 180/200*150 = 65 -->
+    <rect x="330" y="65" width="45" height="135" rx="3" class="fill-zinc-800 dark:fill-zinc-200 stroke-zinc-800 dark:stroke-zinc-200" />
+    <text x="352.5" y="57" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-800 dark:fill-zinc-100 font-bold" stroke="none">180</text>
+
+    <!-- Axes -->
+    <line x1="55" y1="200" x2="410" y2="200" stroke-width="2" class="stroke-zinc-400 dark:stroke-zinc-700" />
+    <line x1="55" y1="50" x2="55" y2="200" stroke-width="2" class="stroke-zinc-400 dark:stroke-zinc-700" />
+
+    <!-- X-Axis Labels -->
+    <text x="97.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Jan</text>
+    <text x="182.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Feb</text>
+    <text x="267.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Mar</text>
+    <text x="352.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Apr</text>
+  </svg>`,
+
+  // NR012: Quarterly Profits trend line chart
+  NR012: `<svg viewBox="0 0 450 250" class="w-full max-w-md h-auto fill-none stroke-zinc-700 dark:stroke-zinc-400" stroke-width="2">
+    <!-- Grid Lines -->
+    <line x1="55" y1="50" x2="420" y2="50" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    <line x1="55" y1="100" x2="420" y2="100" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    <line x1="55" y1="150" x2="420" y2="150" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    
+    <!-- Y-Axis Labels -->
+    <text x="45" y="54" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">100</text>
+    <text x="45" y="104" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">65</text>
+    <text x="45" y="154" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">30</text>
+    <text x="45" y="204" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">0</text>
+
+    <!-- Trend Line -->
+    <path d="M 97.5,125 L 182.5,102.5 L 267.5,113 L 352.5,80" class="stroke-indigo-500 dark:stroke-indigo-400" stroke-width="3" />
+
+    <!-- Data points -->
+    <circle cx="97.5" cy="125" r="4.5" class="fill-zinc-900 stroke-indigo-500 dark:fill-zinc-50 dark:stroke-indigo-400" stroke-width="2.5" />
+    <text x="97.5" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-600 dark:fill-zinc-400 font-semibold" stroke="none">50</text>
+
+    <circle cx="182.5" cy="102.5" r="4.5" class="fill-zinc-900 stroke-indigo-500 dark:fill-zinc-50 dark:stroke-indigo-400" stroke-width="2.5" />
+    <text x="182.5" y="92.5" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-600 dark:fill-zinc-400 font-semibold" stroke="none">65</text>
+
+    <circle cx="267.5" cy="113" r="4.5" class="fill-zinc-900 stroke-indigo-500 dark:fill-zinc-50 dark:stroke-indigo-400" stroke-width="2.5" />
+    <text x="267.5" y="103" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-600 dark:fill-zinc-400 font-semibold" stroke="none">58</text>
+
+    <circle cx="352.5" cy="80" r="4.5" class="fill-zinc-800 stroke-indigo-600 dark:fill-zinc-100 dark:stroke-indigo-300" stroke-width="2.5" />
+    <text x="352.5" y="70" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-800 dark:fill-zinc-100 font-bold" stroke="none">80</text>
+
+    <!-- Axes -->
+    <line x1="55" y1="200" x2="410" y2="200" stroke-width="2" class="stroke-zinc-400 dark:stroke-zinc-700" />
+    <line x1="55" y1="50" x2="55" y2="200" stroke-width="2" class="stroke-zinc-400 dark:stroke-zinc-700" />
+
+    <!-- X-Axis Labels -->
+    <text x="97.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Q1</text>
+    <text x="182.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Q2</text>
+    <text x="267.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Q3</text>
+    <text x="352.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">Q4</text>
+  </svg>`,
+
+  // NR020: Revenue Growth bar chart
+  NR020: `<svg viewBox="0 0 450 250" class="w-full max-w-md h-auto fill-none stroke-zinc-700 dark:stroke-zinc-400" stroke-width="2">
+    <!-- Grid Lines -->
+    <line x1="55" y1="50" x2="420" y2="50" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    <line x1="55" y1="100" x2="420" y2="100" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    <line x1="55" y1="150" x2="420" y2="150" stroke-dasharray="4" class="stroke-zinc-200 dark:stroke-zinc-800" stroke-width="1" />
+    
+    <!-- Y-Axis Labels -->
+    <text x="45" y="54" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">Rp2.0M</text>
+    <text x="45" y="104" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">Rp1.3M</text>
+    <text x="45" y="154" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">Rp0.7M</text>
+    <text x="45" y="204" text-anchor="end" font-family="sans-serif" font-size="11" class="fill-zinc-400 font-medium" stroke="none">Rp0.0</text>
+
+    <!-- Bars -->
+    <!-- 2022: 1.2M -> Y = 200 - 1.2/2.0*150 = 110 -->
+    <rect x="75" y="110" width="45" height="90" rx="3" class="fill-zinc-100 dark:fill-zinc-900 stroke-zinc-400 dark:stroke-zinc-700" />
+    <text x="97.5" y="102" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-600 dark:fill-zinc-300 font-semibold" stroke="none">Rp1.2M</text>
+
+    <!-- 2023: 1.44M -> Y = 200 - 1.44/2.0*150 = 92 -->
+    <rect x="160" y="92" width="45" height="108" rx="3" class="fill-zinc-100 dark:fill-zinc-900 stroke-zinc-400 dark:stroke-zinc-700" />
+    <text x="182.5" y="84" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-600 dark:fill-zinc-300 font-semibold" stroke="none">Rp1.44M</text>
+
+    <!-- 2024: 1.728M -> Y = 200 - 1.728/2.0*150 = 70.4 -->
+    <rect x="245" y="70.4" width="45" height="129.6" rx="3" class="fill-zinc-100 dark:fill-zinc-900 stroke-zinc-400 dark:stroke-zinc-700" />
+    <text x="267.5" y="62.4" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-zinc-600 dark:fill-zinc-300 font-semibold" stroke="none">Rp1.728M</text>
+
+    <!-- 2025: ? Projection -->
+    <rect x="330" y="44.5" width="45" height="155.5" rx="3" stroke-dasharray="3" class="stroke-indigo-500 dark:stroke-indigo-400" />
+    <text x="352.5" y="36.5" text-anchor="middle" font-family="sans-serif" font-size="10" class="fill-indigo-600 dark:fill-indigo-400 font-bold" stroke="none">?</text>
+
+    <!-- Axes -->
+    <line x1="55" y1="200" x2="410" y2="200" stroke-width="2" class="stroke-zinc-400 dark:stroke-zinc-700" />
+    <line x1="55" y1="50" x2="55" y2="200" stroke-width="2" class="stroke-zinc-400 dark:stroke-zinc-700" />
+
+    <!-- X-Axis Labels -->
+    <text x="97.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">2022</text>
+    <text x="182.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">2023</text>
+    <text x="267.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">2024</text>
+    <text x="352.5" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" class="fill-zinc-500 font-medium" stroke="none">2025</text>
   </svg>`
 };
 
@@ -1132,6 +1924,433 @@ export const figuralOptionSvgs: Record<string, string[]> = {
     `<svg viewBox="0 0 100 100" class="w-12 h-12 fill-none" stroke-width="2">
       <rect width="90" height="90" rx="4" class="stroke-zinc-200 dark:stroke-zinc-800" />
       <circle cx="50" cy="50" r="30" class="fill-red-500 stroke-red-600" />
+    </svg>`
+  ],
+  AR001: [
+    // Option A (Correct: large triangle)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,18 20,72 80,72" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option B (large circle)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="28" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (small triangle)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,40 40,58 60,58" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option D (large square)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="22" y="22" width="56" height="56" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR002: [
+    // Option A (Correct: kiri bawah)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" stroke-dasharray="2" />
+      <circle cx="30" cy="70" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option B (kiri atas)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" stroke-dasharray="2" />
+      <circle cx="30" cy="30" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (tengah)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" stroke-dasharray="2" />
+      <circle cx="50" cy="50" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option D (kanan atas)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" stroke-dasharray="2" />
+      <circle cx="70" cy="30" r="5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR003: [
+    // Option A (Correct: segitiga)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,25 25,68 75,68" class="fill-zinc-100 dark:fill-zinc-900" />
+    </svg>`,
+    // Option B (segi lima)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 75,40 65,70 35,70 25,40" class="fill-zinc-100 dark:fill-zinc-900" />
+    </svg>`,
+    // Option C (segi enam)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,20 75,34 75,64 50,78 25,64 25,34" class="fill-zinc-100 dark:fill-zinc-900" />
+    </svg>`,
+    // Option D (lingkaran)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="26" class="fill-zinc-100 dark:fill-zinc-900" />
+    </svg>`
+  ],
+  AR004: [
+    // Option A (Correct: segitiga bergaris)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 25,68 75,68" fill="url(#hatch-ar)" />
+    </svg>`,
+    // Option B (lingkaran padat)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="24" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (kotak kosong)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="26" y="26" width="48" height="48" />
+    </svg>`,
+    // Option D (segitiga padat)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 25,68 75,68" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR005: [
+    // Option A (Correct: panah bawah)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <use href="#arrow-ar" transform="rotate(180, 50, 50) translate(10, 10)" />
+    </svg>`,
+    // Option B (panah atas)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <use href="#arrow-ar" transform="translate(10, 10)" />
+    </svg>`,
+    // Option C (panah kiri)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <use href="#arrow-ar" transform="rotate(270, 50, 50) translate(10, 10)" />
+    </svg>`,
+    // Option D (panah kanan)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <use href="#arrow-ar" transform="rotate(90, 50, 50) translate(10, 10)" />
+    </svg>`
+  ],
+  AR006: [
+    // Option A (Gambar 1)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" />
+      <line x1="30" y1="30" x2="70" y2="70" />
+      <line x1="70" y1="30" x2="30" y2="70" />
+    </svg>`,
+    // Option B (Gambar 2)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="22" />
+      <line x1="34.4" y1="34.4" x2="65.6" y2="65.6" />
+      <line x1="65.6" y1="34.4" x2="34.4" y2="65.6" />
+    </svg>`,
+    // Option C (Gambar 3)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 25,68 75,68" />
+      <line x1="50" y1="22" x2="50" y2="68" />
+      <line x1="25" y1="68" x2="62.5" y2="45" />
+      <line x1="75" y1="68" x2="37.5" y2="45" />
+    </svg>`,
+    // Option D (Correct: Gambar 4)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" />
+      <line x1="30" y1="30" x2="70" y2="70" />
+    </svg>`
+  ],
+  AR007: [
+    // Option A (Correct: Segitiga kiri bergaris)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" />
+      <line x1="30" y1="30" x2="70" y2="70" />
+      <line x1="70" y1="30" x2="30" y2="70" />
+      <polygon points="30,30 30,70 50,50" fill="url(#hatch-ar-7)" />
+    </svg>`,
+    // Option B (Segitiga kiri hitam pekat)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" />
+      <line x1="30" y1="30" x2="70" y2="70" />
+      <line x1="70" y1="30" x2="30" y2="70" />
+      <polygon points="30,30 30,70 50,50" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (Segitiga atas bergaris)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" />
+      <line x1="30" y1="30" x2="70" y2="70" />
+      <line x1="70" y1="30" x2="30" y2="70" />
+      <polygon points="30,30 70,30 50,50" fill="url(#hatch-ar-7)" />
+    </svg>`,
+    // Option D (Segitiga kanan hitam pekat)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="30" width="40" height="40" />
+      <line x1="30" y1="30" x2="70" y2="70" />
+      <line x1="70" y1="30" x2="30" y2="70" />
+      <polygon points="70,30 70,70 50,50" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR008: [
+    // Option A (Correct: segitiga 3 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 25,68 75,68" />
+      <circle cx="41" cy="52" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="50" cy="52" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="59" cy="52" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option B (segitiga 2 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 25,68 75,68" />
+      <circle cx="45" cy="52" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="55" cy="52" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (kotak 3 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="26" y="26" width="48" height="48" />
+      <circle cx="41" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="50" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="59" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option D (lingkaran 3 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="24" />
+      <circle cx="41" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="50" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+      <circle cx="59" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR009: [
+    // Option A (Correct: ekstra besar 135°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(135, 50, 50)">
+        <line x1="50" y1="80" x2="50" y2="20" stroke-width="5" />
+        <polygon points="50,10 40,26 60,26" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`,
+    // Option B (ekstra besar 180°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(180, 50, 50)">
+        <line x1="50" y1="80" x2="50" y2="20" stroke-width="5" />
+        <polygon points="50,10 40,26 60,26" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`,
+    // Option C (besar 135°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(135, 50, 50)">
+        <line x1="50" y1="75" x2="50" y2="25" stroke-width="3" />
+        <polygon points="50,16 42,30 58,30" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`,
+    // Option D (ekstra besar 90°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(90, 50, 50)">
+        <line x1="50" y1="80" x2="50" y2="20" stroke-width="5" />
+        <polygon points="50,10 40,26 60,26" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`
+  ],
+  AR010: [
+    // Option A (Correct: lingkaran berongga kecil)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="14" />
+    </svg>`,
+    // Option B (lingkaran berongga besar)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="26" />
+    </svg>`,
+    // Option C (lingkaran padat kecil)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="14" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option D (segitiga padat besar)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 22,78 78,78" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR011: [
+    // Option A (Gambar 1)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <circle cx="50" cy="50" r="22" />
+      <line x1="30" y1="40" x2="70" y2="40" />
+      <line x1="30" y1="60" x2="70" y2="60" />
+    </svg>`,
+    // Option B (Gambar 2)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 25,68 75,68" />
+      <line x1="37" y1="45" x2="63" y2="45" />
+      <line x1="31" y1="56" x2="69" y2="56" />
+    </svg>`,
+    // Option C (Gambar 3)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="30" y="36" width="40" height="28" />
+      <line x1="43.3" y1="36" x2="43.3" y2="64" />
+      <line x1="56.6" y1="36" x2="56.6" y2="64" />
+    </svg>`,
+    // Option D (Correct: Gambar 4)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <rect x="28" y="28" width="44" height="44" />
+      <line x1="28" y1="50" x2="72" y2="50" />
+      <line x1="50" y1="28" x2="50" y2="72" />
+    </svg>`
+  ],
+  AR012: [
+    // Option A (Correct: 3 bentuk rot 90°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(90, 24, 50)">
+        <polygon points="24,35 15,62 33,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(90, 50, 50)">
+        <polygon points="50,35 41,62 59,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(90, 76, 50)">
+        <polygon points="76,35 67,62 85,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`,
+    // Option B (3 bentuk rot 60°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(60, 24, 50)">
+        <polygon points="24,35 15,62 33,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(60, 50, 50)">
+        <polygon points="50,35 41,62 59,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(60, 76, 50)">
+        <polygon points="76,35 67,62 85,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`,
+    // Option C (2 bentuk rot 90°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(90, 35, 50)">
+        <polygon points="35,35 26,62 44,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(90, 65, 50)">
+        <polygon points="65,35 56,62 74,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`,
+    // Option D (3 bentuk rot 30°)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <g transform="rotate(30, 24, 50)">
+        <polygon points="24,35 15,62 33,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(30, 50, 50)">
+        <polygon points="50,35 41,62 59,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+      <g transform="rotate(30, 76, 50)">
+        <polygon points="76,35 67,62 85,62" class="fill-zinc-800 dark:fill-zinc-200" />
+      </g>
+    </svg>`
+  ],
+  AR013: [
+    // Option A (Correct: panah bawah/biru)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,26 74,40 74,66 50,80 26,66 26,40" class="stroke-blue-500" />
+      <line x1="50" y1="36" x2="50" y2="64" class="stroke-blue-500" stroke-width="2" />
+      <polygon points="50,70 44,59 56,59" class="fill-blue-500 stroke-blue-500" />
+    </svg>`,
+    // Option B (panah atas/merah)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,26 74,40 74,66 50,80 26,66 26,40" class="stroke-red-500" />
+      <line x1="50" y1="64" x2="50" y2="36" class="stroke-red-500" stroke-width="2" />
+      <polygon points="50,30 44,41 56,41" class="fill-red-500 stroke-red-500" />
+    </svg>`,
+    // Option C (panah bawah/merah)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,26 74,40 74,66 50,80 26,66 26,40" class="stroke-red-500" />
+      <line x1="50" y1="36" x2="50" y2="64" class="stroke-red-500" stroke-width="2" />
+      <polygon points="50,70 44,59 56,59" class="fill-red-500 stroke-red-500" />
+    </svg>`,
+    // Option D (panah kanan/biru)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,26 74,40 74,66 50,80 26,66 26,40" class="stroke-blue-500" />
+      <line x1="36" y1="50" x2="64" y2="50" class="stroke-blue-500" stroke-width="2" />
+      <polygon points="70,50 59,44 59,56" class="fill-blue-500 stroke-blue-500" />
+    </svg>`
+  ],
+  AR014: [
+    // Option A (Correct: panah putih cermin)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <path d="M 62,62 L 38,38" />
+      <polygon points="38,38 50,41 41,50" fill="white" />
+    </svg>`,
+    // Option B (panah hitam cermin)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <path d="M 62,62 L 38,38" />
+      <polygon points="38,38 50,41 41,50" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (panah putih tidak cermin)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <path d="M 38,62 L 62,38" />
+      <polygon points="62,38 50,41 59,50" fill="white" />
+    </svg>`,
+    // Option D (panah hitam tidak cermin)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <path d="M 38,62 L 62,38" />
+      <polygon points="62,38 50,41 59,50" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`
+  ],
+  AR015: [
+    // Option A (Correct: segi tujuh 0 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,24 73,34 83,57 69,76 31,76 17,57 27,34" />
+    </svg>`,
+    // Option B (segi tujuh 1 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,24 73,34 83,57 69,76 31,76 17,57 27,34" />
+      <circle cx="50" cy="50" r="2.5" class="fill-zinc-800 dark:fill-zinc-200" />
+    </svg>`,
+    // Option C (segi delapan 0 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 70,30 78,50 70,70 50,78 30,70 22,50 30,30" />
+    </svg>`,
+    // Option D (segi enam 0 titik)
+    `<svg viewBox="0 0 100 100" class="w-12 h-12 stroke-zinc-700 fill-none dark:stroke-zinc-400" stroke-width="2">
+      <rect width="90" height="90" rx="4" x="5" y="5" />
+      <polygon points="50,22 72,35 72,65 50,78 28,65 28,35" />
     </svg>`
   ]
 };

@@ -1,0 +1,3990 @@
+{
+  "assessment": {
+    "name": "Corporate Psychometric Assessment Simulation",
+    "duration_minutes": 100
+  },
+  "sections": [
+    {
+      "name": "Logical Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "LR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "All employees in Department X attend the Monday briefing. Rina attends the Monday briefing. Therefore, Rina is an employee in Department X.\nIs this conclusion valid?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Valid"
+            },
+            {
+              "id": "B",
+              "text": "Invalid"
+            },
+            {
+              "id": "C",
+              "text": "Cannot be determined"
+            },
+            {
+              "id": "D",
+              "text": "Both valid and invalid"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "This is the logical fallacy of affirming the consequent; attending the briefing does not guarantee membership in Department X, as others may also attend.",
+          "skills_tested": [
+            "deductive reasoning",
+            "syllogism"
+          ]
+        },
+        {
+          "id": "LR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "Complete the sequence: Monday, Wednesday, Friday, Sunday, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Monday"
+            },
+            {
+              "id": "B",
+              "text": "Tuesday"
+            },
+            {
+              "id": "C",
+              "text": "Wednesday"
+            },
+            {
+              "id": "D",
+              "text": "Thursday"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The pattern skips one day each time (+2 days). Sunday +2 = Tuesday.",
+          "skills_tested": [
+            "logical sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "LR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "All managers must approve overtime requests. Budi is a manager. Some managers dislike paperwork. Which conclusion is certainly true?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Budi dislikes paperwork"
+            },
+            {
+              "id": "B",
+              "text": "Budi can approve overtime requests"
+            },
+            {
+              "id": "C",
+              "text": "Budi is disliked by staff"
+            },
+            {
+              "id": "D",
+              "text": "All managers dislike paperwork"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Only the first premise directly applies to Budi since he is confirmed to be a manager; the paperwork premise is a partial ('some') statement and cannot be applied to Budi specifically.",
+          "skills_tested": [
+            "syllogism",
+            "deductive reasoning"
+          ]
+        },
+        {
+          "id": "LR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "If a project is delayed, then the client is notified within 24 hours. The client was not notified within 24 hours. What can be concluded?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "The project was delayed"
+            },
+            {
+              "id": "B",
+              "text": "The project was not delayed"
+            },
+            {
+              "id": "C",
+              "text": "The client was unhappy"
+            },
+            {
+              "id": "D",
+              "text": "The project manager was fired"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "This is modus tollens: If P then Q; not Q; therefore not P. Since the client was not notified, the project was not delayed.",
+          "skills_tested": [
+            "conditional reasoning",
+            "deductive logic"
+          ]
+        },
+        {
+          "id": "LR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Find the next number in the pattern: 2, 6, 12, 20, 30, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "40"
+            },
+            {
+              "id": "B",
+              "text": "42"
+            },
+            {
+              "id": "C",
+              "text": "44"
+            },
+            {
+              "id": "D",
+              "text": "36"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Differences are 4,6,8,10,12 (increasing by 2). 30+12=42.",
+          "skills_tested": [
+            "logical sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "LR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Statement: 'Only candidates who pass the interview receive a job offer.' Andi received a job offer. What must be true?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Andi passed the interview"
+            },
+            {
+              "id": "B",
+              "text": "Andi is the best candidate"
+            },
+            {
+              "id": "C",
+              "text": "Andi has the most experience"
+            },
+            {
+              "id": "D",
+              "text": "Andi applied to multiple companies"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "'Only X receive Y' means Y implies X. Since Andi received an offer, he must have passed the interview.",
+          "skills_tested": [
+            "statement analysis",
+            "conditional reasoning"
+          ]
+        },
+        {
+          "id": "LR007",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Three employees, Vina, Wati, and Yoga, sit in a row. Vina is not at either end. Yoga is to the right of Vina. Who sits at the left end?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Vina"
+            },
+            {
+              "id": "B",
+              "text": "Wati"
+            },
+            {
+              "id": "C",
+              "text": "Yoga"
+            },
+            {
+              "id": "D",
+              "text": "Cannot be determined"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Vina must be in the middle since she is not at either end. Yoga is to her right, so Yoga is at the right end, leaving Wati at the left end.",
+          "skills_tested": [
+            "spatial-logical reasoning",
+            "deduction"
+          ]
+        },
+        {
+          "id": "LR008",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "'No interns are permitted to sign contracts.' Doni signed a contract. What can be concluded?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Doni is an intern"
+            },
+            {
+              "id": "B",
+              "text": "Doni is not an intern"
+            },
+            {
+              "id": "C",
+              "text": "Doni broke a rule"
+            },
+            {
+              "id": "D",
+              "text": "The contract is invalid"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Since no interns may sign contracts, and Doni signed one, Doni cannot be an intern (by contrapositive).",
+          "skills_tested": [
+            "statement analysis",
+            "deductive reasoning"
+          ]
+        },
+        {
+          "id": "LR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "All senior analysts have a certification. Some certified staff work in finance. No one in finance works past 6 PM. Which statement is definitely true?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "All senior analysts work in finance"
+            },
+            {
+              "id": "B",
+              "text": "Some senior analysts never work past 6 PM"
+            },
+            {
+              "id": "C",
+              "text": "All certified staff work in finance"
+            },
+            {
+              "id": "D",
+              "text": "None of the above can be concluded"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "The premises do not guarantee overlap between 'senior analysts' and the 'certified staff who work in finance' subgroup, since 'some' certified staff, not necessarily senior analysts, work in finance.",
+          "skills_tested": [
+            "syllogism",
+            "multi-premise reasoning"
+          ]
+        },
+        {
+          "id": "LR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "If sales increase, then production increases. If production increases, then hiring increases. Hiring did not increase. What is certainly true?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Sales increased"
+            },
+            {
+              "id": "B",
+              "text": "Sales did not increase"
+            },
+            {
+              "id": "C",
+              "text": "Production increased but sales did not"
+            },
+            {
+              "id": "D",
+              "text": "Hiring is unrelated to sales"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "By chain modus tollens: hiring did not increase → production did not increase → sales did not increase.",
+          "skills_tested": [
+            "conditional reasoning",
+            "chained logic"
+          ]
+        },
+        {
+          "id": "LR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Complete the sequence: 3, 7, 15, 31, 63, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "121"
+            },
+            {
+              "id": "B",
+              "text": "125"
+            },
+            {
+              "id": "C",
+              "text": "127"
+            },
+            {
+              "id": "D",
+              "text": "129"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Each term is previous term doubled plus 1: 63*2+1=127.",
+          "skills_tested": [
+            "logical sequence",
+            "numerical-logical pattern"
+          ]
+        },
+        {
+          "id": "LR012",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "In a company, everyone who works overtime gets paid extra. Some employees who get paid extra also receive a bonus. Rudi did not receive a bonus. Which statement is valid?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rudi did not work overtime"
+            },
+            {
+              "id": "B",
+              "text": "Rudi worked overtime but not enough to conclude he got paid extra"
+            },
+            {
+              "id": "C",
+              "text": "No conclusion can be drawn about whether Rudi worked overtime"
+            },
+            {
+              "id": "D",
+              "text": "Rudi is not eligible for bonuses ever"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Not receiving a bonus does not negate working overtime, since only 'some' who get extra pay receive bonuses; the categories are not fully linked.",
+          "skills_tested": [
+            "statement analysis",
+            "logical fallacy detection"
+          ]
+        },
+        {
+          "id": "LR013",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Five departments are ranked by efficiency: HR is more efficient than Finance but less efficient than Operations. IT is more efficient than Operations. Marketing is the least efficient. Which department is most efficient?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "HR"
+            },
+            {
+              "id": "B",
+              "text": "Finance"
+            },
+            {
+              "id": "C",
+              "text": "Operations"
+            },
+            {
+              "id": "D",
+              "text": "IT"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Ranking: IT > Operations > HR > Finance > Marketing, so IT is most efficient.",
+          "skills_tested": [
+            "ordering logic",
+            "deduction"
+          ]
+        },
+        {
+          "id": "LR014",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "'Whenever the server crashes, the IT team is notified automatically, unless it is a scheduled maintenance window.' The IT team was not notified. Which is a valid inference?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "The server definitely crashed"
+            },
+            {
+              "id": "B",
+              "text": "The server did not crash, or it crashed during a scheduled maintenance window"
+            },
+            {
+              "id": "C",
+              "text": "It was definitely a maintenance window"
+            },
+            {
+              "id": "D",
+              "text": "The notification system is broken"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The rule has an exception clause; not being notified is consistent with either no crash or a crash during maintenance.",
+          "skills_tested": [
+            "conditional reasoning with exceptions",
+            "statement analysis"
+          ]
+        },
+        {
+          "id": "LR015",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "A company approves loans only if the applicant has stable income AND a good credit score, OR if the applicant provides collateral. Rani was denied a loan and provided no collateral. What must be true?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rani has stable income but bad credit"
+            },
+            {
+              "id": "B",
+              "text": "Rani lacks stable income, a good credit score, or both"
+            },
+            {
+              "id": "C",
+              "text": "Rani has a good credit score"
+            },
+            {
+              "id": "D",
+              "text": "Rani has stable income"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Since she had no collateral, approval required both stable income and good credit; denial without collateral means at least one of those two conditions failed.",
+          "skills_tested": [
+            "complex conditional logic",
+            "boolean reasoning"
+          ]
+        },
+        {
+          "id": "LR016",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Find the odd one out based on logical relationship: Contract, Agreement, Signature, Negotiation, Handshake",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Contract"
+            },
+            {
+              "id": "B",
+              "text": "Agreement"
+            },
+            {
+              "id": "C",
+              "text": "Negotiation"
+            },
+            {
+              "id": "D",
+              "text": "Signature"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Contract, Agreement, Signature, and Handshake all represent the outcome/confirmation of a deal, while Negotiation is the process leading up to it.",
+          "skills_tested": [
+            "categorical reasoning",
+            "analytical thinking"
+          ]
+        },
+        {
+          "id": "LR017",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "If a report contains errors, it is rejected. If a report is rejected, the analyst must revise it within 48 hours. Ana's report was not revised within 48 hours. What can be concluded?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Ana's report contained errors"
+            },
+            {
+              "id": "B",
+              "text": "Ana's report was not rejected"
+            },
+            {
+              "id": "C",
+              "text": "Ana's report was rejected but she may not have revised it in time due to it not being rejected, OR it was never rejected"
+            },
+            {
+              "id": "D",
+              "text": "Ana's report definitely contained no errors"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "By modus tollens on the chain: not revised in 48h → not rejected (the only certain conclusion); we cannot confirm anything about errors directly since 'contains errors' merely implies rejection, not the reverse.",
+          "skills_tested": [
+            "chained conditional reasoning",
+            "deduction"
+          ]
+        },
+        {
+          "id": "LR018",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "In a team of 6, each person shakes hands with every other person exactly once, except two people who refuse to shake hands with each other. How many handshakes occur in total?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "14"
+            },
+            {
+              "id": "B",
+              "text": "15"
+            },
+            {
+              "id": "C",
+              "text": "13"
+            },
+            {
+              "id": "D",
+              "text": "12"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Total possible handshakes = 6C2 = 15. Subtract the one refused handshake = 14.",
+          "skills_tested": [
+            "combinatorial logic",
+            "problem solving"
+          ]
+        },
+        {
+          "id": "LR019",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "A statement is 'Either the budget is cut, or the project timeline is extended, but not both.' The project timeline was not extended. What must be true, assuming the original statement holds?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "The budget was cut"
+            },
+            {
+              "id": "B",
+              "text": "The budget was not cut"
+            },
+            {
+              "id": "C",
+              "text": "Both occurred"
+            },
+            {
+              "id": "D",
+              "text": "Neither occurred"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "This is an exclusive OR (XOR). If one side is false, the other must be true for the XOR to hold: since timeline was not extended, budget must have been cut.",
+          "skills_tested": [
+            "exclusive-or logic",
+            "conditional reasoning"
+          ]
+        },
+        {
+          "id": "LR020",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Four candidates (P, Q, R, S) are ranked 1st-4th in an assessment with no ties. P did not rank 1st or 4th. Q ranked immediately above R. S ranked 1st. What is R's rank?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "2nd"
+            },
+            {
+              "id": "B",
+              "text": "3rd"
+            },
+            {
+              "id": "C",
+              "text": "4th"
+            },
+            {
+              "id": "D",
+              "text": "Cannot be determined"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "S=1st. P is 2nd or 3rd. Q is immediately above R, so Q-R could be (2,3) or (3,4). If P=2nd, Q-R must be (3,4) meaning Q=3rd,R=4th. If P=3rd, Q-R needs two consecutive slots among remaining {2,4} which aren't consecutive, invalid. So P=2nd, Q=3rd, R=4th.",
+          "skills_tested": [
+            "ranking logic",
+            "multi-constraint deduction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Numerical Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "NR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "What comes next in the sequence: 4, 8, 12, 16, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "18"
+            },
+            {
+              "id": "B",
+              "text": "20"
+            },
+            {
+              "id": "C",
+              "text": "22"
+            },
+            {
+              "id": "D",
+              "text": "24"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The sequence increases by 4 each time: 16+4=20.",
+          "skills_tested": [
+            "number sequence"
+          ]
+        },
+        {
+          "id": "NR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 45,
+          "content": {
+            "text": "A product's price increased from Rp100,000 to Rp120,000. What is the percentage increase?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "10%"
+            },
+            {
+              "id": "B",
+              "text": "15%"
+            },
+            {
+              "id": "C",
+              "text": "20%"
+            },
+            {
+              "id": "D",
+              "text": "25%"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "(120,000-100,000)/100,000 * 100% = 20%.",
+          "skills_tested": [
+            "percentage calculation"
+          ]
+        },
+        {
+          "id": "NR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "A company's revenue ratio between Q1 and Q2 is 3:5. If Q1 revenue is Rp90 million, what is Q2 revenue?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp120 million"
+            },
+            {
+              "id": "B",
+              "text": "Rp150 million"
+            },
+            {
+              "id": "C",
+              "text": "Rp135 million"
+            },
+            {
+              "id": "D",
+              "text": "Rp160 million"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "90 million / 3 = 30 million per unit ratio; Q2 = 5 x 30 million = 150 million.",
+          "skills_tested": [
+            "ratio",
+            "proportional reasoning"
+          ]
+        },
+        {
+          "id": "NR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Next number: 5, 11, 23, 47, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "93"
+            },
+            {
+              "id": "B",
+              "text": "94"
+            },
+            {
+              "id": "C",
+              "text": "95"
+            },
+            {
+              "id": "D",
+              "text": "96"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Each term doubles the previous and adds 1: 47*2+1=95.",
+          "skills_tested": [
+            "number sequence"
+          ]
+        },
+        {
+          "id": "NR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "An employee's salary is Rp8,000,000 with a 12% deduction for tax and insurance. What is the take-home pay?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp6,960,000"
+            },
+            {
+              "id": "B",
+              "text": "Rp7,040,000"
+            },
+            {
+              "id": "C",
+              "text": "Rp7,200,000"
+            },
+            {
+              "id": "D",
+              "text": "Rp7,360,000"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "8,000,000 x 0.88 = 7,040,000.",
+          "skills_tested": [
+            "percentage",
+            "arithmetic logic"
+          ]
+        },
+        {
+          "id": "NR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "Monthly sales (units): Jan=120, Feb=150, Mar=135, Apr=180. What is the average monthly sales?",
+            "image_description": "Table data given as text since no chart image is required."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "146.25"
+            },
+            {
+              "id": "B",
+              "text": "150"
+            },
+            {
+              "id": "C",
+              "text": "148.5"
+            },
+            {
+              "id": "D",
+              "text": "145"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "(120+150+135+180)/4 = 585/4 = 146.25.",
+          "skills_tested": [
+            "data interpretation",
+            "arithmetic mean"
+          ]
+        },
+        {
+          "id": "NR007",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "If 15 workers complete a task in 8 days, how many days will 12 workers take to complete the same task, assuming equal work rate?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "9 days"
+            },
+            {
+              "id": "B",
+              "text": "10 days"
+            },
+            {
+              "id": "C",
+              "text": "11 days"
+            },
+            {
+              "id": "D",
+              "text": "12 days"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "15x8=120 worker-days. 120/12=10 days.",
+          "skills_tested": [
+            "work-rate problems",
+            "proportional reasoning"
+          ]
+        },
+        {
+          "id": "NR008",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "A company's expenses are split as: Salaries 45%, Operations 30%, Marketing 15%, Others 10%. If total expenses are Rp200,000,000, how much is spent on Marketing?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp20,000,000"
+            },
+            {
+              "id": "B",
+              "text": "Rp25,000,000"
+            },
+            {
+              "id": "C",
+              "text": "Rp30,000,000"
+            },
+            {
+              "id": "D",
+              "text": "Rp35,000,000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "15% of 200,000,000 = 30,000,000.",
+          "skills_tested": [
+            "percentage",
+            "data interpretation"
+          ]
+        },
+        {
+          "id": "NR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Next number: 2, 3, 5, 8, 13, 21, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "32"
+            },
+            {
+              "id": "B",
+              "text": "33"
+            },
+            {
+              "id": "C",
+              "text": "34"
+            },
+            {
+              "id": "D",
+              "text": "35"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Fibonacci-style sequence: each term = sum of two previous terms. 13+21=34.",
+          "skills_tested": [
+            "number sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "NR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "A shop sells an item at a 25% profit margin on cost. If the selling price is Rp250,000, what was the cost price?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp187,500"
+            },
+            {
+              "id": "B",
+              "text": "Rp195,000"
+            },
+            {
+              "id": "C",
+              "text": "Rp200,000"
+            },
+            {
+              "id": "D",
+              "text": "Rp210,000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Selling price = Cost x 1.25. Cost = 250,000/1.25 = 200,000.",
+          "skills_tested": [
+            "profit-margin calculation",
+            "algebraic reasoning"
+          ]
+        },
+        {
+          "id": "NR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Region A revenue grew 10% then declined 10% over two consecutive years, starting from Rp100 million. What is the final revenue?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp100 million"
+            },
+            {
+              "id": "B",
+              "text": "Rp99 million"
+            },
+            {
+              "id": "C",
+              "text": "Rp101 million"
+            },
+            {
+              "id": "D",
+              "text": "Rp98 million"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "100M x 1.10 = 110M; 110M x 0.90 = 99M. Growth and decline of same percentage do not cancel out due to base change.",
+          "skills_tested": [
+            "percentage change",
+            "sequential calculation"
+          ]
+        },
+        {
+          "id": "NR012",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Quarterly profits (in millions): Q1=50, Q2=65, Q3=58, Q4=80. What is the percentage growth from Q1 to Q4?",
+            "image_description": "Data presented as a table with four quarterly values."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "50%"
+            },
+            {
+              "id": "B",
+              "text": "55%"
+            },
+            {
+              "id": "C",
+              "text": "60%"
+            },
+            {
+              "id": "D",
+              "text": "65%"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "(80-50)/50 x 100% = 60%.",
+          "skills_tested": [
+            "table analysis",
+            "percentage growth"
+          ]
+        },
+        {
+          "id": "NR013",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "A machine produces 240 units in 6 hours. Another machine produces 300 units in 5 hours. If both work together, how many units are produced in 4 hours?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "400"
+            },
+            {
+              "id": "B",
+              "text": "410"
+            },
+            {
+              "id": "C",
+              "text": "420"
+            },
+            {
+              "id": "D",
+              "text": "430"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Machine 1 rate = 40 units/hr. Machine 2 rate = 60 units/hr. Combined = 100 units/hr x 4 hrs = 400.",
+          "skills_tested": [
+            "rate calculation",
+            "combined work problems"
+          ]
+        },
+        {
+          "id": "NR014",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "An investment of Rp50,000,000 earns 8% compound interest annually. What is the approximate value after 2 years?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp56,000,000"
+            },
+            {
+              "id": "B",
+              "text": "Rp58,320,000"
+            },
+            {
+              "id": "C",
+              "text": "Rp58,000,000"
+            },
+            {
+              "id": "D",
+              "text": "Rp60,000,000"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "50M x 1.08 x 1.08 = 58,320,000 (approx).",
+          "skills_tested": [
+            "compound interest",
+            "quantitative reasoning"
+          ]
+        },
+        {
+          "id": "NR015",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Department budget allocation: Ops 40%, HR 20%, Marketing 25%, R&D 15%. If HR's budget is Rp40,000,000, what is the total company budget?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp150,000,000"
+            },
+            {
+              "id": "B",
+              "text": "Rp180,000,000"
+            },
+            {
+              "id": "C",
+              "text": "Rp200,000,000"
+            },
+            {
+              "id": "D",
+              "text": "Rp220,000,000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "HR=20% of total = 40,000,000, so total = 40,000,000/0.20 = 200,000,000.",
+          "skills_tested": [
+            "percentage",
+            "reverse calculation"
+          ]
+        },
+        {
+          "id": "NR016",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Next number in the pattern: 1, 4, 9, 16, 25, ?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "30"
+            },
+            {
+              "id": "B",
+              "text": "32"
+            },
+            {
+              "id": "C",
+              "text": "36"
+            },
+            {
+              "id": "D",
+              "text": "49"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "These are perfect squares (1²,2²,3²...). Next is 6²=36.",
+          "skills_tested": [
+            "number sequence",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "NR017",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "A factory's defect rate is 2.5%. Out of 4,000 units produced, how many are expected to be defect-free?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "3,890"
+            },
+            {
+              "id": "B",
+              "text": "3,895"
+            },
+            {
+              "id": "C",
+              "text": "3,900"
+            },
+            {
+              "id": "D",
+              "text": "3,910"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "2.5% of 4000 = 100 defective. 4000-100=3900 defect-free.",
+          "skills_tested": [
+            "percentage",
+            "quality control calculation"
+          ]
+        },
+        {
+          "id": "NR018",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Two branches have sales growth rates of 12% and 18% per year respectively, both starting at Rp80 million. After 2 years, what is the approximate difference in their revenues?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp8.7 million"
+            },
+            {
+              "id": "B",
+              "text": "Rp9.4 million"
+            },
+            {
+              "id": "C",
+              "text": "Rp10.1 million"
+            },
+            {
+              "id": "D",
+              "text": "Rp11.3 million"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Branch1: 80x1.12²≈100.4M. Branch2: 80x1.18²≈111.4M. Difference≈9.4M (rounding may vary slightly by method, closest option is B).",
+          "skills_tested": [
+            "compound growth",
+            "comparative analysis"
+          ]
+        },
+        {
+          "id": "NR019",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "A project budget of Rp500,000,000 is split among 3 phases in ratio 2:3:5. Phase 2 spent 10% over its allocation. How much did Phase 2 actually spend?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp150,000,000"
+            },
+            {
+              "id": "B",
+              "text": "Rp160,000,000"
+            },
+            {
+              "id": "C",
+              "text": "Rp165,000,000"
+            },
+            {
+              "id": "D",
+              "text": "Rp170,000,000"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Phase 2 allocation = 3/10 x 500M = 150M. 10% over = 150M x 1.10 = 165M.",
+          "skills_tested": [
+            "ratio",
+            "percentage",
+            "multi-step calculation"
+          ]
+        },
+        {
+          "id": "NR020",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Company revenue table: 2022=Rp1.2B, 2023=Rp1.44B, 2024=Rp1.728B. If this growth rate continues, what is the projected 2025 revenue?",
+            "image_description": "A table showing three years of annual revenue figures with a consistent growth trend."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Rp1.95B"
+            },
+            {
+              "id": "B",
+              "text": "Rp2.07B"
+            },
+            {
+              "id": "C",
+              "text": "Rp2.10B"
+            },
+            {
+              "id": "D",
+              "text": "Rp2.17B"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Growth rate = 20% each year (1.44/1.2=1.2). 2025 = 1.728B x 1.2 = 2.0736B ≈ Rp2.07B.",
+          "skills_tested": [
+            "table analysis",
+            "growth rate extrapolation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verbal Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "VR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 40,
+          "content": {
+            "text": "Choose the word most similar in meaning to 'DILIGENT':",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Lazy"
+            },
+            {
+              "id": "B",
+              "text": "Hardworking"
+            },
+            {
+              "id": "C",
+              "text": "Careless"
+            },
+            {
+              "id": "D",
+              "text": "Slow"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Diligent means showing care and conscientiousness, synonymous with hardworking.",
+          "skills_tested": [
+            "synonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 40,
+          "content": {
+            "text": "PEN is to WRITER as SCALPEL is to:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Patient"
+            },
+            {
+              "id": "B",
+              "text": "Hospital"
+            },
+            {
+              "id": "C",
+              "text": "Surgeon"
+            },
+            {
+              "id": "D",
+              "text": "Knife"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "A pen is the primary tool of a writer, just as a scalpel is the primary tool of a surgeon.",
+          "skills_tested": [
+            "analogy",
+            "relationship reasoning"
+          ]
+        },
+        {
+          "id": "VR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Choose the word most OPPOSITE in meaning to 'TRANSPARENT' (in a business context):",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Clear"
+            },
+            {
+              "id": "B",
+              "text": "Honest"
+            },
+            {
+              "id": "C",
+              "text": "Concealed"
+            },
+            {
+              "id": "D",
+              "text": "Obvious"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "Transparent implies openness; its opposite is concealed or hidden.",
+          "skills_tested": [
+            "antonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "BUDGET is to EXPENSES as SCHEDULE is to:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Time"
+            },
+            {
+              "id": "B",
+              "text": "Tasks"
+            },
+            {
+              "id": "C",
+              "text": "Deadline"
+            },
+            {
+              "id": "D",
+              "text": "Meetings"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "A budget governs/allocates expenses, just as a schedule governs/allocates tasks.",
+          "skills_tested": [
+            "analogy"
+          ]
+        },
+        {
+          "id": "VR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Read: 'Despite the delay in shipment, the client renewed the contract because the quality of previous deliveries had been consistently high.' What is the main reason the client renewed the contract?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "The shipment was on time"
+            },
+            {
+              "id": "B",
+              "text": "Consistent quality of past deliveries"
+            },
+            {
+              "id": "C",
+              "text": "The price was lowered"
+            },
+            {
+              "id": "D",
+              "text": "The client had no other options"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The passage explicitly states the renewal was 'because the quality of previous deliveries had been consistently high,' despite the delay.",
+          "skills_tested": [
+            "reading comprehension",
+            "cause-effect analysis"
+          ]
+        },
+        {
+          "id": "VR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Choose the word that does NOT belong: Meticulous, Careless, Thorough, Precise",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Meticulous"
+            },
+            {
+              "id": "B",
+              "text": "Careless"
+            },
+            {
+              "id": "C",
+              "text": "Thorough"
+            },
+            {
+              "id": "D",
+              "text": "Precise"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Meticulous, Thorough, and Precise all relate to careful attention to detail; Careless is the opposite.",
+          "skills_tested": [
+            "categorical vocabulary",
+            "odd one out"
+          ]
+        },
+        {
+          "id": "VR007",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "AMBIGUOUS is to CLEAR as CHAOTIC is to:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Organized"
+            },
+            {
+              "id": "B",
+              "text": "Loud"
+            },
+            {
+              "id": "C",
+              "text": "Complex"
+            },
+            {
+              "id": "D",
+              "text": "Random"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Ambiguous is the opposite of Clear; similarly Chaotic is the opposite of Organized.",
+          "skills_tested": [
+            "analogy",
+            "antonym relationship"
+          ]
+        },
+        {
+          "id": "VR008",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Statement: 'All effective leaders communicate clearly, but not all who communicate clearly are effective leaders.' Which best reflects this statement?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Clear communication guarantees leadership success"
+            },
+            {
+              "id": "B",
+              "text": "Clear communication is necessary but not sufficient for effective leadership"
+            },
+            {
+              "id": "C",
+              "text": "Leaders never need to communicate"
+            },
+            {
+              "id": "D",
+              "text": "Communication and leadership are unrelated"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The statement establishes clear communication as a necessary trait of effective leaders without it being sufficient on its own.",
+          "skills_tested": [
+            "statement evaluation",
+            "logical comprehension"
+          ]
+        },
+        {
+          "id": "VR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Choose the word most similar to 'PRAGMATIC':",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Idealistic"
+            },
+            {
+              "id": "B",
+              "text": "Practical"
+            },
+            {
+              "id": "C",
+              "text": "Emotional"
+            },
+            {
+              "id": "D",
+              "text": "Theoretical"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Pragmatic means dealing with things sensibly and realistically, synonymous with practical.",
+          "skills_tested": [
+            "synonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "MITIGATE is to WORSEN as CONSOLIDATE is to:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Strengthen"
+            },
+            {
+              "id": "B",
+              "text": "Fragment"
+            },
+            {
+              "id": "C",
+              "text": "Combine"
+            },
+            {
+              "id": "D",
+              "text": "Reduce"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Mitigate is the opposite of Worsen; Consolidate (to unify/strengthen) is the opposite of Fragment.",
+          "skills_tested": [
+            "analogy",
+            "antonym reasoning"
+          ]
+        },
+        {
+          "id": "VR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Read: 'While automation increases efficiency, over-reliance on it without proper oversight can lead to unnoticed systemic errors.' What is the passage's main caution?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Automation should never be used"
+            },
+            {
+              "id": "B",
+              "text": "Oversight is unnecessary with automation"
+            },
+            {
+              "id": "C",
+              "text": "Unsupervised automation risks undetected errors"
+            },
+            {
+              "id": "D",
+              "text": "Efficiency is not important"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "The passage cautions that automation without oversight risks 'unnoticed systemic errors,' not that automation itself is bad.",
+          "skills_tested": [
+            "reading comprehension",
+            "critical reading"
+          ]
+        },
+        {
+          "id": "VR012",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Choose the word most OPPOSITE to 'CONCISE':",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Brief"
+            },
+            {
+              "id": "B",
+              "text": "Verbose"
+            },
+            {
+              "id": "C",
+              "text": "Clear"
+            },
+            {
+              "id": "D",
+              "text": "Direct"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Concise means expressing much in few words; its opposite is verbose (wordy).",
+          "skills_tested": [
+            "antonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR013",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Statement A: 'The new policy reduced turnover by 15%.' Statement B: 'Employee satisfaction surveys show no significant change.' If both are true, what is the most reasonable conclusion?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "The policy had no real effect"
+            },
+            {
+              "id": "B",
+              "text": "Reduced turnover may be due to factors other than satisfaction"
+            },
+            {
+              "id": "C",
+              "text": "Employee satisfaction surveys are inaccurate"
+            },
+            {
+              "id": "D",
+              "text": "The policy caused dissatisfaction"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Since turnover dropped but satisfaction stayed flat, the reduction likely stems from a factor unrelated to overall satisfaction (e.g., market conditions).",
+          "skills_tested": [
+            "statement evaluation",
+            "inferential reasoning"
+          ]
+        },
+        {
+          "id": "VR014",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "AUDIT is to VERIFY as NEGOTIATION is to:",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Compromise"
+            },
+            {
+              "id": "B",
+              "text": "Conflict"
+            },
+            {
+              "id": "C",
+              "text": "Ignore"
+            },
+            {
+              "id": "D",
+              "text": "Delay"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "An audit's purpose is to verify; a negotiation's purpose is to reach a compromise.",
+          "skills_tested": [
+            "analogy",
+            "functional relationship"
+          ]
+        },
+        {
+          "id": "VR015",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Read: 'The merger was postponed not due to financial disagreement, but because regulatory approval remained pending.' Why was the merger postponed?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Financial disagreement between parties"
+            },
+            {
+              "id": "B",
+              "text": "Pending regulatory approval"
+            },
+            {
+              "id": "C",
+              "text": "Both financial and regulatory issues"
+            },
+            {
+              "id": "D",
+              "text": "Neither party wanted the merger"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The passage explicitly rules out financial disagreement and attributes the delay to pending regulatory approval.",
+          "skills_tested": [
+            "reading comprehension",
+            "detail identification"
+          ]
+        },
+        {
+          "id": "VR016",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Choose the word most similar to 'ARBITRARY' (in a decision-making context):",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Reasoned"
+            },
+            {
+              "id": "B",
+              "text": "Random"
+            },
+            {
+              "id": "C",
+              "text": "Fair"
+            },
+            {
+              "id": "D",
+              "text": "Consistent"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Arbitrary means based on random choice rather than reason, synonymous with random.",
+          "skills_tested": [
+            "synonym",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "VR017",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Read: 'Although the report highlighted declining profits, the board approved the expansion plan, citing long-term market positioning over short-term returns.' What does this reveal about the board's priorities?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Immediate profitability over growth"
+            },
+            {
+              "id": "B",
+              "text": "Long-term strategic positioning over short-term financial performance"
+            },
+            {
+              "id": "C",
+              "text": "Ignoring all financial data"
+            },
+            {
+              "id": "D",
+              "text": "Complete rejection of the expansion"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The passage states the board prioritized 'long-term market positioning over short-term returns,' despite declining profits.",
+          "skills_tested": [
+            "critical reading",
+            "inference"
+          ]
+        },
+        {
+          "id": "VR018",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Choose the pair with the same relationship as: SUBSIDIARY : PARENT COMPANY",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Branch : Headquarters"
+            },
+            {
+              "id": "B",
+              "text": "Employee : Manager"
+            },
+            {
+              "id": "C",
+              "text": "Customer : Vendor"
+            },
+            {
+              "id": "D",
+              "text": "Product : Market"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "A subsidiary operates under and reports to a parent company, just as a branch operates under and reports to headquarters.",
+          "skills_tested": [
+            "analogy",
+            "organizational relationship"
+          ]
+        },
+        {
+          "id": "VR019",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Statement: 'Every policy change requires legal review, except emergency measures approved directly by the CEO.' A policy change was implemented without legal review. What can be inferred?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "It was definitely an emergency measure"
+            },
+            {
+              "id": "B",
+              "text": "It was either an emergency measure approved by the CEO, or the rule was violated"
+            },
+            {
+              "id": "C",
+              "text": "The rule does not apply to this case"
+            },
+            {
+              "id": "D",
+              "text": "Legal review is optional"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "Given the exception clause, skipping legal review is only valid if it was a CEO-approved emergency measure; otherwise, the rule was violated.",
+          "skills_tested": [
+            "statement analysis",
+            "conditional exception logic"
+          ]
+        },
+        {
+          "id": "VR020",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 80,
+          "content": {
+            "text": "Read: 'Critics argue that the KPI system rewards short-term output at the expense of long-term innovation, since employees are incentivized to prioritize measurable, immediate results.' What is the critics' main concern?",
+            "image_description": null
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "KPIs are too difficult to measure"
+            },
+            {
+              "id": "B",
+              "text": "The KPI system discourages long-term innovation by incentivizing short-term results"
+            },
+            {
+              "id": "C",
+              "text": "Employees dislike being measured"
+            },
+            {
+              "id": "D",
+              "text": "KPIs have no effect on behavior"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "The passage states critics believe the system 'rewards short-term output at the expense of long-term innovation.'",
+          "skills_tested": [
+            "critical reading",
+            "argument comprehension"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abstract/Figural Reasoning",
+      "category": "cognitive_ability",
+      "duration_minutes": 15,
+      "questions": [
+        {
+          "id": "AR001",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Identify the figure that completes the 3x3 matrix following the pattern.",
+            "image_description": "A 3x3 matrix of shapes. Row 1: small circle, medium circle, large circle. Row 2: small square, medium square, large square. Row 3: small triangle, medium triangle, [missing]. The pattern shows each row using one shape type increasing in size left to right."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "A large triangle"
+            },
+            {
+              "id": "B",
+              "text": "A large circle"
+            },
+            {
+              "id": "C",
+              "text": "A small triangle"
+            },
+            {
+              "id": "D",
+              "text": "A large square"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Following the row pattern of increasing size with a consistent shape type, the missing figure is a large triangle.",
+          "skills_tested": [
+            "matrix reasoning",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "AR002",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "estimated_time_seconds": 50,
+          "content": {
+            "text": "Which figure continues the sequence?",
+            "image_description": "A sequence of four figures showing a black dot moving one position clockwise around the corners of a square in each step: top-left, top-right, bottom-right, and the next expected position."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Dot at bottom-left"
+            },
+            {
+              "id": "B",
+              "text": "Dot at top-left"
+            },
+            {
+              "id": "C",
+              "text": "Dot at center"
+            },
+            {
+              "id": "D",
+              "text": "Dot at top-right"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "The dot moves clockwise around the square's corners one position per step; after bottom-right, it moves to bottom-left.",
+          "skills_tested": [
+            "figure sequence",
+            "spatial reasoning"
+          ]
+        },
+        {
+          "id": "AR003",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Determine the shape that logically completes the transformation sequence.",
+            "image_description": "Three figures showing a hexagon progressively losing one side each step, becoming a pentagon, then a square. The next figure in the sequence is required."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "A triangle"
+            },
+            {
+              "id": "B",
+              "text": "A pentagon"
+            },
+            {
+              "id": "C",
+              "text": "A hexagon"
+            },
+            {
+              "id": "D",
+              "text": "A circle"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "The pattern reduces the number of sides by one each step: hexagon(6)→pentagon(5)→square(4)→triangle(3).",
+          "skills_tested": [
+            "shape transformation",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "AR004",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Identify the missing figure in the matrix.",
+            "image_description": "A 3x3 matrix where each cell contains a combination of a shape (circle, square, triangle) and shading (solid, striped, empty). Rows and columns each contain one of each shape and one of each shading pattern, following a Latin-square logic. One cell is missing."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Striped triangle"
+            },
+            {
+              "id": "B",
+              "text": "Solid circle"
+            },
+            {
+              "id": "C",
+              "text": "Empty square"
+            },
+            {
+              "id": "D",
+              "text": "Solid triangle"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Using Latin-square logic, each row and column must contain each shape and shading exactly once; the missing cell must be a striped triangle to complete the pattern.",
+          "skills_tested": [
+            "matrix reasoning",
+            "logical deduction"
+          ]
+        },
+        {
+          "id": "AR005",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 60,
+          "content": {
+            "text": "Which symbol continues the pattern?",
+            "image_description": "A sequence of symbols: arrow pointing up, arrow pointing right, arrow pointing down, arrow pointing left, arrow pointing up, arrow pointing right, [?]. The arrows rotate 90 degrees clockwise each step."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Arrow pointing down"
+            },
+            {
+              "id": "B",
+              "text": "Arrow pointing up"
+            },
+            {
+              "id": "C",
+              "text": "Arrow pointing left"
+            },
+            {
+              "id": "D",
+              "text": "Arrow pointing right"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "The arrow rotates 90° clockwise each step; after 'right' the next rotation points 'down'.",
+          "skills_tested": [
+            "symbol pattern",
+            "rotational reasoning"
+          ]
+        },
+        {
+          "id": "AR006",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "estimated_time_seconds": 65,
+          "content": {
+            "text": "Select the figure that does not belong to the group.",
+            "image_description": "Four figures: (1) a square with two diagonal lines forming an X, (2) a circle with two diagonal lines forming an X, (3) a triangle with two diagonal lines forming an X, (4) a square with only one diagonal line."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Figure 1"
+            },
+            {
+              "id": "B",
+              "text": "Figure 2"
+            },
+            {
+              "id": "C",
+              "text": "Figure 3"
+            },
+            {
+              "id": "D",
+              "text": "Figure 4"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Figures 1-3 all contain two diagonal lines forming a complete X, while Figure 4 has only one diagonal line, breaking the pattern.",
+          "skills_tested": [
+            "pattern recognition",
+            "categorical reasoning"
+          ]
+        },
+        {
+          "id": "AR007",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Determine the next figure in the transformation sequence involving both rotation and shading change.",
+            "image_description": "Four figures of a square divided diagonally into two triangles. In each step, the shaded triangle rotates 90° clockwise AND the shading alternates between solid black and striped. Figure 1: top triangle solid black. Figure 2: right triangle striped. Figure 3: bottom triangle solid black. Figure 4 (missing): expected position and shading following the same dual pattern."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Left triangle striped"
+            },
+            {
+              "id": "B",
+              "text": "Left triangle solid black"
+            },
+            {
+              "id": "C",
+              "text": "Top triangle striped"
+            },
+            {
+              "id": "D",
+              "text": "Right triangle solid black"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "The shaded section rotates 90° clockwise each step (top→right→bottom→left) while shading alternates solid/striped each step (black→striped→black→striped), giving 'left triangle striped'.",
+          "skills_tested": [
+            "shape transformation",
+            "dual-attribute pattern"
+          ]
+        },
+        {
+          "id": "AR008",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Identify the missing piece in the matrix based on the number of internal dots and shape outline.",
+            "image_description": "A 3x3 matrix where each figure is a shape (circle, square, or triangle) containing a number of dots equal to its row number (row 1=1 dot, row 2=2 dots, row 3=3 dots), and each column has a consistent shape (col 1=circle, col 2=square, col 3=triangle). The bottom-right cell is missing."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "A triangle with 3 dots"
+            },
+            {
+              "id": "B",
+              "text": "A triangle with 2 dots"
+            },
+            {
+              "id": "C",
+              "text": "A square with 3 dots"
+            },
+            {
+              "id": "D",
+              "text": "A circle with 3 dots"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Row 3 requires 3 dots and column 3 requires a triangle shape, so the missing figure is a triangle with 3 dots.",
+          "skills_tested": [
+            "matrix reasoning",
+            "multi-attribute pattern"
+          ]
+        },
+        {
+          "id": "AR009",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 70,
+          "content": {
+            "text": "Which figure logically completes the sequence showing progressive rotation and size change?",
+            "image_description": "A sequence of arrows, each rotated 45° clockwise from the previous one and increasing in size: small arrow at 0°, medium arrow at 45°, large arrow at 90°, and a missing extra-large arrow expected at 135°."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Extra-large arrow at 135°"
+            },
+            {
+              "id": "B",
+              "text": "Extra-large arrow at 180°"
+            },
+            {
+              "id": "C",
+              "text": "Large arrow at 135°"
+            },
+            {
+              "id": "D",
+              "text": "Extra-large arrow at 90°"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "The pattern combines a consistent 45° clockwise rotation with a consistent size increase; the next figure should be an extra-large arrow rotated to 135°.",
+          "skills_tested": [
+            "figure sequence",
+            "combined transformation"
+          ]
+        },
+        {
+          "id": "AR010",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Select the answer figure that completes the analogy: Figure A is to Figure B as Figure C is to ?",
+            "image_description": "Figure A: a large solid black square. Figure B: a small hollow (outline only) square, showing the transformation 'shrink and hollow out'. Figure C: a large solid black circle. The missing figure D should follow the same transformation rule applied to Figure C."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "A small hollow circle"
+            },
+            {
+              "id": "B",
+              "text": "A large hollow circle"
+            },
+            {
+              "id": "C",
+              "text": "A small solid circle"
+            },
+            {
+              "id": "D",
+              "text": "A large solid triangle"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "The transformation from A to B is 'shrink in size and remove fill (hollow outline)'; applying the same to Figure C produces a small hollow circle.",
+          "skills_tested": [
+            "figural analogy",
+            "transformation reasoning"
+          ]
+        },
+        {
+          "id": "AR011",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "estimated_time_seconds": 75,
+          "content": {
+            "text": "Determine which figure is the odd one out based on the number of enclosed regions (areas fully bounded by lines).",
+            "image_description": "Four figures made of overlapping lines and shapes: Figure 1 has 3 enclosed regions, Figure 2 has 3 enclosed regions, Figure 3 has 3 enclosed regions, Figure 4 has 4 enclosed regions."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Figure 1"
+            },
+            {
+              "id": "B",
+              "text": "Figure 2"
+            },
+            {
+              "id": "C",
+              "text": "Figure 3"
+            },
+            {
+              "id": "D",
+              "text": "Figure 4"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "Figures 1-3 each contain exactly 3 enclosed regions, while Figure 4 contains 4, making it the odd one out.",
+          "skills_tested": [
+            "visual analysis",
+            "pattern recognition"
+          ]
+        },
+        {
+          "id": "AR012",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Identify the missing figure in a 3x3 matrix where each figure encodes both a shape count and a rotation angle following two independent rules.",
+            "image_description": "A 3x3 matrix. Column-wise, the number of shapes increases left to right (1, 2, 3 shapes per cell). Row-wise, all shapes in a cell are rotated by an angle equal to (row number x 30°) from their default orientation. The cell at row 3, column 3 is missing, and should contain 3 shapes each rotated 90°."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "3 shapes rotated 90°"
+            },
+            {
+              "id": "B",
+              "text": "3 shapes rotated 60°"
+            },
+            {
+              "id": "C",
+              "text": "2 shapes rotated 90°"
+            },
+            {
+              "id": "D",
+              "text": "3 shapes rotated 30°"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Column 3 requires 3 shapes (per the column rule), and row 3 requires a 90° rotation (3 x 30°), so the missing figure is 3 shapes rotated 90°.",
+          "skills_tested": [
+            "matrix reasoning",
+            "dual-rule integration"
+          ]
+        },
+        {
+          "id": "AR013",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Determine the next figure in a sequence governed by two overlapping cyclical rules: shape rotation (every 3 steps) and color cycling (every 2 steps).",
+            "image_description": "A sequence of 5 hexagons, each with an arrow inside pointing in a rotating direction (cycle of 3: up, right, down, repeating) and colored following a repeating cycle of 2 (red, blue, repeating). Figure 1: up/red. Figure 2: right/blue. Figure 3: down/red. Figure 4: up/blue. Figure 5: right/red. Figure 6 is missing."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Down/blue arrow hexagon"
+            },
+            {
+              "id": "B",
+              "text": "Up/red arrow hexagon"
+            },
+            {
+              "id": "C",
+              "text": "Down/red arrow hexagon"
+            },
+            {
+              "id": "D",
+              "text": "Right/blue arrow hexagon"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Direction cycles every 3 steps (up, right, down...) so figure 6 = down. Color cycles every 2 steps (red, blue...) so figure 6 = blue. Combined: down/blue.",
+          "skills_tested": [
+            "figure sequence",
+            "dual-cycle pattern recognition"
+          ]
+        },
+        {
+          "id": "AR014",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 90,
+          "content": {
+            "text": "Select the figure that completes the matrix, where each row applies a consistent mirroring rule and each column applies a consistent color-inversion rule.",
+            "image_description": "A 3x3 matrix of arrow-shaped figures. Each row shows figures progressively mirrored horizontally from the previous cell. Each column shows figures with alternating black/white fill. The bottom-right cell is missing and must be both mirrored per its row's pattern and correctly colored per its column's pattern."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "A horizontally mirrored white arrow"
+            },
+            {
+              "id": "B",
+              "text": "A horizontally mirrored black arrow"
+            },
+            {
+              "id": "C",
+              "text": "A non-mirrored white arrow"
+            },
+            {
+              "id": "D",
+              "text": "A non-mirrored black arrow"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Applying the row's cumulative mirroring rule and the column's alternating color rule together yields a horizontally mirrored arrow with white fill.",
+          "skills_tested": [
+            "matrix reasoning",
+            "combined transformation logic"
+          ]
+        },
+        {
+          "id": "AR015",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "estimated_time_seconds": 95,
+          "content": {
+            "text": "Identify the figure that logically follows, given the sequence combines an increasing number of sides with a decreasing number of internal dots.",
+            "image_description": "A sequence of shapes: triangle with 4 dots, square with 3 dots, pentagon with 2 dots, hexagon with 1 dot, and a missing final figure. Number of sides increases by 1 each step (3,4,5,6,7) while dot count decreases by 1 each step (4,3,2,1,0)."
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "A heptagon with 0 dots"
+            },
+            {
+              "id": "B",
+              "text": "A heptagon with 1 dot"
+            },
+            {
+              "id": "C",
+              "text": "An octagon with 0 dots"
+            },
+            {
+              "id": "D",
+              "text": "A hexagon with 0 dots"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "Sides increase by 1 each step (next = 7 sides = heptagon) while dots decrease by 1 each step (next = 0 dots).",
+          "skills_tested": [
+            "figure sequence",
+            "inverse dual-pattern reasoning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personality Assessment",
+      "category": "personality",
+      "duration_minutes": 40,
+      "questions": [
+        {
+          "id": "PA001",
+          "type": "personality",
+          "statement": "I usually double-check my work only when the task feels particularly important.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA002",
+          "type": "personality",
+          "statement": "When a deadline seems unrealistic, I quietly extend it rather than raise the issue with my supervisor.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA003",
+          "type": "personality",
+          "statement": "I tend to finish urgent tasks first and let routine paperwork accumulate for a while.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA004",
+          "type": "personality",
+          "statement": "If no one is checking my work, my attention to detail stays about the same as when I'm being monitored.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA005",
+          "type": "personality",
+          "statement": "I sometimes submit work with minor errors if the overall message is still clear.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA006",
+          "type": "personality",
+          "statement": "I prefer having a strict routine over adapting my schedule day by day.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA007",
+          "type": "personality",
+          "statement": "When I disagree with a company procedure, I still follow it while raising my concerns separately.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA008",
+          "type": "personality",
+          "statement": "I find it hard to stay motivated on tasks that don't have an immediate deadline.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA009",
+          "type": "personality",
+          "statement": "I keep working on a task until it meets my personal standard, even past the point others would consider 'good enough'.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA010",
+          "type": "personality",
+          "statement": "I sometimes multitask during meetings if I feel the content doesn't directly concern me.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA011",
+          "type": "personality",
+          "statement": "I would rather submit a solid report on time than a perfect report a day late.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA012",
+          "type": "personality",
+          "statement": "I notice small inconsistencies in documents that most people would overlook.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA013",
+          "type": "personality",
+          "statement": "If a colleague repeatedly misses small details, I would rather redo the work myself than confront them.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA014",
+          "type": "personality",
+          "statement": "I plan my week in advance rather than deciding tasks day by day.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA015",
+          "type": "personality",
+          "statement": "When rules conflict with getting results faster, I lean toward following the rules.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA016",
+          "type": "personality",
+          "statement": "I feel uncomfortable leaving a task unfinished at the end of the day, even if it's not due soon.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA017",
+          "type": "personality",
+          "statement": "I sometimes underestimate how long a task will take, leading to late submissions.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA018",
+          "type": "personality",
+          "statement": "I keep track of my commitments using a planner, app, or written list rather than memory alone.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA019",
+          "type": "personality",
+          "statement": "If a task is repetitive, my quality of work gradually decreases over time.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA020",
+          "type": "personality",
+          "statement": "I would rather ask for an extension than submit incomplete work on time.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Work Discipline",
+          "behavior_dimension": "Work Discipline"
+        },
+        {
+          "id": "PA021",
+          "type": "personality",
+          "statement": "In group discussions, I usually wait for others to share their opinions before stating mine.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA022",
+          "type": "personality",
+          "statement": "When a teammate takes credit for shared work, I address it privately rather than in front of others.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA023",
+          "type": "personality",
+          "statement": "I find it draining to work in a team where decisions are made by consensus rather than a single leader.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA024",
+          "type": "personality",
+          "statement": "If I strongly disagree with a team decision, I still support it publicly once it's finalized.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA025",
+          "type": "personality",
+          "statement": "I prefer dividing tasks clearly so each person works independently rather than collaborating closely throughout.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA026",
+          "type": "personality",
+          "statement": "When a colleague makes a mistake that affects my work, my first reaction is frustration before understanding.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA027",
+          "type": "personality",
+          "statement": "I actively ask quieter team members for their opinions during meetings.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA028",
+          "type": "personality",
+          "statement": "I find it easier to give feedback in writing than to say it directly to someone's face.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA029",
+          "type": "personality",
+          "statement": "If a team member is underperforming, I would rather help them improve than report it immediately to a manager.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA030",
+          "type": "personality",
+          "statement": "I sometimes avoid group chats or discussions that aren't directly relevant to my tasks.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA031",
+          "type": "personality",
+          "statement": "I adjust my communication style depending on who I'm speaking with in the team.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA032",
+          "type": "personality",
+          "statement": "When conflicts arise in a team, I prefer to let things settle naturally rather than address them right away.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA033",
+          "type": "personality",
+          "statement": "I would rather compromise on my own preference than prolong a disagreement with a colleague.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA034",
+          "type": "personality",
+          "statement": "I find it uncomfortable when a teammate openly criticizes an idea in a group setting.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA035",
+          "type": "personality",
+          "statement": "I tend to take on extra tasks to help teammates, even if it affects my own deadlines.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA036",
+          "type": "personality",
+          "statement": "When receiving feedback from peers, I initially feel defensive before considering it objectively.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA037",
+          "type": "personality",
+          "statement": "I prefer working with a small, familiar team over rotating between different project groups.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA038",
+          "type": "personality",
+          "statement": "If two teammates disagree, I usually stay neutral rather than take a side.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA039",
+          "type": "personality",
+          "statement": "I find team-building activities outside of work hours unnecessary for good collaboration.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA040",
+          "type": "personality",
+          "statement": "I openly acknowledge when a colleague's idea is better than mine, even in front of others.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Teamwork",
+          "behavior_dimension": "Teamwork"
+        },
+        {
+          "id": "PA041",
+          "type": "personality",
+          "statement": "When no one takes charge in a group task, I usually step in to organize things.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA042",
+          "type": "personality",
+          "statement": "I prefer being given clear instructions over having full autonomy on how to complete a task.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA043",
+          "type": "personality",
+          "statement": "If I make a decision that turns out wrong, I take responsibility rather than explain the circumstances first.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA044",
+          "type": "personality",
+          "statement": "I feel comfortable making decisions with incomplete information if a quick decision is needed.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA045",
+          "type": "personality",
+          "statement": "I would rather delegate a task to a capable teammate than complete everything myself.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA046",
+          "type": "personality",
+          "statement": "When given a leadership role, my first instinct is to set expectations before taking any action.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA047",
+          "type": "personality",
+          "statement": "I sometimes hesitate to make decisions that could negatively affect a colleague, even when necessary.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA048",
+          "type": "personality",
+          "statement": "I prefer following an established process over experimenting with a new approach, even if the new approach seems promising.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA049",
+          "type": "personality",
+          "statement": "When a project is going off track, I raise the issue immediately rather than wait for a scheduled check-in.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA050",
+          "type": "personality",
+          "statement": "I find it easier to give instructions than to receive them.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA051",
+          "type": "personality",
+          "statement": "I would take initiative on a new idea even without explicit approval, as long as it aligns with team goals.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA052",
+          "type": "personality",
+          "statement": "When under pressure, I prefer to consult others before making a final decision.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA053",
+          "type": "personality",
+          "statement": "I am comfortable being the one who delivers difficult news to a team.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA054",
+          "type": "personality",
+          "statement": "I sometimes avoid volunteering for leadership roles because of the added responsibility.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA055",
+          "type": "personality",
+          "statement": "If my manager is unavailable, I make decisions on their behalf based on my best judgment.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA056",
+          "type": "personality",
+          "statement": "I prefer to lead by setting an example rather than by giving direct instructions.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA057",
+          "type": "personality",
+          "statement": "When my idea is rejected by the team, I still push to have it reconsidered if I believe it's correct.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA058",
+          "type": "personality",
+          "statement": "I take ownership of a project's outcome even for parts I didn't personally handle.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA059",
+          "type": "personality",
+          "statement": "I would rather let an experienced colleague lead a task, even if I was formally assigned as lead.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA060",
+          "type": "personality",
+          "statement": "I proactively identify problems before they are pointed out by a supervisor.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Leadership Potential",
+          "behavior_dimension": "Leadership Potential"
+        },
+        {
+          "id": "PA061",
+          "type": "personality",
+          "statement": "When company processes change suddenly, I need time to adjust before I feel comfortable with the new system.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA062",
+          "type": "personality",
+          "statement": "I find it stressful when a project's scope changes midway, even if the change is necessary.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA063",
+          "type": "personality",
+          "statement": "I actively seek out new tools or methods, even if my current approach already works.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA064",
+          "type": "personality",
+          "statement": "When faced with an unfamiliar task, I prefer researching it myself before asking for help.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA065",
+          "type": "personality",
+          "statement": "I feel more comfortable in a stable job role than in one with constantly shifting responsibilities.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA066",
+          "type": "personality",
+          "statement": "When a plan fails, I move to an alternative approach fairly quickly.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA067",
+          "type": "personality",
+          "statement": "I prefer working in a structured environment with clear procedures over a flexible one with few guidelines.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA068",
+          "type": "personality",
+          "statement": "I find repetitive negative feedback difficult to accept, even when the feedback is accurate.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA069",
+          "type": "personality",
+          "statement": "I regularly update my skills through courses or self-study outside of work requirements.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA070",
+          "type": "personality",
+          "statement": "When technology or systems at work change, my productivity drops for a while before recovering.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA071",
+          "type": "personality",
+          "statement": "I get uncomfortable when asked to switch tasks frequently throughout the day.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA072",
+          "type": "personality",
+          "statement": "When my initial approach to a problem doesn't work, I try a completely different method rather than adjusting slightly.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA073",
+          "type": "personality",
+          "statement": "I prefer a job with predictable routines over one with variety and unpredictability.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA074",
+          "type": "personality",
+          "statement": "I recover quickly from setbacks and refocus on the task at hand.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA075",
+          "type": "personality",
+          "statement": "I find it hard to accept criticism from someone less experienced than me.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA076",
+          "type": "personality",
+          "statement": "When a new manager joins with a different working style, I adjust my approach fairly easily.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA077",
+          "type": "personality",
+          "statement": "I would rather stick with a familiar solution than try an untested one, even if it might be more efficient.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA078",
+          "type": "personality",
+          "statement": "When work priorities shift unexpectedly, I remain calm and re-plan accordingly.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA079",
+          "type": "personality",
+          "statement": "I take longer than most colleagues to become comfortable with new software or systems.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA080",
+          "type": "personality",
+          "statement": "I see unexpected changes at work as an opportunity rather than a disruption.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Adaptability",
+          "behavior_dimension": "Adaptability"
+        },
+        {
+          "id": "PA081",
+          "type": "personality",
+          "statement": "If I noticed a colleague slightly exaggerating numbers in a report to make it look better, I would report it even if the impact seemed minor.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA082",
+          "type": "personality",
+          "statement": "I would rather admit I don't know something than guess and risk being wrong in front of my team.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA083",
+          "type": "personality",
+          "statement": "If a client tip or gift could influence a business decision, I would decline it, even if it seemed harmless.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA084",
+          "type": "personality",
+          "statement": "I sometimes round data slightly in my favor when reporting results if the difference seems negligible.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA085",
+          "type": "personality",
+          "statement": "When I make a mistake that no one else noticed, I still disclose it to my supervisor.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA086",
+          "type": "personality",
+          "statement": "I would follow company policy even if I personally believed the policy was outdated or unnecessary.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA087",
+          "type": "personality",
+          "statement": "If asked to bend a rule for a good cause by a superior, I would still raise concerns before complying.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA088",
+          "type": "personality",
+          "statement": "I find it acceptable to use company resources for minor personal tasks occasionally.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA089",
+          "type": "personality",
+          "statement": "I would report a policy violation by a close colleague, even if it could harm our friendship.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA090",
+          "type": "personality",
+          "statement": "When taking credit for team accomplishments, I make sure to clearly acknowledge others' contributions.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA091",
+          "type": "personality",
+          "statement": "I believe it's acceptable to withhold minor negative information from a client if it doesn't affect the outcome.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA092",
+          "type": "personality",
+          "statement": "If I disagreed with a directive from management, I would voice my concerns through proper channels rather than ignore it quietly.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA093",
+          "type": "personality",
+          "statement": "I would decline to falsify a timesheet even if a manager suggested it was common practice.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA094",
+          "type": "personality",
+          "statement": "I sometimes tell a partial truth to avoid conflict, as long as it doesn't cause real harm.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA095",
+          "type": "personality",
+          "statement": "I hold myself to the same ethical standards whether or not I am being supervised.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA096",
+          "type": "personality",
+          "statement": "If I discovered a financial error in my favor, I would report it rather than stay silent.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA097",
+          "type": "personality",
+          "statement": "I believe minor exceptions to company rules are acceptable when the outcome benefits the company.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA098",
+          "type": "personality",
+          "statement": "I would refuse an instruction that I believed to be unethical, even if it came from senior management.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA099",
+          "type": "personality",
+          "statement": "I am transparent about my mistakes even when it could affect how others view my performance.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        },
+        {
+          "id": "PA100",
+          "type": "personality",
+          "statement": "I think it's acceptable to present overly optimistic projections to secure approval for a project I believe in.",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "trait_measured": "Integrity",
+          "behavior_dimension": "Integrity"
+        }
+      ]
+    }
+  ]
+}

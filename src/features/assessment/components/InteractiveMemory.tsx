@@ -135,7 +135,7 @@ export const InteractiveMemory: React.FC<InteractiveMemoryProps> = ({
 
   return (
     <Card className="w-full max-w-xl mx-auto border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 overflow-hidden shadow-md">
-      <CardContent className="p-8 flex flex-col items-center">
+      <CardContent className="p-8 pt-8 flex flex-col items-center">
         
         {/* Header Stats */}
         <div className="w-full flex justify-between items-center mb-6 pb-4 border-b border-zinc-100 dark:border-zinc-800">
